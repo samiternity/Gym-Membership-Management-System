@@ -1,0 +1,92 @@
+[
+    {
+        "visitor_id": "VEE1425",
+        "first_name": "Mike",
+        "last_name": "Martinez",
+        "contact": "555-0397",
+        "visit_date": "2025-11-22",
+        "interested_in": "Yoga",
+        "status": "Joined"
+    },
+    {
+        "visitor_id": "V23BF2E",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "contact": "555-0399",
+        "visit_date": "2025-11-22",
+        "interested_in": "Yoga",
+        "status": "Joined"
+    },
+    {
+        "visitor_id": "VDBCFBC",
+        "first_name": "John",
+        "last_name": "Martinez",
+        "contact": "555-0342",
+        "visit_date": "2025-11-22",
+        "interested_in": "Yoga",
+        "status": "Not Interested"
+    },
+    {
+        "visitor_id": "V1218FA",
+        "first_name": "Laura",
+        "last_name": "Taylor",
+        "contact": "555-0314",
+        "visit_date": "2025-11-22",
+        "interested_in": "Yoga",
+        "status": "Not Interested"
+    },
+    {
+        "visitor_id": "V49C714",
+        "first_name": "Sarah",
+        "last_name": "Smith",
+        "contact": "555-0337",
+        "visit_date": "2025-11-22",
+        "interested_in": "Yoga",
+        "status": "Not Interested"
+    },
+    {
+        "visitor_id": "V57CF2D",
+        "first_name": "Jane",
+        "last_name": "Anderson",
+        "contact": "555-0339",
+        "visit_date": "2025-11-22",
+        "interested_in": "Gym",
+        "status": "Follow-up"
+    },
+    {
+        "visitor_id": "V6F8F27",
+        "first_name": "Sarah",
+        "last_name": "Thomas",
+        "contact": "555-0314",
+        "visit_date": "2025-11-22",
+        "interested_in": "Cardio",
+        "status": "Follow-up"
+    },
+    {
+        "visitor_id": "V57A14A",
+        "first_name": "Laura",
+        "last_name": "Anderson",
+        "contact": "555-0390",
+        "visit_date": "2025-11-22",
+        "interested_in": "Yoga",
+        "status": "Follow-up"
+    },
+    {
+        "visitor_id": "VF9F887",
+        "first_name": "Mike",
+        "last_name": "Martinez",
+        "contact": "555-0311",
+        "visit_date": "2025-11-22",
+        "interested_in": "Cardio",
+        "status": "Not Interested"
+    },
+    {
+        "visitor_id": "VCC453C",
+        "first_name": "Mike",
+        "last_name": "Smith",
+        "contact": "555-0324",
+        "visit_date": "2025-11-22",
+        "interested_in": "Gym",
+        "status": "Not Interested"
+    }
+]

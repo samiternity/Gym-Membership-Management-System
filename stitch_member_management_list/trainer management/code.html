@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>GymForce - Trainer Management</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#135bec",
+            "background-light": "#f6f6f8",
+            "background-dark": "#101622",
+          },
+          fontFamily: {
+            "display": ["Inter", "sans-serif"]
+          },
+          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  </style>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark">
+<div class="relative flex h-screen w-full flex-col group/design-root overflow-hidden">
+<div class="flex h-full flex-row">
+<!-- SideNavBar -->
+<aside class="flex h-full w-64 flex-col border-r border-gray-200 dark:border-gray-800 bg-white dark:bg-background-dark p-4">
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-3 px-3 py-2">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" data-alt="GymForce company logo" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDvpDp5yqfmuhdVOxp0MfmnAgRri29JyP5g_3ln2ggpVOUa6rUJxlpdIsAmmj49Om8ArKtUvMt6NkRYj2D38X9e_p_uXSHyFZAwn3K_RodGj1QW0ZnVaOhoKY-qIYLF9ZO9kCOcQmNx6JbmGzu9fPsxS-Ze86z7s6E91VRgmQFGApbbW73TqdjjOv8hKYK0BxwVILyQsuKFNUQH0HzI7ogHTD0g7y4LUTk49tQD69AR2GRwu2jYHKVB4b7x9q1zNotKMTZgu4A3G6M");'></div>
+<div class="flex flex-col">
+<h1 class="text-gray-900 dark:text-white text-base font-bold leading-normal">GymForce</h1>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">Management Portal</p>
+</div>
+</div>
+<nav class="flex flex-col gap-2 mt-4">
+<a class="flex items-center gap-3 px-3 py-2 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800" href="#">
+<span class="material-symbols-outlined text-gray-800 dark:text-gray-200" style="font-size: 24px;">dashboard</span>
+<p class="text-sm font-medium leading-normal">Dashboard</p>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800" href="#">
+<span class="material-symbols-outlined text-gray-800 dark:text-gray-200" style="font-size: 24px;">groups</span>
+<p class="text-sm font-medium leading-normal">Member Management</p>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg bg-primary/10 text-primary dark:bg-primary/20 dark:text-primary-300" href="#">
+<span class="material-symbols-outlined text-primary" style="font-size: 24px; font-variation-settings: 'FILL' 1;">sports_gymnastics</span>
+<p class="text-sm font-bold leading-normal">Trainer Management</p>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800" href="#">
+<span class="material-symbols-outlined text-gray-800 dark:text-gray-200" style="font-size: 24px;">credit_card</span>
+<p class="text-sm font-medium leading-normal">Payment Management</p>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800" href="#">
+<span class="material-symbols-outlined text-gray-800 dark:text-gray-200" style="font-size: 24px;">event_available</span>
+<p class="text-sm font-medium leading-normal">Attendance Tracking</p>
+</a>
+</nav>
+</div>
+</aside>
+<!-- Main Content -->
+<main class="flex flex-1 flex-col overflow-y-auto">
+<div class="flex-1 p-8">
+<!-- PageHeading -->
+<header class="flex flex-wrap justify-between items-center gap-3 mb-6">
+<p class="text-gray-900 dark:text-white text-4xl font-black leading-tight tracking-[-0.033em] min-w-72">Trainer Management</p>
+</header>
+<!-- ToolBar -->
+<div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+<div class="flex gap-2">
+<button class="flex items-center justify-center rounded-lg h-10 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-700 gap-2 text-sm font-bold leading-normal tracking-[0.015em] px-4 cursor-not-allowed opacity-50">
+<span class="material-symbols-outlined" style="font-size: 20px;">edit</span>
+<span class="truncate">Edit</span>
+</button>
+<button class="flex items-center justify-center rounded-lg h-10 bg-white dark:bg-gray-800 text-red-600 dark:text-red-500 border border-gray-300 dark:border-gray-700 gap-2 text-sm font-bold leading-normal tracking-[0.015em] px-4 cursor-not-allowed opacity-50">
+<span class="material-symbols-outlined" style="font-size: 20px;">delete</span>
+<span class="truncate">Delete</span>
+</button>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative w-64">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 dark:text-gray-500" style="font-size: 20px;">search</span>
+<input class="w-full h-10 pl-10 pr-4 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg text-sm text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:ring-primary focus:border-primary" placeholder="Search trainers..." type="text"/>
+</div>
+<button class="flex h-10 cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-primary text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-4">
+<span class="material-symbols-outlined text-white" style="font-size: 20px; font-variation-settings: 'FILL' 1;">add</span>
+<span class="truncate">Add New Trainer</span>
+</button>
+</div>
+</div>
+<!-- Table -->
+<div class="@container">
+<div class="flex overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800">
+<table class="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+<thead class="bg-gray-50 dark:bg-gray-900/50">
+<tr>
+<th class="py-3.5 px-4 text-left text-sm font-semibold text-gray-900 dark:text-white" scope="col">
+<input class="h-4 w-4 rounded border-gray-300 dark:border-gray-600 text-primary focus:ring-primary dark:bg-gray-700" type="checkbox"/>
+</th>
+<th class="py-3.5 px-4 text-left text-sm font-semibold text-gray-900 dark:text-white" scope="col">Trainer</th>
+<th class="px-4 py-3.5 text-left text-sm font-semibold text-gray-900 dark:text-white" scope="col">Trainer ID</th>
+<th class="px-4 py-3.5 text-left text-sm font-semibold text-gray-900 dark:text-white" scope="col">Specialization</th>
+<th class="px-4 py-3.5 text-left text-sm font-semibold text-gray-900 dark:text-white" scope="col">Contact</th>
+<th class="px-4 py-3.5 text-left text-sm font-semibold text-gray-900 dark:text-white" scope="col">Status</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-gray-200 dark:divide-gray-700">
+<tr class="hover:bg-gray-50 dark:hover:bg-gray-700/50">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm"><input class="h-4 w-4 rounded border-gray-300 dark:border-gray-600 text-primary focus:ring-primary dark:bg-gray-700" type="checkbox"/></td>
+<td class="whitespace-nowrap px-4 py-4 text-sm font-medium text-gray-900 dark:text-white">
+<div class="flex items-center gap-3">
+<img class="h-10 w-10 rounded-full" data-alt="Photo of Alex Johnson" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDVImADb505tucjQ9nT26XIabVuH4oyeQaehMins4FX1AgKArlDB9RlotIw6o6puVU4OZZ6J9ghUkZLOibkH1NTlfgzPx1QjXNJygQv1amBsl1iOQ9xs6DNxwNbxcCC71mWArIogFS714CrcH0n0x0LYcI2-pEqYavQ58FlJBvBCS79dNGzn-KRyexeuQuyPSCd0mzfZL1tRxupef2i925MLpVQb8zNxS7-AKbZdVkCsJ2DRhsuPROHYV7-gALW8JiTv60HZfhiRQ"/>
+<span>Alex Johnson</span>
+</div>
+</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm text-gray-500 dark:text-gray-400">T-1023</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm text-gray-500 dark:text-gray-400">Yoga, Pilates</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm text-gray-500 dark:text-gray-400">(555) 123-4567</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm">
+<span class="inline-flex items-center rounded-full bg-green-100 dark:bg-green-900/50 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:text-green-300">Active</span>
+</td>
+</tr>
+<tr class="hover:bg-gray-50 dark:hover:bg-gray-700/50">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm"><input class="h-4 w-4 rounded border-gray-300 dark:border-gray-600 text-primary focus:ring-primary dark:bg-gray-700" type="checkbox"/></td>
+<td class="whitespace-nowrap px-4 py-4 text-sm font-medium text-gray-900 dark:text-white">
+<div class="flex items-center gap-3">
+<img class="h-10 w-10 rounded-full" data-alt="Photo of Maria Garcia" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhkw3xMLbxDCwu-jgRwdmBCp0ezDm_IJRdA4FxWmG8iE2k8bXjwNs_1FtQ6ihkdegdgOvypRpEgJzNP2A-VkmObZTwQ9Shu4oNtOdiZZ7vpsFCoqJAaMjA5ioZ7CQOC0BozQmBba3DBkog0UZjewfRwYytVzY0IU32SGCT68kx-pILDyFugLbOHs0wM-w3kQaZhoi6Ghv0n37PiPsxz6ebrcIhA11la5XJBY-i3GxU4zzzx5CJjvpn787Epnd_7GX7zZrJfPp0S4c"/>
+<span>Maria Garcia</span>
+</div>
+</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm text-gray-500 dark:text-gray-400">T-1024</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm text-gray-500 dark:text-gray-400">CrossFit</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm text-gray-500 dark:text-gray-400">(555) 234-5678</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm">
+<span class="inline-flex items-center rounded-full bg-green-100 dark:bg-green-900/50 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:text-green-300">Active</span>
+</td>
+</tr>
+<tr class="hover:bg-gray-50 dark:hover:bg-gray-700/50">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm"><input class="h-4 w-4 rounded border-gray-300 dark:border-gray-600 text-primary focus:ring-primary dark:bg-gray-700" type="checkbox"/></td>
+<td class="whitespace-nowrap px-4 py-4 text-sm font-medium text-gray-900 dark:text-white">
+<div class="flex items-center gap-3">
+<img class="h-10 w-10 rounded-full" data-alt="Photo of James Smith" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDokBsL-1PdYtyU_jVHCOq254CS9xRKM4W5D0FOfqEofvGozBAEIfOW0uMUSHPKTSzDrFAL4eTuFynSwTQIQy1RE1td0BQMIg-p69eRRn-2iBVqr4nBbejrw5a5LrbjkijN_prLUmnSU_IP6JxfGZ1LooU7kGeyticGGM0j2haJ46dsRVHTttQ2vKKQTY_aczP-Ve66CLAwdJIg7WnFhGUkTTrkLNPTxO44UUH11EXIAIHm8ztwaRa8klCoJZpINgpQs2Cq4nyjrs8"/>
+<span>James Smith</span>
+</div>
+</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm text-gray-500 dark:text-gray-400">T-1025</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm text-gray-500 dark:text-gray-400">Weightlifting</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm text-gray-500 dark:text-gray-400">(555) 345-6789</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm">
+<span class="inline-flex items-center rounded-full bg-gray-100 dark:bg-gray-700 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:text-gray-300">Inactive</span>
+</td>
+</tr>
+<tr class="hover:bg-gray-50 dark:hover:bg-gray-700/50">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm"><input class="h-4 w-4 rounded border-gray-300 dark:border-gray-600 text-primary focus:ring-primary dark:bg-gray-700" type="checkbox"/></td>
+<td class="whitespace-nowrap px-4 py-4 text-sm font-medium text-gray-900 dark:text-white">
+<div class="flex items-center gap-3">
+<img class="h-10 w-10 rounded-full" data-alt="Photo of Emily White" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMTRhL_mo6Cz3fAlF5vujnc_Bn5Z-Lc549G3g8WYh3e-Kuu7nVD4B7-yGabsBT-vM-h0zo8Ud2b7oARdbjjp7uCnqzv2Jt3gvOHcVIIOLVSfUXglYXm58pkl0F21u2UKjchRC5RjzyvNL1LzGol_v9z-QHaxCMJwzvveDuhFfCCbZIoTa-qvlhTE-ALSfN-BIhbd4rq1eWkvvXBnH8qyxfVgs3Rt7cM-pr9qPOpllB1iVYg-820Pov61ofoyCcTgMbHH8TGQ-YCRY"/>
+<span>Emily White</span>
+</div>
+</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm text-gray-500 dark:text-gray-400">T-1026</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm text-gray-500 dark:text-gray-400">HIIT, Cardio</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm text-gray-500 dark:text-gray-400">(555) 456-7890</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm">
+<span class="inline-flex items-center rounded-full bg-green-100 dark:bg-green-900/50 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:text-green-300">Active</span>
+</td>
+</tr>
+<tr class="hover:bg-gray-50 dark:hover:bg-gray-700/50">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm"><input class="h-4 w-4 rounded border-gray-300 dark:border-gray-600 text-primary focus:ring-primary dark:bg-gray-700" type="checkbox"/></td>
+<td class="whitespace-nowrap px-4 py-4 text-sm font-medium text-gray-900 dark:text-white">
+<div class="flex items-center gap-3">
+<img class="h-10 w-10 rounded-full" data-alt="Photo of David Chen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBx7TcpyklURb7YpXQqUa_AjPEVOgNyriYBPXSxCuPy0XM2m--ilbiVwaSSf1jAXaefhc8a04sTfiyFPAzThRnDiqT_2FoJQW3BvKc1ia3TMFtEpxdpa1kffTTVouQgVtEEM6Sy2IfDOZ3NWdBLNxk3Ka1YE0ssmYDZ8OizA7OxusKgWrzW14hWO3KVPAvnTebWtSluOlCc-ugaPzZX0OMnoVqKkaYb9dM6QRucjMB3PmUqKlbtZ9iA-Cp66iZ9o9xgA49Vt9aPxoI"/>
+<span>David Chen</span>
+</div>
+</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm text-gray-500 dark:text-gray-400">T-1027</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm text-gray-500 dark:text-gray-400">Personal Training</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm text-gray-500 dark:text-gray-400">(555) 567-8901</td>
+<td class="whitespace-nowrap px-4 py-4 text-sm">
+<span class="inline-flex items-center rounded-full bg-green-100 dark:bg-green-900/50 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:text-green-300">Active</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- Pagination -->
+<div class="flex items-center justify-center mt-6">
+<nav aria-label="Pagination" class="flex items-center justify-center">
+<a class="flex size-10 items-center justify-center text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg" href="#">
+<span class="sr-only">Previous</span>
+<span class="material-symbols-outlined" style="font-size: 18px;">chevron_left</span>
+</a>
+<a aria-current="page" class="text-sm font-bold flex size-10 items-center justify-center text-white bg-primary rounded-full" href="#">1</a>
+<a class="text-sm font-medium flex size-10 items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full" href="#">2</a>
+<a class="text-sm font-medium flex size-10 items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full" href="#">3</a>
+<span class="text-sm font-normal flex size-10 items-center justify-center text-gray-500 dark:text-gray-400 rounded-full">...</span>
+<a class="text-sm font-medium flex size-10 items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full" href="#">12</a>
+<a class="text-sm font-medium flex size-10 items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full" href="#">13</a>
+<a class="flex size-10 items-center justify-center text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg" href="#">
+<span class="sr-only">Next</span>
+<span class="material-symbols-outlined" style="font-size: 18px;">chevron_right</span>
+</a>
+</nav>
+</div>
+</div>
+<!-- Status Bar -->
+<footer class="flex h-10 items-center justify-between border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-background-dark px-4 sm:px-6 lg:px-8">
+<p class="text-sm text-gray-500 dark:text-gray-400">
+<span class="text-green-500 mr-2">●</span> Ready
+        </p>
+<p class="text-sm text-gray-500 dark:text-gray-400">
+          Showing 1-5 of 124 trainers
+        </p>
+</footer>
+</main>
+</div>
+</div>
+</body></html>
