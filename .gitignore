@@ -137,3 +137,8 @@ cython_debug/
 # IDE
 .vscode/
 .idea/
+
+# Project specific
+backups/
+data/backups/
+
