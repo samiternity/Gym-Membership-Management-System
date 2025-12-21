@@ -17,7 +17,7 @@ class App(ctk.CTk):
         self.auth_manager = auth_manager
         self.current_user = auth_manager.get_current_user()
 
-        self.title("Gym Membership Management System")
+        self.title("Gymiternity - Management System")
         self.geometry(f"{WINDOW_WIDTH}x{WINDOW_HEIGHT}")
         self.resizable(True, True)
 
@@ -36,7 +36,7 @@ class App(ctk.CTk):
         self.sidebar_frame.grid(row=0, column=0, sticky="nsew")
         self.sidebar_frame.grid_rowconfigure(8, weight=1) # Push logout/exit to bottom (spacer row)
 
-        self.logo_label = ctk.CTkLabel(self.sidebar_frame, text="Gym Manager", font=ctk.CTkFont(size=20, weight="bold"))
+        self.logo_label = ctk.CTkLabel(self.sidebar_frame, text="Gymiternity", font=ctk.CTkFont(size=20, weight="bold"))
         self.logo_label.grid(row=0, column=0, padx=20, pady=(20, 10))
         
         # User info label

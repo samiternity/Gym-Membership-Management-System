@@ -139,7 +139,7 @@ class MockDataGenerator:
                     payment_status = "Unpaid"
                     amount_paid = 0.0
                 elif rand_pay > 0.90:
-                    payment_status = "Unpaid"
+                    payment_status = "Pending"
                     amount_paid = total_amount / 2
                 
                 self.payments_log.append({

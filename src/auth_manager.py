@@ -25,7 +25,12 @@ class AuthManager:
         if os.path.exists(self.users_file):
             try:
                 with open(self.users_file, 'r') as f:
-                    self.users_db = json.load(f)
+                    data = json.load(f)
+                    if isinstance(data, dict):
+                        self.users_db = data
+                    else:
+                        print("Invalid format in users.json, resetting to empty.")
+                        self.users_db = {}
             except json.JSONDecodeError:
                 print("Error decoding users.json, initializing empty.")
                 self.users_db = {}

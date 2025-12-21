@@ -27,8 +27,11 @@ class Attendance:
         
         self.id_entry = ctk.CTkEntry(self.action_frame, width=200)
         self.id_entry.pack(side="left", padx=(0, 20))
-        self.id_entry.bind("<Return>", lambda e: self.check_in()) # Enter key triggers check-in
+        self.id_entry.bind("<Return>", self.on_return_key) # Handle selection if list is open, else check-in
         self.id_entry.bind("<KeyRelease>", self.on_search_type)
+        self.id_entry.bind("<Down>", self.on_arrow_down)
+        self.id_entry.bind("<Up>", self.on_arrow_up)
+        self.id_entry.bind("<Tab>", self.on_tab_key)
         
         # Search Results Listbox (Hidden by default)
         # Search Results Listbox (Hidden by default)
@@ -42,7 +45,8 @@ class Attendance:
             selectbackground=ACCENT_COLOR,
             selectforeground="white",
             borderwidth=1,
-            relief="flat"
+            relief="flat",
+            exportselection=False  # Keep selection visible when losing focus
         )
         self.search_list.bind("<<ListboxSelect>>", self.on_search_select)
         
@@ -164,6 +168,10 @@ class Attendance:
             ))
 
     def on_search_type(self, event):
+        # Ignore navigation keys
+        if event.keysym in ('Up', 'Down', 'Left', 'Right', 'Return', 'Tab'):
+            return
+            
         query = self.id_entry.get().strip().lower()
         if not query:
             self.search_list_frame.place_forget()
@@ -201,6 +209,57 @@ class Attendance:
             self.id_entry.delete(0, "end")
             self.id_entry.insert(0, member_id)
             self.search_list_frame.place_forget()
+            self.check_in()
+
+    def on_arrow_down(self, event):
+        """Select next item in listbox."""
+        if not self.search_list_frame.winfo_ismapped():
+            return
+            
+        if self.search_list.size() > 0:
+            current_selection = self.search_list.curselection()
+            if current_selection:
+                next_index = min(current_selection[0] + 1, self.search_list.size() - 1)
+                self.search_list.selection_clear(0, "end")
+                self.search_list.selection_set(next_index)
+                self.search_list.activate(next_index)
+                self.search_list.see(next_index)
+            else:
+                self.search_list.selection_set(0)
+                self.search_list.activate(0)
+                self.search_list.see(0)
+
+    def on_arrow_up(self, event):
+        """Select previous item in listbox."""
+        if not self.search_list_frame.winfo_ismapped():
+            return
+
+        if self.search_list.size() > 0:
+            current_selection = self.search_list.curselection()
+            if current_selection:
+                prev_index = max(current_selection[0] - 1, 0)
+                self.search_list.selection_clear(0, "end")
+                self.search_list.selection_set(prev_index)
+                self.search_list.activate(prev_index)
+                self.search_list.see(prev_index)
+
+    def on_tab_key(self, event):
+        """Select current item in listbox on Tab."""
+        if self.search_list_frame.winfo_ismapped():
+            # If nothing selected but list is open, select first item
+            if not self.search_list.curselection() and self.search_list.size() > 0:
+                self.search_list.selection_set(0)
+            
+            if self.search_list.curselection():
+                self.on_search_select(None)
+                return "break" # Prevent default tab behavior
+        return None
+
+    def on_return_key(self, event):
+        """Handle Enter key: select from list if open, else check in."""
+        if self.search_list_frame.winfo_ismapped() and self.search_list.curselection():
+            self.on_search_select(None)
+        else:
             self.check_in()
 
     def check_in(self):

@@ -13,7 +13,7 @@ class LoginWindow(ctk.CTkToplevel):
         self.auth_manager = auth_manager
         self.login_successful = False
         
-        self.title("Gym Manager - Login")
+        self.title("Gymiternity - Login")
         self.geometry("400x600")
         self.resizable(False, False)
         
@@ -44,7 +44,7 @@ class LoginWindow(ctk.CTkToplevel):
         # Logo/Title
         title_label = ctk.CTkLabel(
             main_frame,
-            text="🏋️ Gym Manager",
+            text="Gymiternity",
             font=ctk.CTkFont(size=32, weight="bold"),
             text_color=PRIMARY_COLOR
         )

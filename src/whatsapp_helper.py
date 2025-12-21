@@ -115,8 +115,8 @@ def get_payment_reminder_message(member_name, amount, due_date):
     Returns:
         str: Formatted message
     """
-    return (f"Hello {member_name}, this is a reminder that your payment of "
-            f"PKR {amount} is due on {due_date}. Please clear your dues at "
+    return (f"Hello {member_name}, this is a reminder from Gymiternity that your payment of "
+            f"Rs. {amount} is due on {due_date}. Please clear your dues at "
             f"your earliest convenience. Thank you!")
 
 

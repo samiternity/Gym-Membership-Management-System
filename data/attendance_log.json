@@ -1,3558 +1,2641 @@
 [
     {
-        "log_id": "A2665B6",
-        "member_id": "M739F17",
-        "check_in_time": "2025-11-22T08:50:00",
-        "check_out_time": null,
-        "duration_minutes": null
+        "log_id": "A00001",
+        "member_id": "M001",
+        "check_in_time": "2025-12-09 11:09:54",
+        "check_out_time": "2025-12-09 12:00:54",
+        "duration_minutes": 51
     },
     {
-        "log_id": "AD87D2A",
-        "member_id": "M237811",
-        "check_in_time": "2025-11-22T18:21:00",
-        "check_out_time": null,
-        "duration_minutes": null
+        "log_id": "A00002",
+        "member_id": "M001",
+        "check_in_time": "2025-12-15 08:53:54",
+        "check_out_time": "2025-12-15 10:19:54",
+        "duration_minutes": 86
     },
     {
-        "log_id": "A4F3590",
-        "member_id": "M77708B",
-        "check_in_time": "2025-11-22T07:40:00",
-        "check_out_time": null,
-        "duration_minutes": null
+        "log_id": "A00003",
+        "member_id": "M001",
+        "check_in_time": "2025-12-21 17:28:54",
+        "check_out_time": "2025-12-21 19:16:54",
+        "duration_minutes": 108
     },
     {
-        "log_id": "AB7E134",
-        "member_id": "MEA5395",
-        "check_in_time": "2025-11-22T13:01:00",
-        "check_out_time": null,
-        "duration_minutes": null
+        "log_id": "A00004",
+        "member_id": "M001",
+        "check_in_time": "2025-11-28 15:27:54",
+        "check_out_time": "2025-11-28 16:54:54",
+        "duration_minutes": 87
     },
     {
-        "log_id": "A62F31D",
-        "member_id": "M1CA1AE",
-        "check_in_time": "2025-11-22T18:39:00",
-        "check_out_time": null,
-        "duration_minutes": null
+        "log_id": "A00005",
+        "member_id": "M001",
+        "check_in_time": "2025-11-25 10:00:54",
+        "check_out_time": "2025-11-25 10:50:54",
+        "duration_minutes": 50
     },
     {
-        "log_id": "A8A6119",
-        "member_id": "M71E92F",
-        "check_in_time": "2025-11-22T19:07:00",
-        "check_out_time": null,
-        "duration_minutes": null
+        "log_id": "A00006",
+        "member_id": "M001",
+        "check_in_time": "2025-12-09 20:40:54",
+        "check_out_time": "2025-12-09 21:56:54",
+        "duration_minutes": 76
     },
     {
-        "log_id": "A6D3AB0",
-        "member_id": "M05A637",
-        "check_in_time": "2025-11-22T14:38:00",
-        "check_out_time": null,
-        "duration_minutes": null
+        "log_id": "A00007",
+        "member_id": "M001",
+        "check_in_time": "2025-12-04 09:39:54",
+        "check_out_time": "2025-12-04 10:50:54",
+        "duration_minutes": 71
     },
     {
-        "log_id": "A55D2F3",
-        "member_id": "M2D6983",
-        "check_in_time": "2025-11-22T20:33:00",
-        "check_out_time": null,
-        "duration_minutes": null
-    },
-    {
-        "log_id": "A069283",
-        "member_id": "M5DEBCB",
-        "check_in_time": "2025-11-04T20:52:00",
-        "check_out_time": "2025-11-04T21:49:00",
-        "duration_minutes": 57
-    },
-    {
-        "log_id": "A54C20A",
-        "member_id": "M50A0F0",
-        "check_in_time": "2025-10-27T06:48:00",
-        "check_out_time": "2025-10-27T08:47:00",
-        "duration_minutes": 119
-    },
-    {
-        "log_id": "A7463F9",
-        "member_id": "M2D6983",
-        "check_in_time": "2025-11-13T14:23:00",
-        "check_out_time": "2025-11-13T15:01:00",
+        "log_id": "A00008",
+        "member_id": "M004",
+        "check_in_time": "2025-11-29 15:34:54",
+        "check_out_time": "2025-11-29 16:12:54",
         "duration_minutes": 38
     },
     {
-        "log_id": "A0C0F8C",
-        "member_id": "M63F6E5",
-        "check_in_time": "2025-11-03T06:06:00",
-        "check_out_time": "2025-11-03T07:44:00",
-        "duration_minutes": 98
-    },
-    {
-        "log_id": "AC07E36",
-        "member_id": "M77708B",
-        "check_in_time": "2025-11-02T10:10:00",
-        "check_out_time": "2025-11-02T10:41:00",
-        "duration_minutes": 31
-    },
-    {
-        "log_id": "AA07E5E",
-        "member_id": "MCEFEF3",
-        "check_in_time": "2025-11-14T17:42:00",
-        "check_out_time": "2025-11-14T18:14:00",
-        "duration_minutes": 32
-    },
-    {
-        "log_id": "A228861",
-        "member_id": "MEA5395",
-        "check_in_time": "2025-11-16T11:19:00",
-        "check_out_time": "2025-11-16T13:17:00",
-        "duration_minutes": 118
-    },
-    {
-        "log_id": "A681B61",
-        "member_id": "M3D6B42",
-        "check_in_time": "2025-11-14T15:41:00",
-        "check_out_time": "2025-11-14T16:12:00",
-        "duration_minutes": 31
-    },
-    {
-        "log_id": "AF5967A",
-        "member_id": "MC4726C",
-        "check_in_time": "2025-11-19T06:59:00",
-        "check_out_time": "2025-11-19T08:27:00",
-        "duration_minutes": 88
-    },
-    {
-        "log_id": "AFB12B1",
-        "member_id": "M257BCD",
-        "check_in_time": "2025-11-02T19:47:00",
-        "check_out_time": "2025-11-02T20:30:00",
-        "duration_minutes": 43
-    },
-    {
-        "log_id": "A9A542E",
-        "member_id": "M532E2A",
-        "check_in_time": "2025-11-15T15:08:00",
-        "check_out_time": "2025-11-15T15:41:00",
-        "duration_minutes": 33
-    },
-    {
-        "log_id": "A882FD7",
-        "member_id": "M3D6B42",
-        "check_in_time": "2025-11-15T09:48:00",
-        "check_out_time": "2025-11-15T10:33:00",
-        "duration_minutes": 45
-    },
-    {
-        "log_id": "ACD844C",
-        "member_id": "MD9F876",
-        "check_in_time": "2025-10-30T16:12:00",
-        "check_out_time": "2025-10-30T17:53:00",
-        "duration_minutes": 101
-    },
-    {
-        "log_id": "A299BDC",
-        "member_id": "MEA6628",
-        "check_in_time": "2025-11-07T14:22:00",
-        "check_out_time": "2025-11-07T14:56:00",
-        "duration_minutes": 34
-    },
-    {
-        "log_id": "AD4FB4E",
-        "member_id": "MC4726C",
-        "check_in_time": "2025-10-26T12:22:00",
-        "check_out_time": "2025-10-26T13:21:00",
-        "duration_minutes": 59
-    },
-    {
-        "log_id": "AB69B7D",
-        "member_id": "M890463",
-        "check_in_time": "2025-10-24T09:35:00",
-        "check_out_time": "2025-10-24T10:30:00",
-        "duration_minutes": 55
-    },
-    {
-        "log_id": "AF01C56",
-        "member_id": "M49B142",
-        "check_in_time": "2025-11-12T10:49:00",
-        "check_out_time": "2025-11-12T12:24:00",
-        "duration_minutes": 95
-    },
-    {
-        "log_id": "A12005D",
-        "member_id": "M237811",
-        "check_in_time": "2025-11-22T13:08:00",
-        "check_out_time": "2025-11-22T15:00:00",
-        "duration_minutes": 112
-    },
-    {
-        "log_id": "A2EAE08",
-        "member_id": "M49B142",
-        "check_in_time": "2025-11-08T09:58:00",
-        "check_out_time": "2025-11-08T10:44:00",
-        "duration_minutes": 46
-    },
-    {
-        "log_id": "A0228CF",
-        "member_id": "M1CA1AE",
-        "check_in_time": "2025-10-24T15:35:00",
-        "check_out_time": "2025-10-24T16:48:00",
-        "duration_minutes": 73
-    },
-    {
-        "log_id": "A914D0B",
-        "member_id": "MA97F11",
-        "check_in_time": "2025-10-27T20:37:00",
-        "check_out_time": "2025-10-27T21:37:00",
-        "duration_minutes": 60
-    },
-    {
-        "log_id": "AF1B8EE",
-        "member_id": "MC2E7FB",
-        "check_in_time": "2025-10-27T17:59:00",
-        "check_out_time": "2025-10-27T19:29:00",
-        "duration_minutes": 90
-    },
-    {
-        "log_id": "A680B9A",
-        "member_id": "MF70637",
-        "check_in_time": "2025-10-23T17:50:00",
-        "check_out_time": "2025-10-23T19:19:00",
-        "duration_minutes": 89
-    },
-    {
-        "log_id": "A04F8EC",
-        "member_id": "M7401D1",
-        "check_in_time": "2025-10-24T18:50:00",
-        "check_out_time": "2025-10-24T20:20:00",
-        "duration_minutes": 90
-    },
-    {
-        "log_id": "A7B8BB5",
-        "member_id": "MA703EB",
-        "check_in_time": "2025-11-01T14:52:00",
-        "check_out_time": "2025-11-01T16:18:00",
-        "duration_minutes": 86
-    },
-    {
-        "log_id": "A6554A1",
-        "member_id": "MF70637",
-        "check_in_time": "2025-10-23T19:59:00",
-        "check_out_time": "2025-10-23T21:36:00",
-        "duration_minutes": 97
-    },
-    {
-        "log_id": "A1060B8",
-        "member_id": "M63F6E5",
-        "check_in_time": "2025-10-30T15:41:00",
-        "check_out_time": "2025-10-30T16:49:00",
-        "duration_minutes": 68
-    },
-    {
-        "log_id": "AB157D4",
-        "member_id": "MA7A6B5",
-        "check_in_time": "2025-11-06T07:59:00",
-        "check_out_time": "2025-11-06T09:25:00",
-        "duration_minutes": 86
-    },
-    {
-        "log_id": "A07D1B8",
-        "member_id": "M896DF3",
-        "check_in_time": "2025-11-21T09:53:00",
-        "check_out_time": "2025-11-21T10:54:00",
-        "duration_minutes": 61
-    },
-    {
-        "log_id": "A1801D1",
-        "member_id": "MA703EB",
-        "check_in_time": "2025-11-04T17:41:00",
-        "check_out_time": "2025-11-04T18:15:00",
-        "duration_minutes": 34
-    },
-    {
-        "log_id": "AF7057D",
-        "member_id": "MBCF74B",
-        "check_in_time": "2025-11-10T12:44:00",
-        "check_out_time": "2025-11-10T13:23:00",
-        "duration_minutes": 39
-    },
-    {
-        "log_id": "AA6AB5B",
-        "member_id": "M53BBC6",
-        "check_in_time": "2025-11-15T13:54:00",
-        "check_out_time": "2025-11-15T15:39:00",
-        "duration_minutes": 105
-    },
-    {
-        "log_id": "AB13718",
-        "member_id": "M257BCD",
-        "check_in_time": "2025-11-06T09:24:00",
-        "check_out_time": "2025-11-06T10:34:00",
-        "duration_minutes": 70
-    },
-    {
-        "log_id": "A5BA6B6",
-        "member_id": "M3D6B42",
-        "check_in_time": "2025-11-19T18:45:00",
-        "check_out_time": "2025-11-19T19:43:00",
+        "log_id": "A00009",
+        "member_id": "M004",
+        "check_in_time": "2025-12-06 18:57:54",
+        "check_out_time": "2025-12-06 19:55:54",
         "duration_minutes": 58
     },
     {
-        "log_id": "A475AD3",
-        "member_id": "M892697",
-        "check_in_time": "2025-11-18T14:07:00",
-        "check_out_time": "2025-11-18T15:13:00",
-        "duration_minutes": 66
-    },
-    {
-        "log_id": "AC91623",
-        "member_id": "M73FA89",
-        "check_in_time": "2025-10-29T16:07:00",
-        "check_out_time": "2025-10-29T17:17:00",
-        "duration_minutes": 70
-    },
-    {
-        "log_id": "ABAC522",
-        "member_id": "MA7A6B5",
-        "check_in_time": "2025-10-24T06:32:00",
-        "check_out_time": "2025-10-24T07:28:00",
-        "duration_minutes": 56
-    },
-    {
-        "log_id": "A3AD0E2",
-        "member_id": "MEA6628",
-        "check_in_time": "2025-10-25T06:47:00",
-        "check_out_time": "2025-10-25T07:34:00",
-        "duration_minutes": 47
-    },
-    {
-        "log_id": "A51F766",
-        "member_id": "M05A637",
-        "check_in_time": "2025-11-15T13:55:00",
-        "check_out_time": "2025-11-15T14:42:00",
-        "duration_minutes": 47
-    },
-    {
-        "log_id": "A6945FB",
-        "member_id": "MC2E7FB",
-        "check_in_time": "2025-11-18T20:11:00",
-        "check_out_time": "2025-11-18T21:13:00",
-        "duration_minutes": 62
-    },
-    {
-        "log_id": "A6E76B2",
-        "member_id": "MBCF74B",
-        "check_in_time": "2025-11-12T12:48:00",
-        "check_out_time": "2025-11-12T13:39:00",
-        "duration_minutes": 51
-    },
-    {
-        "log_id": "AB2FEA7",
-        "member_id": "MB11969",
-        "check_in_time": "2025-10-28T08:36:00",
-        "check_out_time": "2025-10-28T10:11:00",
-        "duration_minutes": 95
-    },
-    {
-        "log_id": "A9B1A4B",
-        "member_id": "M1C9E83",
-        "check_in_time": "2025-11-09T08:58:00",
-        "check_out_time": "2025-11-09T10:48:00",
-        "duration_minutes": 110
-    },
-    {
-        "log_id": "A48A46B",
-        "member_id": "M739F17",
-        "check_in_time": "2025-11-04T13:14:00",
-        "check_out_time": "2025-11-04T14:39:00",
-        "duration_minutes": 85
-    },
-    {
-        "log_id": "A974A15",
-        "member_id": "MDE00F1",
-        "check_in_time": "2025-10-26T09:20:00",
-        "check_out_time": "2025-10-26T11:00:00",
-        "duration_minutes": 100
-    },
-    {
-        "log_id": "A6EAFDE",
-        "member_id": "MA58ADE",
-        "check_in_time": "2025-10-26T06:36:00",
-        "check_out_time": "2025-10-26T07:29:00",
-        "duration_minutes": 53
-    },
-    {
-        "log_id": "A0FD35C",
-        "member_id": "M892697",
-        "check_in_time": "2025-11-04T11:07:00",
-        "check_out_time": "2025-11-04T12:30:00",
-        "duration_minutes": 83
-    },
-    {
-        "log_id": "AADD8CA",
-        "member_id": "M3D6B42",
-        "check_in_time": "2025-11-06T16:32:00",
-        "check_out_time": "2025-11-06T18:14:00",
-        "duration_minutes": 102
-    },
-    {
-        "log_id": "AE40B7F",
-        "member_id": "MBCF74B",
-        "check_in_time": "2025-11-04T16:00:00",
-        "check_out_time": "2025-11-04T17:21:00",
-        "duration_minutes": 81
-    },
-    {
-        "log_id": "AAB0705",
-        "member_id": "M435378",
-        "check_in_time": "2025-11-15T07:35:00",
-        "check_out_time": "2025-11-15T08:10:00",
-        "duration_minutes": 35
-    },
-    {
-        "log_id": "A15B3B1",
-        "member_id": "ME8DE4D",
-        "check_in_time": "2025-11-14T18:27:00",
-        "check_out_time": "2025-11-14T19:14:00",
-        "duration_minutes": 47
-    },
-    {
-        "log_id": "AFFD252",
-        "member_id": "M05A637",
-        "check_in_time": "2025-10-31T10:11:00",
-        "check_out_time": "2025-10-31T11:37:00",
-        "duration_minutes": 86
-    },
-    {
-        "log_id": "A5534E8",
-        "member_id": "MA703EB",
-        "check_in_time": "2025-11-06T18:01:00",
-        "check_out_time": "2025-11-06T18:42:00",
-        "duration_minutes": 41
-    },
-    {
-        "log_id": "A652561",
-        "member_id": "M1D6AAF",
-        "check_in_time": "2025-10-27T06:27:00",
-        "check_out_time": "2025-10-27T08:11:00",
-        "duration_minutes": 104
-    },
-    {
-        "log_id": "A9275C1",
-        "member_id": "M77708B",
-        "check_in_time": "2025-11-18T11:37:00",
-        "check_out_time": "2025-11-18T13:17:00",
-        "duration_minutes": 100
-    },
-    {
-        "log_id": "A646DD6",
-        "member_id": "M9AF782",
-        "check_in_time": "2025-11-05T08:55:00",
-        "check_out_time": "2025-11-05T10:31:00",
-        "duration_minutes": 96
-    },
-    {
-        "log_id": "AB106D5",
-        "member_id": "M77708B",
-        "check_in_time": "2025-11-13T18:20:00",
-        "check_out_time": "2025-11-13T20:04:00",
-        "duration_minutes": 104
-    },
-    {
-        "log_id": "A2CD3F3",
-        "member_id": "MC2E7FB",
-        "check_in_time": "2025-10-25T09:10:00",
-        "check_out_time": "2025-10-25T10:50:00",
-        "duration_minutes": 100
-    },
-    {
-        "log_id": "A69A705",
-        "member_id": "M1C9E83",
-        "check_in_time": "2025-11-11T15:44:00",
-        "check_out_time": "2025-11-11T16:43:00",
-        "duration_minutes": 59
-    },
-    {
-        "log_id": "A002BEE",
-        "member_id": "M1C9E83",
-        "check_in_time": "2025-10-31T10:04:00",
-        "check_out_time": "2025-10-31T11:14:00",
-        "duration_minutes": 70
-    },
-    {
-        "log_id": "A59D5A2",
-        "member_id": "MA97F11",
-        "check_in_time": "2025-11-06T07:27:00",
-        "check_out_time": "2025-11-06T08:55:00",
-        "duration_minutes": 88
-    },
-    {
-        "log_id": "A616F83",
-        "member_id": "M71E92F",
-        "check_in_time": "2025-11-15T13:15:00",
-        "check_out_time": "2025-11-15T14:12:00",
-        "duration_minutes": 57
-    },
-    {
-        "log_id": "AEAAB92",
-        "member_id": "M896DF3",
-        "check_in_time": "2025-10-24T18:18:00",
-        "check_out_time": "2025-10-24T19:58:00",
-        "duration_minutes": 100
-    },
-    {
-        "log_id": "A125253",
-        "member_id": "MBCF74B",
-        "check_in_time": "2025-11-12T17:50:00",
-        "check_out_time": "2025-11-12T19:25:00",
-        "duration_minutes": 95
-    },
-    {
-        "log_id": "A8D922F",
-        "member_id": "MD17AEF",
-        "check_in_time": "2025-11-10T19:30:00",
-        "check_out_time": "2025-11-10T20:43:00",
-        "duration_minutes": 73
-    },
-    {
-        "log_id": "A933BEA",
-        "member_id": "MA97F11",
-        "check_in_time": "2025-10-28T07:24:00",
-        "check_out_time": "2025-10-28T09:24:00",
-        "duration_minutes": 120
-    },
-    {
-        "log_id": "A995438",
-        "member_id": "M1CA1AE",
-        "check_in_time": "2025-10-27T10:33:00",
-        "check_out_time": "2025-10-27T11:32:00",
-        "duration_minutes": 59
-    },
-    {
-        "log_id": "A526E64",
-        "member_id": "MD17AEF",
-        "check_in_time": "2025-10-29T09:22:00",
-        "check_out_time": "2025-10-29T10:43:00",
-        "duration_minutes": 81
-    },
-    {
-        "log_id": "AFE3820",
-        "member_id": "M892697",
-        "check_in_time": "2025-11-14T08:12:00",
-        "check_out_time": "2025-11-14T09:33:00",
-        "duration_minutes": 81
-    },
-    {
-        "log_id": "A824F85",
-        "member_id": "M2D6983",
-        "check_in_time": "2025-11-05T20:08:00",
-        "check_out_time": "2025-11-05T21:41:00",
-        "duration_minutes": 93
-    },
-    {
-        "log_id": "A3D7265",
-        "member_id": "M4E2439",
-        "check_in_time": "2025-11-01T12:22:00",
-        "check_out_time": "2025-11-01T13:46:00",
-        "duration_minutes": 84
-    },
-    {
-        "log_id": "AB9D19B",
-        "member_id": "M3D6B42",
-        "check_in_time": "2025-11-04T19:58:00",
-        "check_out_time": "2025-11-04T20:34:00",
-        "duration_minutes": 36
-    },
-    {
-        "log_id": "A094444",
-        "member_id": "MA703EB",
-        "check_in_time": "2025-11-11T18:15:00",
-        "check_out_time": "2025-11-11T19:50:00",
-        "duration_minutes": 95
-    },
-    {
-        "log_id": "A95D58D",
-        "member_id": "M532E2A",
-        "check_in_time": "2025-11-22T19:39:00",
-        "check_out_time": "2025-11-22T21:24:00",
-        "duration_minutes": 105
-    },
-    {
-        "log_id": "AACF901",
-        "member_id": "MCEFEF3",
-        "check_in_time": "2025-11-14T19:08:00",
-        "check_out_time": "2025-11-14T19:43:00",
-        "duration_minutes": 35
-    },
-    {
-        "log_id": "ABD2C46",
-        "member_id": "MB11969",
-        "check_in_time": "2025-11-11T07:24:00",
-        "check_out_time": "2025-11-11T09:06:00",
-        "duration_minutes": 102
-    },
-    {
-        "log_id": "ACD5E50",
-        "member_id": "M2D6983",
-        "check_in_time": "2025-11-08T06:21:00",
-        "check_out_time": "2025-11-08T07:14:00",
-        "duration_minutes": 53
-    },
-    {
-        "log_id": "AA9E297",
-        "member_id": "M739F17",
-        "check_in_time": "2025-11-18T13:12:00",
-        "check_out_time": "2025-11-18T13:48:00",
-        "duration_minutes": 36
-    },
-    {
-        "log_id": "AB8E9A4",
-        "member_id": "M896DF3",
-        "check_in_time": "2025-11-18T10:39:00",
-        "check_out_time": "2025-11-18T11:11:00",
+        "log_id": "A00010",
+        "member_id": "M004",
+        "check_in_time": "2025-11-30 14:14:54",
+        "check_out_time": "2025-11-30 14:46:54",
         "duration_minutes": 32
     },
     {
-        "log_id": "ABD057B",
-        "member_id": "M237811",
-        "check_in_time": "2025-11-09T13:48:00",
-        "check_out_time": "2025-11-09T15:35:00",
-        "duration_minutes": 107
-    },
-    {
-        "log_id": "A16D910",
-        "member_id": "MA97F11",
-        "check_in_time": "2025-10-24T15:15:00",
-        "check_out_time": "2025-10-24T15:56:00",
-        "duration_minutes": 41
-    },
-    {
-        "log_id": "AC53595",
-        "member_id": "M5DEBCB",
-        "check_in_time": "2025-11-15T18:37:00",
-        "check_out_time": "2025-11-15T19:56:00",
-        "duration_minutes": 79
-    },
-    {
-        "log_id": "AEF2D69",
-        "member_id": "MD9F876",
-        "check_in_time": "2025-11-08T13:22:00",
-        "check_out_time": "2025-11-08T14:31:00",
-        "duration_minutes": 69
-    },
-    {
-        "log_id": "A464F94",
-        "member_id": "M9AF782",
-        "check_in_time": "2025-11-09T14:25:00",
-        "check_out_time": "2025-11-09T15:25:00",
-        "duration_minutes": 60
-    },
-    {
-        "log_id": "A417E43",
-        "member_id": "MEE6EBF",
-        "check_in_time": "2025-11-02T13:02:00",
-        "check_out_time": "2025-11-02T14:33:00",
-        "duration_minutes": 91
-    },
-    {
-        "log_id": "A480D77",
-        "member_id": "M9AF782",
-        "check_in_time": "2025-11-18T12:27:00",
-        "check_out_time": "2025-11-18T13:57:00",
-        "duration_minutes": 90
-    },
-    {
-        "log_id": "A62144F",
-        "member_id": "M739F17",
-        "check_in_time": "2025-10-31T11:30:00",
-        "check_out_time": "2025-10-31T12:36:00",
-        "duration_minutes": 66
-    },
-    {
-        "log_id": "A94AA12",
-        "member_id": "M53BBC6",
-        "check_in_time": "2025-11-19T14:33:00",
-        "check_out_time": "2025-11-19T16:26:00",
-        "duration_minutes": 113
-    },
-    {
-        "log_id": "A56E26F",
-        "member_id": "MDE00F1",
-        "check_in_time": "2025-11-13T09:47:00",
-        "check_out_time": "2025-11-13T11:26:00",
-        "duration_minutes": 99
-    },
-    {
-        "log_id": "A99D6B9",
-        "member_id": "MA58ADE",
-        "check_in_time": "2025-10-26T09:29:00",
-        "check_out_time": "2025-10-26T11:18:00",
-        "duration_minutes": 109
-    },
-    {
-        "log_id": "AE14FB9",
-        "member_id": "M05A637",
-        "check_in_time": "2025-11-09T18:47:00",
-        "check_out_time": "2025-11-09T20:01:00",
-        "duration_minutes": 74
-    },
-    {
-        "log_id": "AEEEB94",
-        "member_id": "MBCF74B",
-        "check_in_time": "2025-11-19T06:16:00",
-        "check_out_time": "2025-11-19T06:56:00",
-        "duration_minutes": 40
-    },
-    {
-        "log_id": "A4EFCCF",
-        "member_id": "M1C9E83",
-        "check_in_time": "2025-11-06T16:35:00",
-        "check_out_time": "2025-11-06T17:15:00",
-        "duration_minutes": 40
-    },
-    {
-        "log_id": "AAD9C81",
-        "member_id": "MA58ADE",
-        "check_in_time": "2025-11-06T14:22:00",
-        "check_out_time": "2025-11-06T15:23:00",
-        "duration_minutes": 61
-    },
-    {
-        "log_id": "ACFAFB9",
-        "member_id": "M896DF3",
-        "check_in_time": "2025-10-25T07:45:00",
-        "check_out_time": "2025-10-25T09:27:00",
-        "duration_minutes": 102
-    },
-    {
-        "log_id": "AE07FA2",
-        "member_id": "M1CA1AE",
-        "check_in_time": "2025-11-02T09:16:00",
-        "check_out_time": "2025-11-02T11:14:00",
-        "duration_minutes": 118
-    },
-    {
-        "log_id": "A1EE976",
-        "member_id": "M7401D1",
-        "check_in_time": "2025-11-03T12:52:00",
-        "check_out_time": "2025-11-03T13:22:00",
-        "duration_minutes": 30
-    },
-    {
-        "log_id": "A5BAB4A",
-        "member_id": "MEE6EBF",
-        "check_in_time": "2025-11-17T16:44:00",
-        "check_out_time": "2025-11-17T18:43:00",
-        "duration_minutes": 119
-    },
-    {
-        "log_id": "A8E9CEC",
-        "member_id": "M896DF3",
-        "check_in_time": "2025-10-29T10:23:00",
-        "check_out_time": "2025-10-29T11:33:00",
-        "duration_minutes": 70
-    },
-    {
-        "log_id": "AAEAED4",
-        "member_id": "M1D6AAF",
-        "check_in_time": "2025-11-05T07:47:00",
-        "check_out_time": "2025-11-05T09:08:00",
-        "duration_minutes": 81
-    },
-    {
-        "log_id": "A4BEB2D",
-        "member_id": "M76903F",
-        "check_in_time": "2025-10-23T12:16:00",
-        "check_out_time": "2025-10-23T13:11:00",
-        "duration_minutes": 55
-    },
-    {
-        "log_id": "AACB8AB",
-        "member_id": "MEE6EBF",
-        "check_in_time": "2025-10-31T07:17:00",
-        "check_out_time": "2025-10-31T08:26:00",
-        "duration_minutes": 69
-    },
-    {
-        "log_id": "AEB4347",
-        "member_id": "M6BFC30",
-        "check_in_time": "2025-11-07T14:15:00",
-        "check_out_time": "2025-11-07T15:39:00",
-        "duration_minutes": 84
-    },
-    {
-        "log_id": "AEA2EF6",
-        "member_id": "M236045",
-        "check_in_time": "2025-11-14T06:12:00",
-        "check_out_time": "2025-11-14T08:11:00",
-        "duration_minutes": 119
-    },
-    {
-        "log_id": "ADFF58E",
-        "member_id": "M435378",
-        "check_in_time": "2025-11-09T19:44:00",
-        "check_out_time": "2025-11-09T20:37:00",
-        "duration_minutes": 53
-    },
-    {
-        "log_id": "AADB8FA",
-        "member_id": "M532E2A",
-        "check_in_time": "2025-11-01T12:11:00",
-        "check_out_time": "2025-11-01T12:53:00",
-        "duration_minutes": 42
-    },
-    {
-        "log_id": "A839BDE",
-        "member_id": "MEA5395",
-        "check_in_time": "2025-11-11T14:16:00",
-        "check_out_time": "2025-11-11T15:39:00",
-        "duration_minutes": 83
-    },
-    {
-        "log_id": "AD46845",
-        "member_id": "M718F85",
-        "check_in_time": "2025-11-06T19:45:00",
-        "check_out_time": "2025-11-06T21:29:00",
-        "duration_minutes": 104
-    },
-    {
-        "log_id": "A174B9B",
-        "member_id": "M718F85",
-        "check_in_time": "2025-11-20T17:06:00",
-        "check_out_time": "2025-11-20T18:06:00",
-        "duration_minutes": 60
-    },
-    {
-        "log_id": "AAC3659",
-        "member_id": "MEA5395",
-        "check_in_time": "2025-11-18T17:54:00",
-        "check_out_time": "2025-11-18T19:43:00",
-        "duration_minutes": 109
-    },
-    {
-        "log_id": "A0F50D1",
-        "member_id": "M49B142",
-        "check_in_time": "2025-11-06T06:36:00",
-        "check_out_time": "2025-11-06T08:27:00",
-        "duration_minutes": 111
-    },
-    {
-        "log_id": "AAD4032",
-        "member_id": "M892697",
-        "check_in_time": "2025-10-30T06:45:00",
-        "check_out_time": "2025-10-30T07:19:00",
-        "duration_minutes": 34
-    },
-    {
-        "log_id": "AAF3C95",
-        "member_id": "MBCF74B",
-        "check_in_time": "2025-10-30T08:38:00",
-        "check_out_time": "2025-10-30T10:16:00",
-        "duration_minutes": 98
-    },
-    {
-        "log_id": "ACF7B36",
-        "member_id": "M63F6E5",
-        "check_in_time": "2025-11-16T07:34:00",
-        "check_out_time": "2025-11-16T08:51:00",
-        "duration_minutes": 77
-    },
-    {
-        "log_id": "ADCC330",
-        "member_id": "M73FA89",
-        "check_in_time": "2025-11-16T09:10:00",
-        "check_out_time": "2025-11-16T10:24:00",
-        "duration_minutes": 74
-    },
-    {
-        "log_id": "AA439AB",
-        "member_id": "M1D6AAF",
-        "check_in_time": "2025-11-13T07:27:00",
-        "check_out_time": "2025-11-13T08:38:00",
-        "duration_minutes": 71
-    },
-    {
-        "log_id": "A51E66F",
-        "member_id": "M50A0F0",
-        "check_in_time": "2025-10-26T18:41:00",
-        "check_out_time": "2025-10-26T20:11:00",
-        "duration_minutes": 90
-    },
-    {
-        "log_id": "A937E1D",
-        "member_id": "M9AF782",
-        "check_in_time": "2025-10-28T18:33:00",
-        "check_out_time": "2025-10-28T19:38:00",
-        "duration_minutes": 65
-    },
-    {
-        "log_id": "A51A21F",
-        "member_id": "M2D6983",
-        "check_in_time": "2025-11-10T19:32:00",
-        "check_out_time": "2025-11-10T20:40:00",
-        "duration_minutes": 68
-    },
-    {
-        "log_id": "ABB3B7B",
-        "member_id": "M896DF3",
-        "check_in_time": "2025-11-21T11:41:00",
-        "check_out_time": "2025-11-21T13:19:00",
-        "duration_minutes": 98
-    },
-    {
-        "log_id": "AC75310",
-        "member_id": "M9AF782",
-        "check_in_time": "2025-11-10T06:39:00",
-        "check_out_time": "2025-11-10T07:39:00",
-        "duration_minutes": 60
-    },
-    {
-        "log_id": "A49DD78",
-        "member_id": "MA445DC",
-        "check_in_time": "2025-11-13T17:34:00",
-        "check_out_time": "2025-11-13T18:36:00",
-        "duration_minutes": 62
-    },
-    {
-        "log_id": "A7FE287",
-        "member_id": "M5DEBCB",
-        "check_in_time": "2025-11-14T13:00:00",
-        "check_out_time": "2025-11-14T14:22:00",
-        "duration_minutes": 82
-    },
-    {
-        "log_id": "A92E79C",
-        "member_id": "MA58ADE",
-        "check_in_time": "2025-11-10T10:13:00",
-        "check_out_time": "2025-11-10T10:57:00",
-        "duration_minutes": 44
-    },
-    {
-        "log_id": "A70E542",
-        "member_id": "M5DEBCB",
-        "check_in_time": "2025-11-15T19:09:00",
-        "check_out_time": "2025-11-15T20:22:00",
-        "duration_minutes": 73
-    },
-    {
-        "log_id": "A128CE6",
-        "member_id": "M890463",
-        "check_in_time": "2025-10-25T15:56:00",
-        "check_out_time": "2025-10-25T17:22:00",
-        "duration_minutes": 86
-    },
-    {
-        "log_id": "A951B9D",
-        "member_id": "M53BBC6",
-        "check_in_time": "2025-11-16T16:15:00",
-        "check_out_time": "2025-11-16T16:56:00",
-        "duration_minutes": 41
-    },
-    {
-        "log_id": "A6A04A6",
-        "member_id": "M1C9E83",
-        "check_in_time": "2025-10-29T15:40:00",
-        "check_out_time": "2025-10-29T16:54:00",
-        "duration_minutes": 74
-    },
-    {
-        "log_id": "A046AB7",
-        "member_id": "M2D6983",
-        "check_in_time": "2025-11-02T18:39:00",
-        "check_out_time": "2025-11-02T20:02:00",
-        "duration_minutes": 83
-    },
-    {
-        "log_id": "A09F6FA",
-        "member_id": "M5E42C8",
-        "check_in_time": "2025-10-26T06:24:00",
-        "check_out_time": "2025-10-26T07:28:00",
-        "duration_minutes": 64
-    },
-    {
-        "log_id": "ABF73AE",
-        "member_id": "M50A0F0",
-        "check_in_time": "2025-11-01T16:42:00",
-        "check_out_time": "2025-11-01T17:28:00",
-        "duration_minutes": 46
-    },
-    {
-        "log_id": "A77F035",
-        "member_id": "M1C9E83",
-        "check_in_time": "2025-11-09T16:44:00",
-        "check_out_time": "2025-11-09T17:40:00",
-        "duration_minutes": 56
-    },
-    {
-        "log_id": "A50B2C8",
-        "member_id": "M53BBC6",
-        "check_in_time": "2025-11-01T09:03:00",
-        "check_out_time": "2025-11-01T10:02:00",
-        "duration_minutes": 59
-    },
-    {
-        "log_id": "AA41994",
-        "member_id": "MD9F876",
-        "check_in_time": "2025-11-22T07:18:00",
-        "check_out_time": "2025-11-22T09:13:00",
-        "duration_minutes": 115
-    },
-    {
-        "log_id": "A97E4F7",
-        "member_id": "MA97F11",
-        "check_in_time": "2025-11-11T06:16:00",
-        "check_out_time": "2025-11-11T07:07:00",
-        "duration_minutes": 51
-    },
-    {
-        "log_id": "ACAD090",
-        "member_id": "M73FA89",
-        "check_in_time": "2025-10-27T18:00:00",
-        "check_out_time": "2025-10-27T19:29:00",
-        "duration_minutes": 89
-    },
-    {
-        "log_id": "A9778AE",
-        "member_id": "ME8DE4D",
-        "check_in_time": "2025-11-10T11:21:00",
-        "check_out_time": "2025-11-10T12:31:00",
-        "duration_minutes": 70
-    },
-    {
-        "log_id": "A0D71C8",
-        "member_id": "M257BCD",
-        "check_in_time": "2025-11-06T19:12:00",
-        "check_out_time": "2025-11-06T20:52:00",
-        "duration_minutes": 100
-    },
-    {
-        "log_id": "A1ABC51",
-        "member_id": "M890463",
-        "check_in_time": "2025-10-27T15:35:00",
-        "check_out_time": "2025-10-27T16:55:00",
-        "duration_minutes": 80
-    },
-    {
-        "log_id": "AA87676",
-        "member_id": "M73FA89",
-        "check_in_time": "2025-11-15T15:52:00",
-        "check_out_time": "2025-11-15T16:22:00",
-        "duration_minutes": 30
-    },
-    {
-        "log_id": "A46F3B2",
-        "member_id": "M9AF782",
-        "check_in_time": "2025-11-10T15:46:00",
-        "check_out_time": "2025-11-10T16:45:00",
-        "duration_minutes": 59
-    },
-    {
-        "log_id": "A8A1C0F",
-        "member_id": "MA7A6B5",
-        "check_in_time": "2025-11-09T08:08:00",
-        "check_out_time": "2025-11-09T09:14:00",
-        "duration_minutes": 66
-    },
-    {
-        "log_id": "ADB0F30",
-        "member_id": "MBCF74B",
-        "check_in_time": "2025-11-18T20:28:00",
-        "check_out_time": "2025-11-18T22:21:00",
-        "duration_minutes": 113
-    },
-    {
-        "log_id": "AC2C362",
-        "member_id": "MD9F876",
-        "check_in_time": "2025-10-29T20:56:00",
-        "check_out_time": "2025-10-29T22:54:00",
-        "duration_minutes": 118
-    },
-    {
-        "log_id": "A65F286",
-        "member_id": "M718F85",
-        "check_in_time": "2025-11-22T06:14:00",
-        "check_out_time": "2025-11-22T07:08:00",
-        "duration_minutes": 54
-    },
-    {
-        "log_id": "A25E0A5",
-        "member_id": "M739F17",
-        "check_in_time": "2025-11-05T17:21:00",
-        "check_out_time": "2025-11-05T19:05:00",
-        "duration_minutes": 104
-    },
-    {
-        "log_id": "A58B205",
-        "member_id": "MF70637",
-        "check_in_time": "2025-11-09T10:50:00",
-        "check_out_time": "2025-11-09T12:46:00",
-        "duration_minutes": 116
-    },
-    {
-        "log_id": "ADAF8C3",
-        "member_id": "M63F6E5",
-        "check_in_time": "2025-11-04T12:01:00",
-        "check_out_time": "2025-11-04T13:58:00",
-        "duration_minutes": 117
-    },
-    {
-        "log_id": "AED410E",
-        "member_id": "M5E42C8",
-        "check_in_time": "2025-11-12T17:05:00",
-        "check_out_time": "2025-11-12T18:29:00",
-        "duration_minutes": 84
-    },
-    {
-        "log_id": "A5BF2C7",
-        "member_id": "M73FA89",
-        "check_in_time": "2025-11-14T07:02:00",
-        "check_out_time": "2025-11-14T08:40:00",
-        "duration_minutes": 98
-    },
-    {
-        "log_id": "ABCF047",
-        "member_id": "M2A3F5F",
-        "check_in_time": "2025-11-01T09:03:00",
-        "check_out_time": "2025-11-01T10:21:00",
-        "duration_minutes": 78
-    },
-    {
-        "log_id": "A336D45",
-        "member_id": "MA7A6B5",
-        "check_in_time": "2025-11-07T07:48:00",
-        "check_out_time": "2025-11-07T08:44:00",
-        "duration_minutes": 56
-    },
-    {
-        "log_id": "AD542C5",
-        "member_id": "M718F85",
-        "check_in_time": "2025-10-25T07:57:00",
-        "check_out_time": "2025-10-25T09:12:00",
-        "duration_minutes": 75
-    },
-    {
-        "log_id": "AF362B3",
-        "member_id": "M53BBC6",
-        "check_in_time": "2025-11-22T18:17:00",
-        "check_out_time": "2025-11-22T18:51:00",
-        "duration_minutes": 34
-    },
-    {
-        "log_id": "A7EDBEB",
-        "member_id": "M4E2439",
-        "check_in_time": "2025-10-27T17:30:00",
-        "check_out_time": "2025-10-27T19:28:00",
-        "duration_minutes": 118
-    },
-    {
-        "log_id": "AFE89DD",
-        "member_id": "M53BBC6",
-        "check_in_time": "2025-10-25T11:19:00",
-        "check_out_time": "2025-10-25T12:24:00",
-        "duration_minutes": 65
-    },
-    {
-        "log_id": "AF44A00",
-        "member_id": "M9AF782",
-        "check_in_time": "2025-11-10T12:58:00",
-        "check_out_time": "2025-11-10T14:20:00",
-        "duration_minutes": 82
-    },
-    {
-        "log_id": "A164838",
-        "member_id": "M1D6AAF",
-        "check_in_time": "2025-10-26T09:37:00",
-        "check_out_time": "2025-10-26T10:07:00",
-        "duration_minutes": 30
-    },
-    {
-        "log_id": "ACB9D5B",
-        "member_id": "MA7A6B5",
-        "check_in_time": "2025-11-04T11:53:00",
-        "check_out_time": "2025-11-04T13:13:00",
-        "duration_minutes": 80
-    },
-    {
-        "log_id": "A4CF262",
-        "member_id": "M7401D1",
-        "check_in_time": "2025-11-16T18:57:00",
-        "check_out_time": "2025-11-16T20:11:00",
-        "duration_minutes": 74
-    },
-    {
-        "log_id": "AD79EA9",
-        "member_id": "MA58ADE",
-        "check_in_time": "2025-11-17T09:07:00",
-        "check_out_time": "2025-11-17T10:01:00",
-        "duration_minutes": 54
-    },
-    {
-        "log_id": "AA5CE12",
-        "member_id": "M50A0F0",
-        "check_in_time": "2025-10-30T15:19:00",
-        "check_out_time": "2025-10-30T15:51:00",
-        "duration_minutes": 32
-    },
-    {
-        "log_id": "A7C6812",
-        "member_id": "MD17AEF",
-        "check_in_time": "2025-10-31T16:22:00",
-        "check_out_time": "2025-10-31T17:44:00",
-        "duration_minutes": 82
-    },
-    {
-        "log_id": "A3D892F",
-        "member_id": "M7401D1",
-        "check_in_time": "2025-10-26T10:29:00",
-        "check_out_time": "2025-10-26T11:22:00",
-        "duration_minutes": 53
-    },
-    {
-        "log_id": "AD35593",
-        "member_id": "M73FA89",
-        "check_in_time": "2025-11-05T16:02:00",
-        "check_out_time": "2025-11-05T16:35:00",
-        "duration_minutes": 33
-    },
-    {
-        "log_id": "A37FBA5",
-        "member_id": "M3D6B42",
-        "check_in_time": "2025-11-06T20:08:00",
-        "check_out_time": "2025-11-06T20:46:00",
-        "duration_minutes": 38
-    },
-    {
-        "log_id": "AD4A66B",
-        "member_id": "M71E92F",
-        "check_in_time": "2025-11-09T10:27:00",
-        "check_out_time": "2025-11-09T12:03:00",
-        "duration_minutes": 96
-    },
-    {
-        "log_id": "A914B5C",
-        "member_id": "M237811",
-        "check_in_time": "2025-11-11T09:38:00",
-        "check_out_time": "2025-11-11T10:53:00",
-        "duration_minutes": 75
-    },
-    {
-        "log_id": "A71837F",
-        "member_id": "MBCF74B",
-        "check_in_time": "2025-11-10T17:29:00",
-        "check_out_time": "2025-11-10T18:58:00",
-        "duration_minutes": 89
-    },
-    {
-        "log_id": "A6ED56D",
-        "member_id": "M4E2439",
-        "check_in_time": "2025-11-19T10:16:00",
-        "check_out_time": "2025-11-19T11:27:00",
-        "duration_minutes": 71
-    },
-    {
-        "log_id": "ADFAD98",
-        "member_id": "MA7A6B5",
-        "check_in_time": "2025-10-28T20:15:00",
-        "check_out_time": "2025-10-28T20:48:00",
-        "duration_minutes": 33
-    },
-    {
-        "log_id": "A0375B2",
-        "member_id": "M435378",
-        "check_in_time": "2025-11-05T08:12:00",
-        "check_out_time": "2025-11-05T09:39:00",
-        "duration_minutes": 87
-    },
-    {
-        "log_id": "ACC2BB1",
-        "member_id": "ME8DE4D",
-        "check_in_time": "2025-11-15T15:19:00",
-        "check_out_time": "2025-11-15T16:15:00",
-        "duration_minutes": 56
-    },
-    {
-        "log_id": "ADA54CA",
-        "member_id": "M532E2A",
-        "check_in_time": "2025-11-02T11:51:00",
-        "check_out_time": "2025-11-02T13:06:00",
-        "duration_minutes": 75
-    },
-    {
-        "log_id": "AE34FE9",
-        "member_id": "MEE6EBF",
-        "check_in_time": "2025-11-21T12:25:00",
-        "check_out_time": "2025-11-21T13:08:00",
-        "duration_minutes": 43
-    },
-    {
-        "log_id": "AE90C73",
-        "member_id": "MEA6628",
-        "check_in_time": "2025-11-04T10:16:00",
-        "check_out_time": "2025-11-04T11:40:00",
-        "duration_minutes": 84
-    },
-    {
-        "log_id": "AD29598",
-        "member_id": "M1D6AAF",
-        "check_in_time": "2025-11-19T09:06:00",
-        "check_out_time": "2025-11-19T10:13:00",
-        "duration_minutes": 67
-    },
-    {
-        "log_id": "AF877FE",
-        "member_id": "MA445DC",
-        "check_in_time": "2025-11-07T16:46:00",
-        "check_out_time": "2025-11-07T18:19:00",
-        "duration_minutes": 93
-    },
-    {
-        "log_id": "AAE2CEE",
-        "member_id": "M9AF782",
-        "check_in_time": "2025-11-03T18:03:00",
-        "check_out_time": "2025-11-03T19:02:00",
-        "duration_minutes": 59
-    },
-    {
-        "log_id": "AC1153B",
-        "member_id": "MA703EB",
-        "check_in_time": "2025-10-28T13:24:00",
-        "check_out_time": "2025-10-28T15:11:00",
-        "duration_minutes": 107
-    },
-    {
-        "log_id": "A0FF4DC",
-        "member_id": "MA703EB",
-        "check_in_time": "2025-11-17T17:23:00",
-        "check_out_time": "2025-11-17T19:14:00",
-        "duration_minutes": 111
-    },
-    {
-        "log_id": "A5D9D18",
-        "member_id": "M05A637",
-        "check_in_time": "2025-11-13T13:17:00",
-        "check_out_time": "2025-11-13T13:49:00",
-        "duration_minutes": 32
-    },
-    {
-        "log_id": "AD9198D",
-        "member_id": "MB11969",
-        "check_in_time": "2025-11-09T06:34:00",
-        "check_out_time": "2025-11-09T08:19:00",
-        "duration_minutes": 105
-    },
-    {
-        "log_id": "A7DC083",
-        "member_id": "ME8DE4D",
-        "check_in_time": "2025-11-21T18:45:00",
-        "check_out_time": "2025-11-21T20:41:00",
-        "duration_minutes": 116
-    },
-    {
-        "log_id": "A99708B",
-        "member_id": "MDE00F1",
-        "check_in_time": "2025-11-22T16:37:00",
-        "check_out_time": "2025-11-22T17:24:00",
-        "duration_minutes": 47
-    },
-    {
-        "log_id": "AFF7E79",
-        "member_id": "M3D6B42",
-        "check_in_time": "2025-11-12T16:37:00",
-        "check_out_time": "2025-11-12T17:21:00",
-        "duration_minutes": 44
-    },
-    {
-        "log_id": "A85E219",
-        "member_id": "M1C9E83",
-        "check_in_time": "2025-11-08T15:58:00",
-        "check_out_time": "2025-11-08T17:35:00",
-        "duration_minutes": 97
-    },
-    {
-        "log_id": "A0B09B2",
-        "member_id": "MC4726C",
-        "check_in_time": "2025-10-24T14:39:00",
-        "check_out_time": "2025-10-24T16:36:00",
-        "duration_minutes": 117
-    },
-    {
-        "log_id": "A607250",
-        "member_id": "M237811",
-        "check_in_time": "2025-11-04T09:21:00",
-        "check_out_time": "2025-11-04T10:38:00",
-        "duration_minutes": 77
-    },
-    {
-        "log_id": "AAF63C7",
-        "member_id": "M7401D1",
-        "check_in_time": "2025-11-05T12:00:00",
-        "check_out_time": "2025-11-05T13:29:00",
-        "duration_minutes": 89
-    },
-    {
-        "log_id": "AA7522B",
-        "member_id": "M50A0F0",
-        "check_in_time": "2025-11-14T20:24:00",
-        "check_out_time": "2025-11-14T22:01:00",
-        "duration_minutes": 97
-    },
-    {
-        "log_id": "A83F7CB",
-        "member_id": "MCEFEF3",
-        "check_in_time": "2025-11-17T20:15:00",
-        "check_out_time": "2025-11-17T21:20:00",
-        "duration_minutes": 65
-    },
-    {
-        "log_id": "A25CB52",
-        "member_id": "M435378",
-        "check_in_time": "2025-11-03T20:31:00",
-        "check_out_time": "2025-11-03T22:20:00",
-        "duration_minutes": 109
-    },
-    {
-        "log_id": "A6CFDBA",
-        "member_id": "M236045",
-        "check_in_time": "2025-10-23T09:53:00",
-        "check_out_time": "2025-10-23T11:40:00",
-        "duration_minutes": 107
-    },
-    {
-        "log_id": "AD7BC79",
-        "member_id": "M50A0F0",
-        "check_in_time": "2025-10-25T07:08:00",
-        "check_out_time": "2025-10-25T08:04:00",
-        "duration_minutes": 56
-    },
-    {
-        "log_id": "A81D209",
-        "member_id": "M77708B",
-        "check_in_time": "2025-11-12T13:41:00",
-        "check_out_time": "2025-11-12T15:25:00",
-        "duration_minutes": 104
-    },
-    {
-        "log_id": "A40ECA8",
-        "member_id": "MC2E7FB",
-        "check_in_time": "2025-11-03T07:42:00",
-        "check_out_time": "2025-11-03T09:41:00",
-        "duration_minutes": 119
-    },
-    {
-        "log_id": "AC220BE",
-        "member_id": "M6BFC30",
-        "check_in_time": "2025-10-27T07:21:00",
-        "check_out_time": "2025-10-27T08:23:00",
-        "duration_minutes": 62
-    },
-    {
-        "log_id": "AE371CD",
-        "member_id": "MA97F11",
-        "check_in_time": "2025-11-16T16:41:00",
-        "check_out_time": "2025-11-16T18:33:00",
-        "duration_minutes": 112
-    },
-    {
-        "log_id": "AE85FB9",
-        "member_id": "M5E42C8",
-        "check_in_time": "2025-11-09T15:18:00",
-        "check_out_time": "2025-11-09T16:47:00",
-        "duration_minutes": 89
-    },
-    {
-        "log_id": "A98E100",
-        "member_id": "M6BFC30",
-        "check_in_time": "2025-11-14T20:36:00",
-        "check_out_time": "2025-11-14T21:39:00",
-        "duration_minutes": 63
-    },
-    {
-        "log_id": "A6A73A0",
-        "member_id": "MCE0D90",
-        "check_in_time": "2025-10-30T20:35:00",
-        "check_out_time": "2025-10-30T21:41:00",
-        "duration_minutes": 66
-    },
-    {
-        "log_id": "AE9FA77",
-        "member_id": "MC4726C",
-        "check_in_time": "2025-11-12T07:30:00",
-        "check_out_time": "2025-11-12T08:23:00",
-        "duration_minutes": 53
-    },
-    {
-        "log_id": "A6AA8FD",
-        "member_id": "M892697",
-        "check_in_time": "2025-10-26T20:21:00",
-        "check_out_time": "2025-10-26T20:56:00",
-        "duration_minutes": 35
-    },
-    {
-        "log_id": "A5D9F74",
-        "member_id": "M76903F",
-        "check_in_time": "2025-11-18T11:49:00",
-        "check_out_time": "2025-11-18T13:32:00",
-        "duration_minutes": 103
-    },
-    {
-        "log_id": "AB9BAC2",
-        "member_id": "M236045",
-        "check_in_time": "2025-11-06T17:50:00",
-        "check_out_time": "2025-11-06T19:26:00",
-        "duration_minutes": 96
-    },
-    {
-        "log_id": "A998084",
-        "member_id": "MEA5395",
-        "check_in_time": "2025-11-06T10:45:00",
-        "check_out_time": "2025-11-06T12:34:00",
-        "duration_minutes": 109
-    },
-    {
-        "log_id": "A815AB2",
-        "member_id": "M53BBC6",
-        "check_in_time": "2025-11-05T06:44:00",
-        "check_out_time": "2025-11-05T08:00:00",
-        "duration_minutes": 76
-    },
-    {
-        "log_id": "A4FE863",
-        "member_id": "MA58ADE",
-        "check_in_time": "2025-11-01T11:49:00",
-        "check_out_time": "2025-11-01T12:54:00",
-        "duration_minutes": 65
-    },
-    {
-        "log_id": "A88B681",
-        "member_id": "MC2E7FB",
-        "check_in_time": "2025-10-29T17:57:00",
-        "check_out_time": "2025-10-29T19:20:00",
-        "duration_minutes": 83
-    },
-    {
-        "log_id": "A2DC780",
-        "member_id": "M1D6AAF",
-        "check_in_time": "2025-10-25T16:20:00",
-        "check_out_time": "2025-10-25T18:07:00",
-        "duration_minutes": 107
-    },
-    {
-        "log_id": "A0CEFA6",
-        "member_id": "M257BCD",
-        "check_in_time": "2025-11-08T06:20:00",
-        "check_out_time": "2025-11-08T08:00:00",
-        "duration_minutes": 100
-    },
-    {
-        "log_id": "AB2E62D",
-        "member_id": "MA703EB",
-        "check_in_time": "2025-11-13T16:39:00",
-        "check_out_time": "2025-11-13T18:26:00",
-        "duration_minutes": 107
-    },
-    {
-        "log_id": "A87B99E",
-        "member_id": "MA703EB",
-        "check_in_time": "2025-10-30T20:40:00",
-        "check_out_time": "2025-10-30T21:37:00",
-        "duration_minutes": 57
-    },
-    {
-        "log_id": "A557356",
-        "member_id": "M1C9E83",
-        "check_in_time": "2025-11-16T07:20:00",
-        "check_out_time": "2025-11-16T08:54:00",
+        "log_id": "A00011",
+        "member_id": "M004",
+        "check_in_time": "2025-12-14 11:28:54",
+        "check_out_time": "2025-12-14 12:26:54",
+        "duration_minutes": 58
+    },
+    {
+        "log_id": "A00012",
+        "member_id": "M004",
+        "check_in_time": "2025-11-27 18:13:54",
+        "check_out_time": "2025-11-27 19:05:54",
+        "duration_minutes": 52
+    },
+    {
+        "log_id": "A00013",
+        "member_id": "M004",
+        "check_in_time": "2025-12-15 16:27:54",
+        "check_out_time": "2025-12-15 18:01:54",
         "duration_minutes": 94
     },
     {
-        "log_id": "A677209",
-        "member_id": "MA703EB",
-        "check_in_time": "2025-11-14T07:58:00",
-        "check_out_time": "2025-11-14T09:40:00",
-        "duration_minutes": 102
-    },
-    {
-        "log_id": "A4F7122",
-        "member_id": "M896DF3",
-        "check_in_time": "2025-11-07T09:36:00",
-        "check_out_time": "2025-11-07T11:08:00",
-        "duration_minutes": 92
-    },
-    {
-        "log_id": "ACD967F",
-        "member_id": "M2A3F5F",
-        "check_in_time": "2025-11-02T07:24:00",
-        "check_out_time": "2025-11-02T08:17:00",
-        "duration_minutes": 53
-    },
-    {
-        "log_id": "A8C7257",
-        "member_id": "M5E42C8",
-        "check_in_time": "2025-10-23T06:05:00",
-        "check_out_time": "2025-10-23T07:11:00",
-        "duration_minutes": 66
-    },
-    {
-        "log_id": "A58BEC4",
-        "member_id": "M236045",
-        "check_in_time": "2025-11-02T19:14:00",
-        "check_out_time": "2025-11-02T21:06:00",
-        "duration_minutes": 112
-    },
-    {
-        "log_id": "A9A13C1",
-        "member_id": "M896DF3",
-        "check_in_time": "2025-10-23T11:20:00",
-        "check_out_time": "2025-10-23T12:20:00",
-        "duration_minutes": 60
-    },
-    {
-        "log_id": "AEAA635",
-        "member_id": "M53BBC6",
-        "check_in_time": "2025-11-17T18:48:00",
-        "check_out_time": "2025-11-17T20:28:00",
-        "duration_minutes": 100
-    },
-    {
-        "log_id": "A6C5208",
-        "member_id": "MCEFEF3",
-        "check_in_time": "2025-11-13T09:59:00",
-        "check_out_time": "2025-11-13T10:39:00",
-        "duration_minutes": 40
-    },
-    {
-        "log_id": "A8956CA",
-        "member_id": "MD9F876",
-        "check_in_time": "2025-11-17T20:31:00",
-        "check_out_time": "2025-11-17T21:42:00",
-        "duration_minutes": 71
-    },
-    {
-        "log_id": "AE8D1F4",
-        "member_id": "MA445DC",
-        "check_in_time": "2025-11-17T11:53:00",
-        "check_out_time": "2025-11-17T12:37:00",
-        "duration_minutes": 44
-    },
-    {
-        "log_id": "A804F9E",
-        "member_id": "MD9F876",
-        "check_in_time": "2025-10-23T14:41:00",
-        "check_out_time": "2025-10-23T15:36:00",
-        "duration_minutes": 55
-    },
-    {
-        "log_id": "A68836F",
-        "member_id": "M892697",
-        "check_in_time": "2025-10-27T07:32:00",
-        "check_out_time": "2025-10-27T09:25:00",
-        "duration_minutes": 113
-    },
-    {
-        "log_id": "A935BD3",
-        "member_id": "MC2E7FB",
-        "check_in_time": "2025-11-02T19:06:00",
-        "check_out_time": "2025-11-02T20:27:00",
-        "duration_minutes": 81
-    },
-    {
-        "log_id": "A29A04A",
-        "member_id": "MA58ADE",
-        "check_in_time": "2025-11-03T06:22:00",
-        "check_out_time": "2025-11-03T08:16:00",
-        "duration_minutes": 114
-    },
-    {
-        "log_id": "A6E91D2",
-        "member_id": "M5E42C8",
-        "check_in_time": "2025-10-23T17:38:00",
-        "check_out_time": "2025-10-23T19:25:00",
-        "duration_minutes": 107
-    },
-    {
-        "log_id": "A1F94D3",
-        "member_id": "MDE00F1",
-        "check_in_time": "2025-11-06T16:02:00",
-        "check_out_time": "2025-11-06T16:37:00",
-        "duration_minutes": 35
-    },
-    {
-        "log_id": "A67204B",
-        "member_id": "ME8DE4D",
-        "check_in_time": "2025-10-25T07:55:00",
-        "check_out_time": "2025-10-25T08:30:00",
-        "duration_minutes": 35
-    },
-    {
-        "log_id": "A425E03",
-        "member_id": "M50A0F0",
-        "check_in_time": "2025-11-10T09:56:00",
-        "check_out_time": "2025-11-10T10:43:00",
-        "duration_minutes": 47
-    },
-    {
-        "log_id": "A3CCF87",
-        "member_id": "MF70637",
-        "check_in_time": "2025-11-16T20:23:00",
-        "check_out_time": "2025-11-16T21:49:00",
-        "duration_minutes": 86
-    },
-    {
-        "log_id": "A066795",
-        "member_id": "M1CA1AE",
-        "check_in_time": "2025-11-06T18:23:00",
-        "check_out_time": "2025-11-06T19:19:00",
-        "duration_minutes": 56
-    },
-    {
-        "log_id": "A6ED886",
-        "member_id": "M7401D1",
-        "check_in_time": "2025-11-15T17:26:00",
-        "check_out_time": "2025-11-15T18:26:00",
-        "duration_minutes": 60
-    },
-    {
-        "log_id": "A17579A",
-        "member_id": "MA7A6B5",
-        "check_in_time": "2025-11-01T13:41:00",
-        "check_out_time": "2025-11-01T14:49:00",
-        "duration_minutes": 68
-    },
-    {
-        "log_id": "A6478AC",
-        "member_id": "MC4726C",
-        "check_in_time": "2025-11-10T14:45:00",
-        "check_out_time": "2025-11-10T15:25:00",
-        "duration_minutes": 40
-    },
-    {
-        "log_id": "A38A896",
-        "member_id": "MEA5395",
-        "check_in_time": "2025-10-28T09:52:00",
-        "check_out_time": "2025-10-28T11:28:00",
-        "duration_minutes": 96
-    },
-    {
-        "log_id": "A2280ED",
-        "member_id": "MEA5395",
-        "check_in_time": "2025-11-14T15:58:00",
-        "check_out_time": "2025-11-14T17:06:00",
-        "duration_minutes": 68
-    },
-    {
-        "log_id": "A0D3413",
-        "member_id": "M6BFC30",
-        "check_in_time": "2025-11-06T16:51:00",
-        "check_out_time": "2025-11-06T17:52:00",
-        "duration_minutes": 61
-    },
-    {
-        "log_id": "A4C7C20",
-        "member_id": "M4E2439",
-        "check_in_time": "2025-11-22T19:13:00",
-        "check_out_time": "2025-11-22T20:44:00",
-        "duration_minutes": 91
-    },
-    {
-        "log_id": "AF9A674",
-        "member_id": "M2A3F5F",
-        "check_in_time": "2025-10-27T09:46:00",
-        "check_out_time": "2025-10-27T10:42:00",
-        "duration_minutes": 56
-    },
-    {
-        "log_id": "A0907E1",
-        "member_id": "M05A637",
-        "check_in_time": "2025-10-24T17:53:00",
-        "check_out_time": "2025-10-24T18:52:00",
-        "duration_minutes": 59
-    },
-    {
-        "log_id": "A9A39AC",
-        "member_id": "M05A637",
-        "check_in_time": "2025-11-05T12:23:00",
-        "check_out_time": "2025-11-05T12:59:00",
-        "duration_minutes": 36
-    },
-    {
-        "log_id": "AA36783",
-        "member_id": "MDE00F1",
-        "check_in_time": "2025-11-20T08:40:00",
-        "check_out_time": "2025-11-20T10:08:00",
-        "duration_minutes": 88
-    },
-    {
-        "log_id": "A48441D",
-        "member_id": "M896DF3",
-        "check_in_time": "2025-10-25T11:37:00",
-        "check_out_time": "2025-10-25T12:35:00",
-        "duration_minutes": 58
-    },
-    {
-        "log_id": "A8F57DF",
-        "member_id": "MCE0D90",
-        "check_in_time": "2025-11-08T10:36:00",
-        "check_out_time": "2025-11-08T11:19:00",
-        "duration_minutes": 43
-    },
-    {
-        "log_id": "A7EBB7D",
-        "member_id": "M49B142",
-        "check_in_time": "2025-11-11T13:49:00",
-        "check_out_time": "2025-11-11T15:36:00",
-        "duration_minutes": 107
-    },
-    {
-        "log_id": "AE70441",
-        "member_id": "MA703EB",
-        "check_in_time": "2025-10-28T18:12:00",
-        "check_out_time": "2025-10-28T20:08:00",
-        "duration_minutes": 116
-    },
-    {
-        "log_id": "AC8DC1A",
-        "member_id": "MA7A6B5",
-        "check_in_time": "2025-10-29T06:36:00",
-        "check_out_time": "2025-10-29T08:26:00",
-        "duration_minutes": 110
-    },
-    {
-        "log_id": "AC8D5C6",
-        "member_id": "MA445DC",
-        "check_in_time": "2025-11-18T08:42:00",
-        "check_out_time": "2025-11-18T09:44:00",
-        "duration_minutes": 62
-    },
-    {
-        "log_id": "AF11DB4",
-        "member_id": "M50A0F0",
-        "check_in_time": "2025-11-02T20:49:00",
-        "check_out_time": "2025-11-02T22:29:00",
-        "duration_minutes": 100
-    },
-    {
-        "log_id": "AB237C1",
-        "member_id": "M4E2439",
-        "check_in_time": "2025-11-22T14:53:00",
-        "check_out_time": "2025-11-22T16:40:00",
-        "duration_minutes": 107
-    },
-    {
-        "log_id": "AB0FB2A",
-        "member_id": "M76903F",
-        "check_in_time": "2025-11-03T15:11:00",
-        "check_out_time": "2025-11-03T17:05:00",
-        "duration_minutes": 114
-    },
-    {
-        "log_id": "A368152",
-        "member_id": "M2A3F5F",
-        "check_in_time": "2025-11-18T07:42:00",
-        "check_out_time": "2025-11-18T08:31:00",
-        "duration_minutes": 49
-    },
-    {
-        "log_id": "A523691",
-        "member_id": "MA7A6B5",
-        "check_in_time": "2025-11-22T11:47:00",
-        "check_out_time": "2025-11-22T13:06:00",
-        "duration_minutes": 79
-    },
-    {
-        "log_id": "A8E9EF0",
-        "member_id": "MD9F876",
-        "check_in_time": "2025-10-28T15:03:00",
-        "check_out_time": "2025-10-28T16:36:00",
-        "duration_minutes": 93
-    },
-    {
-        "log_id": "A289A2B",
-        "member_id": "M739F17",
-        "check_in_time": "2025-11-06T13:53:00",
-        "check_out_time": "2025-11-06T15:51:00",
-        "duration_minutes": 118
-    },
-    {
-        "log_id": "A0FAD65",
-        "member_id": "M1D6AAF",
-        "check_in_time": "2025-11-04T10:57:00",
-        "check_out_time": "2025-11-04T12:34:00",
-        "duration_minutes": 97
-    },
-    {
-        "log_id": "A61C51D",
-        "member_id": "M890463",
-        "check_in_time": "2025-11-17T08:17:00",
-        "check_out_time": "2025-11-17T09:28:00",
-        "duration_minutes": 71
-    },
-    {
-        "log_id": "AC5D0C0",
-        "member_id": "MA58ADE",
-        "check_in_time": "2025-11-01T16:02:00",
-        "check_out_time": "2025-11-01T17:27:00",
-        "duration_minutes": 85
-    },
-    {
-        "log_id": "A8262E1",
-        "member_id": "M435378",
-        "check_in_time": "2025-11-19T17:32:00",
-        "check_out_time": "2025-11-19T18:13:00",
-        "duration_minutes": 41
-    },
-    {
-        "log_id": "AEA0C2C",
-        "member_id": "M05A637",
-        "check_in_time": "2025-10-27T10:55:00",
-        "check_out_time": "2025-10-27T11:29:00",
-        "duration_minutes": 34
-    },
-    {
-        "log_id": "AC6E5BC",
-        "member_id": "MEA5395",
-        "check_in_time": "2025-11-14T17:27:00",
-        "check_out_time": "2025-11-14T18:19:00",
-        "duration_minutes": 52
-    },
-    {
-        "log_id": "A227844",
-        "member_id": "MC4726C",
-        "check_in_time": "2025-11-17T11:25:00",
-        "check_out_time": "2025-11-17T12:44:00",
-        "duration_minutes": 79
-    },
-    {
-        "log_id": "A77AFC8",
-        "member_id": "M5DEBCB",
-        "check_in_time": "2025-11-22T14:53:00",
-        "check_out_time": "2025-11-22T15:36:00",
-        "duration_minutes": 43
-    },
-    {
-        "log_id": "A8D535A",
-        "member_id": "M53BBC6",
-        "check_in_time": "2025-11-20T20:24:00",
-        "check_out_time": "2025-11-20T22:15:00",
-        "duration_minutes": 111
-    },
-    {
-        "log_id": "AE9F324",
-        "member_id": "MA445DC",
-        "check_in_time": "2025-11-21T14:01:00",
-        "check_out_time": "2025-11-21T15:08:00",
-        "duration_minutes": 67
-    },
-    {
-        "log_id": "A631CE3",
-        "member_id": "M71E92F",
-        "check_in_time": "2025-10-28T10:39:00",
-        "check_out_time": "2025-10-28T11:23:00",
-        "duration_minutes": 44
-    },
-    {
-        "log_id": "A0BD69B",
-        "member_id": "M7401D1",
-        "check_in_time": "2025-11-12T10:20:00",
-        "check_out_time": "2025-11-12T12:05:00",
-        "duration_minutes": 105
-    },
-    {
-        "log_id": "A1175F8",
-        "member_id": "MA7A6B5",
-        "check_in_time": "2025-11-05T12:32:00",
-        "check_out_time": "2025-11-05T13:42:00",
+        "log_id": "A00014",
+        "member_id": "M006",
+        "check_in_time": "2025-12-12 06:13:54",
+        "check_out_time": "2025-12-12 07:23:54",
         "duration_minutes": 70
     },
     {
-        "log_id": "A2BCE7E",
-        "member_id": "MA97F11",
-        "check_in_time": "2025-11-11T12:02:00",
-        "check_out_time": "2025-11-11T13:23:00",
-        "duration_minutes": 81
-    },
-    {
-        "log_id": "A318EF4",
-        "member_id": "M76903F",
-        "check_in_time": "2025-10-30T08:51:00",
-        "check_out_time": "2025-10-30T09:26:00",
-        "duration_minutes": 35
-    },
-    {
-        "log_id": "A9C3B69",
-        "member_id": "M6BFC30",
-        "check_in_time": "2025-11-19T17:41:00",
-        "check_out_time": "2025-11-19T19:13:00",
-        "duration_minutes": 92
-    },
-    {
-        "log_id": "A72CCEE",
-        "member_id": "MC4726C",
-        "check_in_time": "2025-11-10T09:11:00",
-        "check_out_time": "2025-11-10T09:46:00",
-        "duration_minutes": 35
-    },
-    {
-        "log_id": "AAF3364",
-        "member_id": "M71E92F",
-        "check_in_time": "2025-11-01T15:03:00",
-        "check_out_time": "2025-11-01T16:11:00",
-        "duration_minutes": 68
-    },
-    {
-        "log_id": "AFAC163",
-        "member_id": "M2A3F5F",
-        "check_in_time": "2025-11-06T13:02:00",
-        "check_out_time": "2025-11-06T14:25:00",
+        "log_id": "A00015",
+        "member_id": "M006",
+        "check_in_time": "2025-12-16 07:14:54",
+        "check_out_time": "2025-12-16 08:37:54",
         "duration_minutes": 83
     },
     {
-        "log_id": "A493AB3",
-        "member_id": "MF70637",
-        "check_in_time": "2025-10-27T12:30:00",
-        "check_out_time": "2025-10-27T13:02:00",
-        "duration_minutes": 32
+        "log_id": "A00016",
+        "member_id": "M006",
+        "check_in_time": "2025-12-14 14:23:54",
+        "check_out_time": "2025-12-14 15:39:54",
+        "duration_minutes": 76
     },
     {
-        "log_id": "A2C64E8",
-        "member_id": "M7401D1",
-        "check_in_time": "2025-11-21T08:00:00",
-        "check_out_time": "2025-11-21T09:49:00",
-        "duration_minutes": 109
+        "log_id": "A00017",
+        "member_id": "M006",
+        "check_in_time": "2025-12-20 19:23:54",
+        "check_out_time": "2025-12-20 20:04:54",
+        "duration_minutes": 41
     },
     {
-        "log_id": "A081451",
-        "member_id": "M63F6E5",
-        "check_in_time": "2025-11-10T12:46:00",
-        "check_out_time": "2025-11-10T14:12:00",
-        "duration_minutes": 86
-    },
-    {
-        "log_id": "A9FB29F",
-        "member_id": "M1D6AAF",
-        "check_in_time": "2025-11-11T10:43:00",
-        "check_out_time": "2025-11-11T11:48:00",
-        "duration_minutes": 65
-    },
-    {
-        "log_id": "A5E5B03",
-        "member_id": "M73FA89",
-        "check_in_time": "2025-10-25T19:51:00",
-        "check_out_time": "2025-10-25T20:58:00",
-        "duration_minutes": 67
-    },
-    {
-        "log_id": "AEDD51C",
-        "member_id": "M71E92F",
-        "check_in_time": "2025-11-06T11:07:00",
-        "check_out_time": "2025-11-06T12:48:00",
-        "duration_minutes": 101
-    },
-    {
-        "log_id": "ACE98E2",
-        "member_id": "MEE6EBF",
-        "check_in_time": "2025-11-08T20:40:00",
-        "check_out_time": "2025-11-08T21:10:00",
-        "duration_minutes": 30
-    },
-    {
-        "log_id": "A78A9C7",
-        "member_id": "M4E2439",
-        "check_in_time": "2025-11-20T19:39:00",
-        "check_out_time": "2025-11-20T21:02:00",
-        "duration_minutes": 83
-    },
-    {
-        "log_id": "A18715B",
-        "member_id": "M5E42C8",
-        "check_in_time": "2025-11-22T16:34:00",
-        "check_out_time": "2025-11-22T18:28:00",
-        "duration_minutes": 114
-    },
-    {
-        "log_id": "A41B60B",
-        "member_id": "M7401D1",
-        "check_in_time": "2025-11-07T06:54:00",
-        "check_out_time": "2025-11-07T07:45:00",
-        "duration_minutes": 51
-    },
-    {
-        "log_id": "AC5CB69",
-        "member_id": "MCEFEF3",
-        "check_in_time": "2025-11-19T09:30:00",
-        "check_out_time": "2025-11-19T10:13:00",
-        "duration_minutes": 43
-    },
-    {
-        "log_id": "AF91963",
-        "member_id": "MD17AEF",
-        "check_in_time": "2025-11-21T20:02:00",
-        "check_out_time": "2025-11-21T20:45:00",
-        "duration_minutes": 43
-    },
-    {
-        "log_id": "AA68CCA",
-        "member_id": "M718F85",
-        "check_in_time": "2025-10-28T19:58:00",
-        "check_out_time": "2025-10-28T21:04:00",
+        "log_id": "A00018",
+        "member_id": "M006",
+        "check_in_time": "2025-11-22 14:18:54",
+        "check_out_time": "2025-11-22 15:24:54",
         "duration_minutes": 66
     },
     {
-        "log_id": "A6A802C",
-        "member_id": "MDE00F1",
-        "check_in_time": "2025-11-07T11:15:00",
-        "check_out_time": "2025-11-07T13:00:00",
-        "duration_minutes": 105
+        "log_id": "A00019",
+        "member_id": "M006",
+        "check_in_time": "2025-12-10 19:18:54",
+        "check_out_time": "2025-12-10 19:59:54",
+        "duration_minutes": 41
     },
     {
-        "log_id": "A0874DE",
-        "member_id": "MC4726C",
-        "check_in_time": "2025-11-07T17:46:00",
-        "check_out_time": "2025-11-07T19:27:00",
-        "duration_minutes": 101
+        "log_id": "A00020",
+        "member_id": "M006",
+        "check_in_time": "2025-12-21 12:27:54",
+        "check_out_time": "2025-12-21 14:07:54",
+        "duration_minutes": 100
     },
     {
-        "log_id": "AA6C142",
-        "member_id": "M05A637",
-        "check_in_time": "2025-11-08T08:34:00",
-        "check_out_time": "2025-11-08T09:22:00",
-        "duration_minutes": 48
-    },
-    {
-        "log_id": "A4F7729",
-        "member_id": "MCE0D90",
-        "check_in_time": "2025-11-21T06:20:00",
-        "check_out_time": "2025-11-21T08:07:00",
-        "duration_minutes": 107
-    },
-    {
-        "log_id": "AA109DA",
-        "member_id": "M9AF782",
-        "check_in_time": "2025-11-18T19:12:00",
-        "check_out_time": "2025-11-18T20:34:00",
-        "duration_minutes": 82
-    },
-    {
-        "log_id": "A398099",
-        "member_id": "MA97F11",
-        "check_in_time": "2025-11-03T08:35:00",
-        "check_out_time": "2025-11-03T09:10:00",
-        "duration_minutes": 35
-    },
-    {
-        "log_id": "A33A08F",
-        "member_id": "MC4726C",
-        "check_in_time": "2025-11-05T06:21:00",
-        "check_out_time": "2025-11-05T07:32:00",
-        "duration_minutes": 71
-    },
-    {
-        "log_id": "A0526ED",
-        "member_id": "M63F6E5",
-        "check_in_time": "2025-11-21T07:15:00",
-        "check_out_time": "2025-11-21T08:53:00",
-        "duration_minutes": 98
-    },
-    {
-        "log_id": "A96764C",
-        "member_id": "M3D6B42",
-        "check_in_time": "2025-11-17T08:13:00",
-        "check_out_time": "2025-11-17T09:21:00",
-        "duration_minutes": 68
-    },
-    {
-        "log_id": "A04FCE5",
-        "member_id": "M05A637",
-        "check_in_time": "2025-11-08T15:08:00",
-        "check_out_time": "2025-11-08T16:35:00",
-        "duration_minutes": 87
-    },
-    {
-        "log_id": "AA598F2",
-        "member_id": "M50A0F0",
-        "check_in_time": "2025-11-18T09:11:00",
-        "check_out_time": "2025-11-18T11:01:00",
-        "duration_minutes": 110
-    },
-    {
-        "log_id": "AC1CE58",
-        "member_id": "M63F6E5",
-        "check_in_time": "2025-11-02T09:16:00",
-        "check_out_time": "2025-11-02T11:11:00",
-        "duration_minutes": 115
-    },
-    {
-        "log_id": "A0463CB",
-        "member_id": "MA7A6B5",
-        "check_in_time": "2025-10-30T14:48:00",
-        "check_out_time": "2025-10-30T16:35:00",
-        "duration_minutes": 107
-    },
-    {
-        "log_id": "ACA85FD",
-        "member_id": "MD17AEF",
-        "check_in_time": "2025-11-02T12:04:00",
-        "check_out_time": "2025-11-02T12:39:00",
-        "duration_minutes": 35
-    },
-    {
-        "log_id": "AC6FFCB",
-        "member_id": "M9AF782",
-        "check_in_time": "2025-11-13T10:02:00",
-        "check_out_time": "2025-11-13T11:33:00",
-        "duration_minutes": 91
-    },
-    {
-        "log_id": "A30699A",
-        "member_id": "M236045",
-        "check_in_time": "2025-11-01T11:30:00",
-        "check_out_time": "2025-11-01T12:50:00",
-        "duration_minutes": 80
-    },
-    {
-        "log_id": "A9A656D",
-        "member_id": "M5DEBCB",
-        "check_in_time": "2025-11-11T18:00:00",
-        "check_out_time": "2025-11-11T19:41:00",
-        "duration_minutes": 101
-    },
-    {
-        "log_id": "A45B89E",
-        "member_id": "M257BCD",
-        "check_in_time": "2025-11-04T07:32:00",
-        "check_out_time": "2025-11-04T08:03:00",
+        "log_id": "A00021",
+        "member_id": "M006",
+        "check_in_time": "2025-12-07 19:45:54",
+        "check_out_time": "2025-12-07 20:16:54",
         "duration_minutes": 31
     },
     {
-        "log_id": "A6A0447",
-        "member_id": "MC2E7FB",
-        "check_in_time": "2025-11-01T18:41:00",
-        "check_out_time": "2025-11-01T20:36:00",
-        "duration_minutes": 115
+        "log_id": "A00022",
+        "member_id": "M006",
+        "check_in_time": "2025-12-03 19:05:54",
+        "check_out_time": "2025-12-03 20:35:54",
+        "duration_minutes": 90
     },
     {
-        "log_id": "A333006",
-        "member_id": "M2A3F5F",
-        "check_in_time": "2025-11-10T08:42:00",
-        "check_out_time": "2025-11-10T09:21:00",
-        "duration_minutes": 39
+        "log_id": "A00023",
+        "member_id": "M008",
+        "check_in_time": "2025-12-07 14:19:54",
+        "check_out_time": "2025-12-07 15:52:54",
+        "duration_minutes": 93
     },
     {
-        "log_id": "A7A6B43",
-        "member_id": "MD9F876",
-        "check_in_time": "2025-10-30T11:34:00",
-        "check_out_time": "2025-10-30T12:21:00",
-        "duration_minutes": 47
-    },
-    {
-        "log_id": "A74BB82",
-        "member_id": "M63F6E5",
-        "check_in_time": "2025-11-06T16:04:00",
-        "check_out_time": "2025-11-06T17:41:00",
-        "duration_minutes": 97
-    },
-    {
-        "log_id": "A06270F",
-        "member_id": "MB11969",
-        "check_in_time": "2025-11-12T18:08:00",
-        "check_out_time": "2025-11-12T18:42:00",
-        "duration_minutes": 34
-    },
-    {
-        "log_id": "AC6AF39",
-        "member_id": "MC2E7FB",
-        "check_in_time": "2025-10-27T10:44:00",
-        "check_out_time": "2025-10-27T11:25:00",
+        "log_id": "A00024",
+        "member_id": "M008",
+        "check_in_time": "2025-12-20 18:18:54",
+        "check_out_time": "2025-12-20 18:59:54",
         "duration_minutes": 41
     },
     {
-        "log_id": "ACCD65C",
-        "member_id": "M4E2439",
-        "check_in_time": "2025-10-23T16:12:00",
-        "check_out_time": "2025-10-23T16:51:00",
-        "duration_minutes": 39
-    },
-    {
-        "log_id": "A9DF823",
-        "member_id": "M76903F",
-        "check_in_time": "2025-10-30T12:45:00",
-        "check_out_time": "2025-10-30T14:43:00",
-        "duration_minutes": 118
-    },
-    {
-        "log_id": "A3C9252",
-        "member_id": "M73FA89",
-        "check_in_time": "2025-10-30T14:59:00",
-        "check_out_time": "2025-10-30T16:55:00",
-        "duration_minutes": 116
-    },
-    {
-        "log_id": "A9D6744",
-        "member_id": "MEE6EBF",
-        "check_in_time": "2025-10-31T10:04:00",
-        "check_out_time": "2025-10-31T11:54:00",
-        "duration_minutes": 110
-    },
-    {
-        "log_id": "A637F2F",
-        "member_id": "M5DEBCB",
-        "check_in_time": "2025-11-08T20:07:00",
-        "check_out_time": "2025-11-08T21:18:00",
-        "duration_minutes": 71
-    },
-    {
-        "log_id": "A82FC9E",
-        "member_id": "M3D6B42",
-        "check_in_time": "2025-10-27T19:02:00",
-        "check_out_time": "2025-10-27T20:35:00",
-        "duration_minutes": 93
-    },
-    {
-        "log_id": "A861AEA",
-        "member_id": "MC2E7FB",
-        "check_in_time": "2025-10-25T07:07:00",
-        "check_out_time": "2025-10-25T07:52:00",
-        "duration_minutes": 45
-    },
-    {
-        "log_id": "A74343C",
-        "member_id": "M5DEBCB",
-        "check_in_time": "2025-10-30T10:30:00",
-        "check_out_time": "2025-10-30T12:03:00",
-        "duration_minutes": 93
-    },
-    {
-        "log_id": "A46EDBF",
-        "member_id": "MEA6628",
-        "check_in_time": "2025-10-31T12:45:00",
-        "check_out_time": "2025-10-31T14:25:00",
-        "duration_minutes": 100
-    },
-    {
-        "log_id": "AFCA6E4",
-        "member_id": "M05A637",
-        "check_in_time": "2025-11-06T10:17:00",
-        "check_out_time": "2025-11-06T11:33:00",
-        "duration_minutes": 76
-    },
-    {
-        "log_id": "ADF7090",
-        "member_id": "M435378",
-        "check_in_time": "2025-11-02T12:38:00",
-        "check_out_time": "2025-11-02T13:47:00",
-        "duration_minutes": 69
-    },
-    {
-        "log_id": "A144CF8",
-        "member_id": "MEA5395",
-        "check_in_time": "2025-11-15T16:39:00",
-        "check_out_time": "2025-11-15T18:00:00",
-        "duration_minutes": 81
-    },
-    {
-        "log_id": "A14218E",
-        "member_id": "MBCF74B",
-        "check_in_time": "2025-11-05T10:41:00",
-        "check_out_time": "2025-11-05T11:42:00",
-        "duration_minutes": 61
-    },
-    {
-        "log_id": "AA04D8B",
-        "member_id": "M718F85",
-        "check_in_time": "2025-10-26T14:47:00",
-        "check_out_time": "2025-10-26T16:13:00",
-        "duration_minutes": 86
-    },
-    {
-        "log_id": "AD74456",
-        "member_id": "M73FA89",
-        "check_in_time": "2025-11-05T11:50:00",
-        "check_out_time": "2025-11-05T13:46:00",
-        "duration_minutes": 116
-    },
-    {
-        "log_id": "A2DEF07",
-        "member_id": "M2D6983",
-        "check_in_time": "2025-11-12T08:15:00",
-        "check_out_time": "2025-11-12T09:25:00",
-        "duration_minutes": 70
-    },
-    {
-        "log_id": "AEE9987",
-        "member_id": "M2A3F5F",
-        "check_in_time": "2025-10-31T20:13:00",
-        "check_out_time": "2025-10-31T22:02:00",
-        "duration_minutes": 109
-    },
-    {
-        "log_id": "AFE77CE",
-        "member_id": "M896DF3",
-        "check_in_time": "2025-11-05T19:16:00",
-        "check_out_time": "2025-11-05T19:46:00",
-        "duration_minutes": 30
-    },
-    {
-        "log_id": "A6C2B1A",
-        "member_id": "MC2E7FB",
-        "check_in_time": "2025-11-10T06:19:00",
-        "check_out_time": "2025-11-10T08:11:00",
+        "log_id": "A00025",
+        "member_id": "M008",
+        "check_in_time": "2025-11-29 09:32:54",
+        "check_out_time": "2025-11-29 11:24:54",
         "duration_minutes": 112
     },
     {
-        "log_id": "AA5BF71",
-        "member_id": "MA97F11",
-        "check_in_time": "2025-10-26T10:56:00",
-        "check_out_time": "2025-10-26T12:33:00",
-        "duration_minutes": 97
-    },
-    {
-        "log_id": "ABD02F8",
-        "member_id": "MCE0D90",
-        "check_in_time": "2025-10-25T15:08:00",
-        "check_out_time": "2025-10-25T16:05:00",
-        "duration_minutes": 57
-    },
-    {
-        "log_id": "A8536BA",
-        "member_id": "M05A637",
-        "check_in_time": "2025-10-24T08:40:00",
-        "check_out_time": "2025-10-24T10:03:00",
-        "duration_minutes": 83
-    },
-    {
-        "log_id": "A0F7379",
-        "member_id": "M237811",
-        "check_in_time": "2025-11-09T08:58:00",
-        "check_out_time": "2025-11-09T09:55:00",
-        "duration_minutes": 57
-    },
-    {
-        "log_id": "A223551",
-        "member_id": "MCEFEF3",
-        "check_in_time": "2025-11-18T17:03:00",
-        "check_out_time": "2025-11-18T18:00:00",
-        "duration_minutes": 57
-    },
-    {
-        "log_id": "AEBCA79",
-        "member_id": "M257BCD",
-        "check_in_time": "2025-11-11T19:26:00",
-        "check_out_time": "2025-11-11T20:46:00",
-        "duration_minutes": 80
-    },
-    {
-        "log_id": "AC7222E",
-        "member_id": "MA97F11",
-        "check_in_time": "2025-11-04T13:57:00",
-        "check_out_time": "2025-11-04T15:32:00",
-        "duration_minutes": 95
-    },
-    {
-        "log_id": "ADFA218",
-        "member_id": "MEE6EBF",
-        "check_in_time": "2025-11-21T20:01:00",
-        "check_out_time": "2025-11-21T21:23:00",
-        "duration_minutes": 82
-    },
-    {
-        "log_id": "A430842",
-        "member_id": "ME8DE4D",
-        "check_in_time": "2025-11-20T09:27:00",
-        "check_out_time": "2025-11-20T10:01:00",
-        "duration_minutes": 34
-    },
-    {
-        "log_id": "A415022",
-        "member_id": "MBCF74B",
-        "check_in_time": "2025-11-13T17:58:00",
-        "check_out_time": "2025-11-13T19:19:00",
-        "duration_minutes": 81
-    },
-    {
-        "log_id": "A0A3A73",
-        "member_id": "MEA6628",
-        "check_in_time": "2025-11-15T18:45:00",
-        "check_out_time": "2025-11-15T19:55:00",
-        "duration_minutes": 70
-    },
-    {
-        "log_id": "A110E4B",
-        "member_id": "MA703EB",
-        "check_in_time": "2025-11-20T19:11:00",
-        "check_out_time": "2025-11-20T21:09:00",
-        "duration_minutes": 118
-    },
-    {
-        "log_id": "A1537A0",
-        "member_id": "M257BCD",
-        "check_in_time": "2025-10-26T06:38:00",
-        "check_out_time": "2025-10-26T08:35:00",
-        "duration_minutes": 117
-    },
-    {
-        "log_id": "A10F7C8",
-        "member_id": "MA703EB",
-        "check_in_time": "2025-10-29T07:46:00",
-        "check_out_time": "2025-10-29T08:53:00",
-        "duration_minutes": 67
-    },
-    {
-        "log_id": "AAFCD4B",
-        "member_id": "MB11969",
-        "check_in_time": "2025-10-26T10:17:00",
-        "check_out_time": "2025-10-26T12:13:00",
-        "duration_minutes": 116
-    },
-    {
-        "log_id": "A6F0EEE",
-        "member_id": "MEE6EBF",
-        "check_in_time": "2025-11-13T09:20:00",
-        "check_out_time": "2025-11-13T09:55:00",
-        "duration_minutes": 35
-    },
-    {
-        "log_id": "AED46F9",
-        "member_id": "M2A3F5F",
-        "check_in_time": "2025-10-25T16:02:00",
-        "check_out_time": "2025-10-25T17:55:00",
-        "duration_minutes": 113
-    },
-    {
-        "log_id": "A3AFA6F",
-        "member_id": "MEE6EBF",
-        "check_in_time": "2025-11-22T12:25:00",
-        "check_out_time": "2025-11-22T14:24:00",
-        "duration_minutes": 119
-    },
-    {
-        "log_id": "ADC40AF",
-        "member_id": "M237811",
-        "check_in_time": "2025-11-08T06:15:00",
-        "check_out_time": "2025-11-08T07:10:00",
-        "duration_minutes": 55
-    },
-    {
-        "log_id": "A658ED9",
-        "member_id": "MA97F11",
-        "check_in_time": "2025-11-16T15:33:00",
-        "check_out_time": "2025-11-16T16:52:00",
-        "duration_minutes": 79
-    },
-    {
-        "log_id": "ACA4C3F",
-        "member_id": "MD17AEF",
-        "check_in_time": "2025-10-28T08:00:00",
-        "check_out_time": "2025-10-28T08:39:00",
-        "duration_minutes": 39
-    },
-    {
-        "log_id": "A2E7E20",
-        "member_id": "M257BCD",
-        "check_in_time": "2025-11-09T18:31:00",
-        "check_out_time": "2025-11-09T19:18:00",
-        "duration_minutes": 47
-    },
-    {
-        "log_id": "A0E57B6",
-        "member_id": "M435378",
-        "check_in_time": "2025-11-07T16:18:00",
-        "check_out_time": "2025-11-07T17:41:00",
-        "duration_minutes": 83
-    },
-    {
-        "log_id": "A8EA3BA",
-        "member_id": "M892697",
-        "check_in_time": "2025-11-03T17:03:00",
-        "check_out_time": "2025-11-03T18:56:00",
-        "duration_minutes": 113
-    },
-    {
-        "log_id": "A602D4F",
-        "member_id": "M532E2A",
-        "check_in_time": "2025-11-12T19:15:00",
-        "check_out_time": "2025-11-12T20:56:00",
-        "duration_minutes": 101
-    },
-    {
-        "log_id": "A9BB36D",
-        "member_id": "MEA6628",
-        "check_in_time": "2025-11-15T11:03:00",
-        "check_out_time": "2025-11-15T12:44:00",
-        "duration_minutes": 101
-    },
-    {
-        "log_id": "AB15D7A",
-        "member_id": "M7401D1",
-        "check_in_time": "2025-11-21T13:40:00",
-        "check_out_time": "2025-11-21T14:47:00",
-        "duration_minutes": 67
-    },
-    {
-        "log_id": "A35EB66",
-        "member_id": "M718F85",
-        "check_in_time": "2025-11-03T14:53:00",
-        "check_out_time": "2025-11-03T16:50:00",
-        "duration_minutes": 117
-    },
-    {
-        "log_id": "A8AFB39",
-        "member_id": "M77708B",
-        "check_in_time": "2025-11-21T10:50:00",
-        "check_out_time": "2025-11-21T12:33:00",
-        "duration_minutes": 103
-    },
-    {
-        "log_id": "AF54F72",
-        "member_id": "M76903F",
-        "check_in_time": "2025-11-17T17:58:00",
-        "check_out_time": "2025-11-17T18:30:00",
-        "duration_minutes": 32
-    },
-    {
-        "log_id": "A44A28A",
-        "member_id": "M1CA1AE",
-        "check_in_time": "2025-10-30T16:00:00",
-        "check_out_time": "2025-10-30T17:08:00",
-        "duration_minutes": 68
-    },
-    {
-        "log_id": "A86E395",
-        "member_id": "M892697",
-        "check_in_time": "2025-11-04T17:37:00",
-        "check_out_time": "2025-11-04T18:25:00",
-        "duration_minutes": 48
-    },
-    {
-        "log_id": "AAA7269",
-        "member_id": "MD17AEF",
-        "check_in_time": "2025-11-22T20:15:00",
-        "check_out_time": "2025-11-22T21:12:00",
-        "duration_minutes": 57
-    },
-    {
-        "log_id": "AF6923A",
-        "member_id": "M6BFC30",
-        "check_in_time": "2025-10-28T14:17:00",
-        "check_out_time": "2025-10-28T15:12:00",
-        "duration_minutes": 55
-    },
-    {
-        "log_id": "AD00EA8",
-        "member_id": "M1D6AAF",
-        "check_in_time": "2025-11-14T18:01:00",
-        "check_out_time": "2025-11-14T18:40:00",
-        "duration_minutes": 39
-    },
-    {
-        "log_id": "A364A1A",
-        "member_id": "MA7A6B5",
-        "check_in_time": "2025-11-18T11:29:00",
-        "check_out_time": "2025-11-18T13:24:00",
-        "duration_minutes": 115
-    },
-    {
-        "log_id": "A6A53D3",
-        "member_id": "MA703EB",
-        "check_in_time": "2025-11-15T10:45:00",
-        "check_out_time": "2025-11-15T12:07:00",
-        "duration_minutes": 82
-    },
-    {
-        "log_id": "A0F50AD",
-        "member_id": "M05A637",
-        "check_in_time": "2025-11-15T06:56:00",
-        "check_out_time": "2025-11-15T08:18:00",
-        "duration_minutes": 82
-    },
-    {
-        "log_id": "AA2BD02",
-        "member_id": "M4E2439",
-        "check_in_time": "2025-11-21T06:06:00",
-        "check_out_time": "2025-11-21T06:39:00",
-        "duration_minutes": 33
-    },
-    {
-        "log_id": "A86D5DE",
-        "member_id": "M5DEBCB",
-        "check_in_time": "2025-10-30T12:51:00",
-        "check_out_time": "2025-10-30T14:22:00",
-        "duration_minutes": 91
-    },
-    {
-        "log_id": "A60B5FE",
-        "member_id": "MA445DC",
-        "check_in_time": "2025-11-19T07:41:00",
-        "check_out_time": "2025-11-19T08:31:00",
-        "duration_minutes": 50
-    },
-    {
-        "log_id": "A2E8775",
-        "member_id": "MA703EB",
-        "check_in_time": "2025-11-02T13:16:00",
-        "check_out_time": "2025-11-02T15:12:00",
-        "duration_minutes": 116
-    },
-    {
-        "log_id": "A51F19F",
-        "member_id": "MA445DC",
-        "check_in_time": "2025-11-05T18:15:00",
-        "check_out_time": "2025-11-05T19:26:00",
-        "duration_minutes": 71
-    },
-    {
-        "log_id": "AD94350",
-        "member_id": "MEE6EBF",
-        "check_in_time": "2025-11-06T14:34:00",
-        "check_out_time": "2025-11-06T15:24:00",
-        "duration_minutes": 50
-    },
-    {
-        "log_id": "A5EFEE2",
-        "member_id": "M892697",
-        "check_in_time": "2025-11-02T20:51:00",
-        "check_out_time": "2025-11-02T22:07:00",
-        "duration_minutes": 76
-    },
-    {
-        "log_id": "A774256",
-        "member_id": "M3D6B42",
-        "check_in_time": "2025-11-15T14:06:00",
-        "check_out_time": "2025-11-15T15:36:00",
-        "duration_minutes": 90
-    },
-    {
-        "log_id": "ACBA624",
-        "member_id": "MA97F11",
-        "check_in_time": "2025-11-12T15:51:00",
-        "check_out_time": "2025-11-12T16:48:00",
-        "duration_minutes": 57
-    },
-    {
-        "log_id": "AEDE876",
-        "member_id": "M63F6E5",
-        "check_in_time": "2025-11-20T06:19:00",
-        "check_out_time": "2025-11-20T08:17:00",
-        "duration_minutes": 118
-    },
-    {
-        "log_id": "A990F56",
-        "member_id": "M71E92F",
-        "check_in_time": "2025-11-15T17:39:00",
-        "check_out_time": "2025-11-15T19:25:00",
-        "duration_minutes": 106
-    },
-    {
-        "log_id": "A07574E",
-        "member_id": "M5E42C8",
-        "check_in_time": "2025-11-10T12:29:00",
-        "check_out_time": "2025-11-10T13:57:00",
-        "duration_minutes": 88
-    },
-    {
-        "log_id": "A2B75B2",
-        "member_id": "M71E92F",
-        "check_in_time": "2025-11-19T15:39:00",
-        "check_out_time": "2025-11-19T16:32:00",
-        "duration_minutes": 53
-    },
-    {
-        "log_id": "ADB2432",
-        "member_id": "M435378",
-        "check_in_time": "2025-10-27T12:12:00",
-        "check_out_time": "2025-10-27T14:07:00",
-        "duration_minutes": 115
-    },
-    {
-        "log_id": "A2C2801",
-        "member_id": "MA703EB",
-        "check_in_time": "2025-11-20T10:07:00",
-        "check_out_time": "2025-11-20T11:28:00",
-        "duration_minutes": 81
-    },
-    {
-        "log_id": "A14C9B8",
-        "member_id": "M236045",
-        "check_in_time": "2025-11-16T12:04:00",
-        "check_out_time": "2025-11-16T13:31:00",
-        "duration_minutes": 87
-    },
-    {
-        "log_id": "A453304",
-        "member_id": "M4E2439",
-        "check_in_time": "2025-10-28T14:56:00",
-        "check_out_time": "2025-10-28T16:22:00",
-        "duration_minutes": 86
-    },
-    {
-        "log_id": "AAEE986",
-        "member_id": "M739F17",
-        "check_in_time": "2025-11-06T11:48:00",
-        "check_out_time": "2025-11-06T13:46:00",
-        "duration_minutes": 118
-    },
-    {
-        "log_id": "AA20F9E",
-        "member_id": "MBCF74B",
-        "check_in_time": "2025-10-26T16:38:00",
-        "check_out_time": "2025-10-26T18:17:00",
-        "duration_minutes": 99
-    },
-    {
-        "log_id": "A036A74",
-        "member_id": "M896DF3",
-        "check_in_time": "2025-10-31T07:49:00",
-        "check_out_time": "2025-10-31T08:28:00",
-        "duration_minutes": 39
-    },
-    {
-        "log_id": "A7DD5D0",
-        "member_id": "MB11969",
-        "check_in_time": "2025-11-08T16:18:00",
-        "check_out_time": "2025-11-08T17:48:00",
-        "duration_minutes": 90
-    },
-    {
-        "log_id": "A12E9BC",
-        "member_id": "MEA6628",
-        "check_in_time": "2025-11-13T12:25:00",
-        "check_out_time": "2025-11-13T13:21:00",
-        "duration_minutes": 56
-    },
-    {
-        "log_id": "A7FD058",
-        "member_id": "M63F6E5",
-        "check_in_time": "2025-10-30T08:48:00",
-        "check_out_time": "2025-10-30T09:33:00",
-        "duration_minutes": 45
-    },
-    {
-        "log_id": "A7A7FCB",
-        "member_id": "M718F85",
-        "check_in_time": "2025-11-19T08:19:00",
-        "check_out_time": "2025-11-19T08:59:00",
-        "duration_minutes": 40
-    },
-    {
-        "log_id": "A045B66",
-        "member_id": "MA97F11",
-        "check_in_time": "2025-11-16T07:54:00",
-        "check_out_time": "2025-11-16T09:11:00",
-        "duration_minutes": 77
-    },
-    {
-        "log_id": "A06FF0D",
-        "member_id": "M50A0F0",
-        "check_in_time": "2025-11-16T11:22:00",
-        "check_out_time": "2025-11-16T12:02:00",
-        "duration_minutes": 40
-    },
-    {
-        "log_id": "A47957C",
-        "member_id": "MD17AEF",
-        "check_in_time": "2025-11-01T19:03:00",
-        "check_out_time": "2025-11-01T19:45:00",
-        "duration_minutes": 42
-    },
-    {
-        "log_id": "A7F6783",
-        "member_id": "M892697",
-        "check_in_time": "2025-11-21T09:28:00",
-        "check_out_time": "2025-11-21T11:02:00",
-        "duration_minutes": 94
-    },
-    {
-        "log_id": "A323CDD",
-        "member_id": "M890463",
-        "check_in_time": "2025-11-04T14:21:00",
-        "check_out_time": "2025-11-04T15:11:00",
-        "duration_minutes": 50
-    },
-    {
-        "log_id": "A82CA02",
-        "member_id": "MCE0D90",
-        "check_in_time": "2025-10-23T14:50:00",
-        "check_out_time": "2025-10-23T15:50:00",
-        "duration_minutes": 60
-    },
-    {
-        "log_id": "AE79A95",
-        "member_id": "MC2E7FB",
-        "check_in_time": "2025-11-22T09:35:00",
-        "check_out_time": "2025-11-22T11:22:00",
-        "duration_minutes": 107
-    },
-    {
-        "log_id": "AD56675",
-        "member_id": "M2D6983",
-        "check_in_time": "2025-11-10T13:13:00",
-        "check_out_time": "2025-11-10T14:40:00",
-        "duration_minutes": 87
-    },
-    {
-        "log_id": "A58F16D",
-        "member_id": "M7401D1",
-        "check_in_time": "2025-11-21T16:46:00",
-        "check_out_time": "2025-11-21T18:08:00",
-        "duration_minutes": 82
-    },
-    {
-        "log_id": "AB09F4D",
-        "member_id": "M71E92F",
-        "check_in_time": "2025-11-02T13:44:00",
-        "check_out_time": "2025-11-02T15:09:00",
-        "duration_minutes": 85
-    },
-    {
-        "log_id": "A5206A8",
-        "member_id": "M532E2A",
-        "check_in_time": "2025-11-18T13:11:00",
-        "check_out_time": "2025-11-18T14:05:00",
-        "duration_minutes": 54
-    },
-    {
-        "log_id": "A756EFE",
-        "member_id": "M77708B",
-        "check_in_time": "2025-11-21T08:06:00",
-        "check_out_time": "2025-11-21T09:11:00",
-        "duration_minutes": 65
-    },
-    {
-        "log_id": "AD27DBF",
-        "member_id": "MD9F876",
-        "check_in_time": "2025-11-21T17:01:00",
-        "check_out_time": "2025-11-21T19:01:00",
-        "duration_minutes": 120
-    },
-    {
-        "log_id": "A0B6A49",
-        "member_id": "M236045",
-        "check_in_time": "2025-11-13T11:54:00",
-        "check_out_time": "2025-11-13T13:06:00",
-        "duration_minutes": 72
-    },
-    {
-        "log_id": "A5A0847",
-        "member_id": "ME8DE4D",
-        "check_in_time": "2025-11-10T16:32:00",
-        "check_out_time": "2025-11-10T17:39:00",
-        "duration_minutes": 67
-    },
-    {
-        "log_id": "A0671CC",
-        "member_id": "M257BCD",
-        "check_in_time": "2025-10-25T13:42:00",
-        "check_out_time": "2025-10-25T14:40:00",
-        "duration_minutes": 58
-    },
-    {
-        "log_id": "A774F74",
-        "member_id": "MCEFEF3",
-        "check_in_time": "2025-10-25T17:23:00",
-        "check_out_time": "2025-10-25T18:29:00",
-        "duration_minutes": 66
-    },
-    {
-        "log_id": "AECBBE1",
-        "member_id": "MF70637",
-        "check_in_time": "2025-11-02T13:42:00",
-        "check_out_time": "2025-11-02T15:00:00",
-        "duration_minutes": 78
-    },
-    {
-        "log_id": "AE09514",
-        "member_id": "MA7A6B5",
-        "check_in_time": "2025-11-04T11:38:00",
-        "check_out_time": "2025-11-04T12:43:00",
-        "duration_minutes": 65
-    },
-    {
-        "log_id": "A9710BD",
-        "member_id": "M896DF3",
-        "check_in_time": "2025-10-23T15:48:00",
-        "check_out_time": "2025-10-23T17:15:00",
-        "duration_minutes": 87
-    },
-    {
-        "log_id": "ABF2A2D",
-        "member_id": "MF70637",
-        "check_in_time": "2025-11-07T13:04:00",
-        "check_out_time": "2025-11-07T13:57:00",
-        "duration_minutes": 53
-    },
-    {
-        "log_id": "A7E3959",
-        "member_id": "M77708B",
-        "check_in_time": "2025-11-09T16:09:00",
-        "check_out_time": "2025-11-09T17:02:00",
-        "duration_minutes": 53
-    },
-    {
-        "log_id": "A8B1684",
-        "member_id": "M896DF3",
-        "check_in_time": "2025-11-10T09:50:00",
-        "check_out_time": "2025-11-10T11:44:00",
-        "duration_minutes": 114
-    },
-    {
-        "log_id": "A5D4173",
-        "member_id": "M77708B",
-        "check_in_time": "2025-11-15T15:58:00",
-        "check_out_time": "2025-11-15T17:20:00",
-        "duration_minutes": 82
-    },
-    {
-        "log_id": "A633F4B",
-        "member_id": "M63F6E5",
-        "check_in_time": "2025-10-30T06:02:00",
-        "check_out_time": "2025-10-30T06:50:00",
-        "duration_minutes": 48
-    },
-    {
-        "log_id": "A9F44B3",
-        "member_id": "M5DEBCB",
-        "check_in_time": "2025-11-03T16:43:00",
-        "check_out_time": "2025-11-03T17:47:00",
-        "duration_minutes": 64
-    },
-    {
-        "log_id": "AAFD975",
-        "member_id": "MA7A6B5",
-        "check_in_time": "2025-11-07T13:21:00",
-        "check_out_time": "2025-11-07T14:09:00",
-        "duration_minutes": 48
-    },
-    {
-        "log_id": "A20701A",
-        "member_id": "MA7A6B5",
-        "check_in_time": "2025-10-25T16:23:00",
-        "check_out_time": "2025-10-25T17:46:00",
-        "duration_minutes": 83
-    },
-    {
-        "log_id": "A441A63",
-        "member_id": "M1CA1AE",
-        "check_in_time": "2025-11-11T18:15:00",
-        "check_out_time": "2025-11-11T20:11:00",
-        "duration_minutes": 116
-    },
-    {
-        "log_id": "A750AC7",
-        "member_id": "M50A0F0",
-        "check_in_time": "2025-11-19T12:46:00",
-        "check_out_time": "2025-11-19T13:44:00",
-        "duration_minutes": 58
-    },
-    {
-        "log_id": "A004BB9",
-        "member_id": "ME8DE4D",
-        "check_in_time": "2025-10-29T07:09:00",
-        "check_out_time": "2025-10-29T08:34:00",
-        "duration_minutes": 85
-    },
-    {
-        "log_id": "A4F976D",
-        "member_id": "M76903F",
-        "check_in_time": "2025-11-19T16:39:00",
-        "check_out_time": "2025-11-19T17:24:00",
-        "duration_minutes": 45
-    },
-    {
-        "log_id": "AAEE11C",
-        "member_id": "M1C9E83",
-        "check_in_time": "2025-11-08T19:22:00",
-        "check_out_time": "2025-11-08T19:56:00",
-        "duration_minutes": 34
-    },
-    {
-        "log_id": "A5C3A46",
-        "member_id": "M892697",
-        "check_in_time": "2025-10-29T15:14:00",
-        "check_out_time": "2025-10-29T16:03:00",
-        "duration_minutes": 49
-    },
-    {
-        "log_id": "A545EBB",
-        "member_id": "M1CA1AE",
-        "check_in_time": "2025-11-20T14:28:00",
-        "check_out_time": "2025-11-20T15:41:00",
+        "log_id": "A00026",
+        "member_id": "M008",
+        "check_in_time": "2025-11-25 20:07:54",
+        "check_out_time": "2025-11-25 21:20:54",
         "duration_minutes": 73
     },
     {
-        "log_id": "A05C782",
-        "member_id": "M73FA89",
-        "check_in_time": "2025-11-19T07:47:00",
-        "check_out_time": "2025-11-19T08:26:00",
-        "duration_minutes": 39
+        "log_id": "A00027",
+        "member_id": "M008",
+        "check_in_time": "2025-12-04 13:59:54",
+        "check_out_time": "2025-12-04 15:40:54",
+        "duration_minutes": 101
     },
     {
-        "log_id": "AD8F1FC",
-        "member_id": "M435378",
-        "check_in_time": "2025-11-20T15:26:00",
-        "check_out_time": "2025-11-20T16:01:00",
-        "duration_minutes": 35
-    },
-    {
-        "log_id": "AF72112",
-        "member_id": "M3D6B42",
-        "check_in_time": "2025-11-11T19:06:00",
-        "check_out_time": "2025-11-11T20:06:00",
-        "duration_minutes": 60
-    },
-    {
-        "log_id": "AB94DF4",
-        "member_id": "MF70637",
-        "check_in_time": "2025-11-14T16:14:00",
-        "check_out_time": "2025-11-14T17:02:00",
+        "log_id": "A00028",
+        "member_id": "M010",
+        "check_in_time": "2025-12-02 18:17:54",
+        "check_out_time": "2025-12-02 19:05:54",
         "duration_minutes": 48
     },
     {
-        "log_id": "A14AA43",
-        "member_id": "M1D6AAF",
-        "check_in_time": "2025-11-13T19:31:00",
-        "check_out_time": "2025-11-13T21:10:00",
-        "duration_minutes": 99
-    },
-    {
-        "log_id": "ADDF151",
-        "member_id": "M3D6B42",
-        "check_in_time": "2025-10-27T17:45:00",
-        "check_out_time": "2025-10-27T18:53:00",
-        "duration_minutes": 68
-    },
-    {
-        "log_id": "A0C6275",
-        "member_id": "M718F85",
-        "check_in_time": "2025-10-23T11:47:00",
-        "check_out_time": "2025-10-23T12:26:00",
-        "duration_minutes": 39
-    },
-    {
-        "log_id": "AB9C830",
-        "member_id": "MC2E7FB",
-        "check_in_time": "2025-11-09T15:23:00",
-        "check_out_time": "2025-11-09T16:25:00",
-        "duration_minutes": 62
-    },
-    {
-        "log_id": "A13A7DF",
-        "member_id": "M6BFC30",
-        "check_in_time": "2025-10-26T11:49:00",
-        "check_out_time": "2025-10-26T12:51:00",
-        "duration_minutes": 62
-    },
-    {
-        "log_id": "AE475D8",
-        "member_id": "M1D6AAF",
-        "check_in_time": "2025-11-05T19:11:00",
-        "check_out_time": "2025-11-05T20:42:00",
-        "duration_minutes": 91
-    },
-    {
-        "log_id": "AD4DFC0",
-        "member_id": "M2D6983",
-        "check_in_time": "2025-11-14T08:03:00",
-        "check_out_time": "2025-11-14T08:58:00",
-        "duration_minutes": 55
-    },
-    {
-        "log_id": "ADFD8FE",
-        "member_id": "M05A637",
-        "check_in_time": "2025-10-25T20:41:00",
-        "check_out_time": "2025-10-25T21:50:00",
-        "duration_minutes": 69
-    },
-    {
-        "log_id": "AA4BF2E",
-        "member_id": "MEE6EBF",
-        "check_in_time": "2025-10-29T20:32:00",
-        "check_out_time": "2025-10-29T21:41:00",
-        "duration_minutes": 69
-    },
-    {
-        "log_id": "AD110D1",
-        "member_id": "MEA6628",
-        "check_in_time": "2025-11-19T13:34:00",
-        "check_out_time": "2025-11-19T14:43:00",
-        "duration_minutes": 69
-    },
-    {
-        "log_id": "AAA17FE",
-        "member_id": "M718F85",
-        "check_in_time": "2025-11-18T09:23:00",
-        "check_out_time": "2025-11-18T10:47:00",
-        "duration_minutes": 84
-    },
-    {
-        "log_id": "A854796",
-        "member_id": "M9AF782",
-        "check_in_time": "2025-11-18T07:40:00",
-        "check_out_time": "2025-11-18T09:32:00",
-        "duration_minutes": 112
-    },
-    {
-        "log_id": "AF95607",
-        "member_id": "M435378",
-        "check_in_time": "2025-11-17T15:30:00",
-        "check_out_time": "2025-11-17T17:09:00",
-        "duration_minutes": 99
-    },
-    {
-        "log_id": "A974503",
-        "member_id": "M73FA89",
-        "check_in_time": "2025-11-04T17:45:00",
-        "check_out_time": "2025-11-04T18:27:00",
-        "duration_minutes": 42
-    },
-    {
-        "log_id": "A2B675C",
-        "member_id": "M890463",
-        "check_in_time": "2025-11-21T08:45:00",
-        "check_out_time": "2025-11-21T09:37:00",
-        "duration_minutes": 52
-    },
-    {
-        "log_id": "AAB474E",
-        "member_id": "M892697",
-        "check_in_time": "2025-11-13T13:27:00",
-        "check_out_time": "2025-11-13T15:00:00",
-        "duration_minutes": 93
-    },
-    {
-        "log_id": "A7C94D6",
-        "member_id": "M2D6983",
-        "check_in_time": "2025-11-14T18:20:00",
-        "check_out_time": "2025-11-14T18:54:00",
+        "log_id": "A00029",
+        "member_id": "M010",
+        "check_in_time": "2025-12-03 19:12:54",
+        "check_out_time": "2025-12-03 19:46:54",
         "duration_minutes": 34
     },
     {
-        "log_id": "AB6034F",
-        "member_id": "M71E92F",
-        "check_in_time": "2025-11-19T16:51:00",
-        "check_out_time": "2025-11-19T17:58:00",
-        "duration_minutes": 67
+        "log_id": "A00030",
+        "member_id": "M010",
+        "check_in_time": "2025-12-16 07:42:54",
+        "check_out_time": "2025-12-16 08:21:54",
+        "duration_minutes": 39
     },
     {
-        "log_id": "AF3EC29",
-        "member_id": "M532E2A",
-        "check_in_time": "2025-10-29T10:04:00",
-        "check_out_time": "2025-10-29T11:56:00",
-        "duration_minutes": 112
+        "log_id": "A00031",
+        "member_id": "M010",
+        "check_in_time": "2025-12-07 16:46:54",
+        "check_out_time": "2025-12-07 17:52:54",
+        "duration_minutes": 66
     },
     {
-        "log_id": "AD30C00",
-        "member_id": "M9AF782",
-        "check_in_time": "2025-10-29T10:27:00",
-        "check_out_time": "2025-10-29T11:44:00",
-        "duration_minutes": 77
+        "log_id": "A00032",
+        "member_id": "M010",
+        "check_in_time": "2025-11-29 17:39:54",
+        "check_out_time": "2025-11-29 18:33:54",
+        "duration_minutes": 54
     },
     {
-        "log_id": "A8129F3",
-        "member_id": "ME8DE4D",
-        "check_in_time": "2025-10-25T11:14:00",
-        "check_out_time": "2025-10-25T13:10:00",
-        "duration_minutes": 116
+        "log_id": "A00033",
+        "member_id": "M011",
+        "check_in_time": "2025-12-21 13:42:54",
+        "check_out_time": "2025-12-21 14:33:54",
+        "duration_minutes": 51
     },
     {
-        "log_id": "ABCC929",
-        "member_id": "M73FA89",
-        "check_in_time": "2025-11-15T15:58:00",
-        "check_out_time": "2025-11-15T16:50:00",
-        "duration_minutes": 52
+        "log_id": "A00034",
+        "member_id": "M011",
+        "check_in_time": "2025-12-01 19:14:54",
+        "check_out_time": "2025-12-01 20:55:54",
+        "duration_minutes": 101
     },
     {
-        "log_id": "ABF2B7E",
-        "member_id": "M2A3F5F",
-        "check_in_time": "2025-10-23T10:58:00",
-        "check_out_time": "2025-10-23T11:33:00",
-        "duration_minutes": 35
+        "log_id": "A00035",
+        "member_id": "M011",
+        "check_in_time": "2025-12-07 19:23:54",
+        "check_out_time": "2025-12-07 21:04:54",
+        "duration_minutes": 101
     },
     {
-        "log_id": "A071ADB",
-        "member_id": "MDE00F1",
-        "check_in_time": "2025-11-20T07:29:00",
-        "check_out_time": "2025-11-20T08:04:00",
-        "duration_minutes": 35
+        "log_id": "A00036",
+        "member_id": "M011",
+        "check_in_time": "2025-12-05 12:14:54",
+        "check_out_time": "2025-12-05 12:45:54",
+        "duration_minutes": 31
     },
     {
-        "log_id": "A096B35",
-        "member_id": "MBCF74B",
-        "check_in_time": "2025-10-26T19:50:00",
-        "check_out_time": "2025-10-26T21:14:00",
-        "duration_minutes": 84
-    },
-    {
-        "log_id": "AAC4D8F",
-        "member_id": "MA7A6B5",
-        "check_in_time": "2025-11-19T20:56:00",
-        "check_out_time": "2025-11-19T22:19:00",
+        "log_id": "A00037",
+        "member_id": "M013",
+        "check_in_time": "2025-12-06 15:57:54",
+        "check_out_time": "2025-12-06 17:20:54",
         "duration_minutes": 83
     },
     {
-        "log_id": "A59DFF7",
-        "member_id": "M5DEBCB",
-        "check_in_time": "2025-11-20T10:45:00",
-        "check_out_time": "2025-11-20T11:34:00",
-        "duration_minutes": 49
+        "log_id": "A00038",
+        "member_id": "M013",
+        "check_in_time": "2025-11-28 16:42:54",
+        "check_out_time": "2025-11-28 18:39:54",
+        "duration_minutes": 117
     },
     {
-        "log_id": "A8CEDE2",
-        "member_id": "MD17AEF",
-        "check_in_time": "2025-11-10T15:05:00",
-        "check_out_time": "2025-11-10T16:56:00",
+        "log_id": "A00039",
+        "member_id": "M013",
+        "check_in_time": "2025-12-17 14:20:54",
+        "check_out_time": "2025-12-17 15:57:54",
+        "duration_minutes": 97
+    },
+    {
+        "log_id": "A00040",
+        "member_id": "M013",
+        "check_in_time": "2025-12-09 19:40:54",
+        "check_out_time": "2025-12-09 20:38:54",
+        "duration_minutes": 58
+    },
+    {
+        "log_id": "A00041",
+        "member_id": "M013",
+        "check_in_time": "2025-12-12 07:16:54",
+        "check_out_time": "2025-12-12 08:42:54",
+        "duration_minutes": 86
+    },
+    {
+        "log_id": "A00042",
+        "member_id": "M014",
+        "check_in_time": "2025-11-27 18:31:54",
+        "check_out_time": "2025-11-27 19:04:54",
+        "duration_minutes": 33
+    },
+    {
+        "log_id": "A00043",
+        "member_id": "M014",
+        "check_in_time": "2025-12-15 16:54:54",
+        "check_out_time": "2025-12-15 17:34:54",
+        "duration_minutes": 40
+    },
+    {
+        "log_id": "A00044",
+        "member_id": "M015",
+        "check_in_time": "2025-11-22 11:15:54",
+        "check_out_time": "2025-11-22 12:38:54",
+        "duration_minutes": 83
+    },
+    {
+        "log_id": "A00045",
+        "member_id": "M015",
+        "check_in_time": "2025-11-23 10:49:54",
+        "check_out_time": "2025-11-23 11:35:54",
+        "duration_minutes": 46
+    },
+    {
+        "log_id": "A00046",
+        "member_id": "M015",
+        "check_in_time": "2025-12-14 13:26:54",
+        "check_out_time": "2025-12-14 14:22:54",
+        "duration_minutes": 56
+    },
+    {
+        "log_id": "A00047",
+        "member_id": "M015",
+        "check_in_time": "2025-11-23 12:47:54",
+        "check_out_time": "2025-11-23 14:23:54",
+        "duration_minutes": 96
+    },
+    {
+        "log_id": "A00048",
+        "member_id": "M015",
+        "check_in_time": "2025-11-24 08:59:54",
+        "check_out_time": "2025-11-24 10:14:54",
+        "duration_minutes": 75
+    },
+    {
+        "log_id": "A00049",
+        "member_id": "M015",
+        "check_in_time": "2025-12-20 17:47:54",
+        "check_out_time": "2025-12-20 19:18:54",
+        "duration_minutes": 91
+    },
+    {
+        "log_id": "A00050",
+        "member_id": "M015",
+        "check_in_time": "2025-12-01 16:59:54",
+        "check_out_time": "2025-12-01 18:44:54",
+        "duration_minutes": 105
+    },
+    {
+        "log_id": "A00051",
+        "member_id": "M015",
+        "check_in_time": "2025-11-26 19:15:54",
+        "check_out_time": "2025-11-26 21:06:54",
         "duration_minutes": 111
     },
     {
-        "log_id": "A15EAE4",
-        "member_id": "M7401D1",
-        "check_in_time": "2025-10-24T19:28:00",
-        "check_out_time": "2025-10-24T20:29:00",
-        "duration_minutes": 61
+        "log_id": "A00052",
+        "member_id": "M016",
+        "check_in_time": "2025-12-21 11:12:54",
+        "check_out_time": "2025-12-21 12:38:54",
+        "duration_minutes": 86
     },
     {
-        "log_id": "AA54124",
-        "member_id": "MD9F876",
-        "check_in_time": "2025-11-20T18:54:00",
-        "check_out_time": "2025-11-20T19:31:00",
+        "log_id": "A00053",
+        "member_id": "M016",
+        "check_in_time": "2025-11-22 09:54:54",
+        "check_out_time": "2025-11-22 10:33:54",
+        "duration_minutes": 39
+    },
+    {
+        "log_id": "A00054",
+        "member_id": "M016",
+        "check_in_time": "2025-11-26 12:45:54",
+        "check_out_time": "2025-11-26 13:29:54",
+        "duration_minutes": 44
+    },
+    {
+        "log_id": "A00055",
+        "member_id": "M016",
+        "check_in_time": "2025-12-14 19:43:54",
+        "check_out_time": "2025-12-14 21:05:54",
+        "duration_minutes": 82
+    },
+    {
+        "log_id": "A00056",
+        "member_id": "M016",
+        "check_in_time": "2025-12-14 12:21:54",
+        "check_out_time": "2025-12-14 12:56:54",
+        "duration_minutes": 35
+    },
+    {
+        "log_id": "A00057",
+        "member_id": "M016",
+        "check_in_time": "2025-11-23 06:32:54",
+        "check_out_time": "2025-11-23 07:20:54",
+        "duration_minutes": 48
+    },
+    {
+        "log_id": "A00058",
+        "member_id": "M016",
+        "check_in_time": "2025-11-24 11:54:54",
+        "check_out_time": "2025-11-24 13:02:54",
+        "duration_minutes": 68
+    },
+    {
+        "log_id": "A00059",
+        "member_id": "M017",
+        "check_in_time": "2025-12-05 15:25:54",
+        "check_out_time": "2025-12-05 16:23:54",
+        "duration_minutes": 58
+    },
+    {
+        "log_id": "A00060",
+        "member_id": "M017",
+        "check_in_time": "2025-12-12 15:33:54",
+        "check_out_time": "2025-12-12 16:59:54",
+        "duration_minutes": 86
+    },
+    {
+        "log_id": "A00061",
+        "member_id": "M017",
+        "check_in_time": "2025-12-19 11:03:54",
+        "check_out_time": "2025-12-19 12:24:54",
+        "duration_minutes": 81
+    },
+    {
+        "log_id": "A00062",
+        "member_id": "M017",
+        "check_in_time": "2025-11-23 15:04:54",
+        "check_out_time": "2025-11-23 16:33:54",
+        "duration_minutes": 89
+    },
+    {
+        "log_id": "A00063",
+        "member_id": "M019",
+        "check_in_time": "2025-12-11 14:44:54",
+        "check_out_time": "2025-12-11 15:59:54",
+        "duration_minutes": 75
+    },
+    {
+        "log_id": "A00064",
+        "member_id": "M019",
+        "check_in_time": "2025-11-28 16:36:54",
+        "check_out_time": "2025-11-28 17:13:54",
         "duration_minutes": 37
     },
     {
-        "log_id": "A4CC974",
-        "member_id": "MEE6EBF",
-        "check_in_time": "2025-10-27T10:04:00",
-        "check_out_time": "2025-10-27T11:26:00",
-        "duration_minutes": 82
-    },
-    {
-        "log_id": "A63A07A",
-        "member_id": "M892697",
-        "check_in_time": "2025-11-21T09:52:00",
-        "check_out_time": "2025-11-21T11:15:00",
-        "duration_minutes": 83
-    },
-    {
-        "log_id": "A4897D8",
-        "member_id": "M257BCD",
-        "check_in_time": "2025-11-19T19:39:00",
-        "check_out_time": "2025-11-19T20:58:00",
-        "duration_minutes": 79
-    },
-    {
-        "log_id": "AE08AFD",
-        "member_id": "M5E42C8",
-        "check_in_time": "2025-11-05T10:53:00",
-        "check_out_time": "2025-11-05T12:19:00",
-        "duration_minutes": 86
-    },
-    {
-        "log_id": "A69C834",
-        "member_id": "M718F85",
-        "check_in_time": "2025-11-16T10:50:00",
-        "check_out_time": "2025-11-16T11:39:00",
-        "duration_minutes": 49
-    },
-    {
-        "log_id": "AC76270",
-        "member_id": "MB11969",
-        "check_in_time": "2025-11-14T19:51:00",
-        "check_out_time": "2025-11-14T21:09:00",
-        "duration_minutes": 78
-    },
-    {
-        "log_id": "A1F5C40",
-        "member_id": "MA58ADE",
-        "check_in_time": "2025-11-18T19:05:00",
-        "check_out_time": "2025-11-18T20:54:00",
-        "duration_minutes": 109
-    },
-    {
-        "log_id": "A2D7BDA",
-        "member_id": "M77708B",
-        "check_in_time": "2025-11-14T18:09:00",
-        "check_out_time": "2025-11-14T19:20:00",
-        "duration_minutes": 71
-    },
-    {
-        "log_id": "A5EFEDF",
-        "member_id": "MA7A6B5",
-        "check_in_time": "2025-11-05T15:15:00",
-        "check_out_time": "2025-11-05T16:56:00",
-        "duration_minutes": 101
-    },
-    {
-        "log_id": "A5ED4A7",
-        "member_id": "M71E92F",
-        "check_in_time": "2025-10-29T10:24:00",
-        "check_out_time": "2025-10-29T12:00:00",
-        "duration_minutes": 96
-    },
-    {
-        "log_id": "A2AFDBB",
-        "member_id": "MA445DC",
-        "check_in_time": "2025-11-13T14:24:00",
-        "check_out_time": "2025-11-13T14:59:00",
-        "duration_minutes": 35
-    },
-    {
-        "log_id": "AFFAFF6",
-        "member_id": "M76903F",
-        "check_in_time": "2025-11-22T09:05:00",
-        "check_out_time": "2025-11-22T10:07:00",
-        "duration_minutes": 62
-    },
-    {
-        "log_id": "A084EB6",
-        "member_id": "MCE0D90",
-        "check_in_time": "2025-11-10T12:30:00",
-        "check_out_time": "2025-11-10T13:27:00",
-        "duration_minutes": 57
-    },
-    {
-        "log_id": "A017EBA",
-        "member_id": "M05A637",
-        "check_in_time": "2025-11-04T15:51:00",
-        "check_out_time": "2025-11-04T17:44:00",
-        "duration_minutes": 113
-    },
-    {
-        "log_id": "A89F50A",
-        "member_id": "M49B142",
-        "check_in_time": "2025-11-11T20:41:00",
-        "check_out_time": "2025-11-11T21:28:00",
-        "duration_minutes": 47
-    },
-    {
-        "log_id": "A9FA5D0",
-        "member_id": "M50A0F0",
-        "check_in_time": "2025-10-24T18:03:00",
-        "check_out_time": "2025-10-24T19:41:00",
-        "duration_minutes": 98
-    },
-    {
-        "log_id": "A774CBA",
-        "member_id": "M71E92F",
-        "check_in_time": "2025-11-01T18:19:00",
-        "check_out_time": "2025-11-01T20:05:00",
-        "duration_minutes": 106
-    },
-    {
-        "log_id": "AB4FE0E",
-        "member_id": "M1D6AAF",
-        "check_in_time": "2025-11-19T09:53:00",
-        "check_out_time": "2025-11-19T11:13:00",
-        "duration_minutes": 80
-    },
-    {
-        "log_id": "A9E9A14",
-        "member_id": "M5DEBCB",
-        "check_in_time": "2025-11-16T07:12:00",
-        "check_out_time": "2025-11-16T08:00:00",
-        "duration_minutes": 48
-    },
-    {
-        "log_id": "ACB4963",
-        "member_id": "M2D6983",
-        "check_in_time": "2025-10-23T14:09:00",
-        "check_out_time": "2025-10-23T15:08:00",
-        "duration_minutes": 59
-    },
-    {
-        "log_id": "A6C8EDF",
-        "member_id": "M6BFC30",
-        "check_in_time": "2025-11-15T11:55:00",
-        "check_out_time": "2025-11-15T12:33:00",
-        "duration_minutes": 38
-    },
-    {
-        "log_id": "A65F46C",
-        "member_id": "M53BBC6",
-        "check_in_time": "2025-11-15T16:02:00",
-        "check_out_time": "2025-11-15T17:18:00",
-        "duration_minutes": 76
-    },
-    {
-        "log_id": "A1E05CD",
-        "member_id": "M892697",
-        "check_in_time": "2025-11-03T08:42:00",
-        "check_out_time": "2025-11-03T10:26:00",
-        "duration_minutes": 104
-    },
-    {
-        "log_id": "A9BACCB",
-        "member_id": "MEE6EBF",
-        "check_in_time": "2025-11-16T08:35:00",
-        "check_out_time": "2025-11-16T10:11:00",
-        "duration_minutes": 96
-    },
-    {
-        "log_id": "A4A358B",
-        "member_id": "MD9F876",
-        "check_in_time": "2025-11-13T10:29:00",
-        "check_out_time": "2025-11-13T11:31:00",
-        "duration_minutes": 62
-    },
-    {
-        "log_id": "ACC7182",
-        "member_id": "M73FA89",
-        "check_in_time": "2025-11-04T08:34:00",
-        "check_out_time": "2025-11-04T09:23:00",
-        "duration_minutes": 49
-    },
-    {
-        "log_id": "A6EB9E9",
-        "member_id": "M435378",
-        "check_in_time": "2025-10-30T20:04:00",
-        "check_out_time": "2025-10-30T22:02:00",
-        "duration_minutes": 118
-    },
-    {
-        "log_id": "A84D306",
-        "member_id": "MEE6EBF",
-        "check_in_time": "2025-11-08T14:42:00",
-        "check_out_time": "2025-11-08T15:37:00",
+        "log_id": "A00065",
+        "member_id": "M019",
+        "check_in_time": "2025-12-10 06:24:54",
+        "check_out_time": "2025-12-10 07:19:54",
         "duration_minutes": 55
     },
     {
-        "log_id": "AB335AB",
-        "member_id": "M532E2A",
-        "check_in_time": "2025-11-02T17:13:00",
-        "check_out_time": "2025-11-02T18:58:00",
-        "duration_minutes": 105
+        "log_id": "A00066",
+        "member_id": "M019",
+        "check_in_time": "2025-12-01 16:47:54",
+        "check_out_time": "2025-12-01 18:45:54",
+        "duration_minutes": 118
     },
     {
-        "log_id": "AD9709E",
-        "member_id": "M892697",
-        "check_in_time": "2025-11-07T11:50:00",
-        "check_out_time": "2025-11-07T13:21:00",
-        "duration_minutes": 91
+        "log_id": "A00067",
+        "member_id": "M019",
+        "check_in_time": "2025-11-24 09:24:54",
+        "check_out_time": "2025-11-24 11:23:54",
+        "duration_minutes": 119
     },
     {
-        "log_id": "A7F5617",
-        "member_id": "M2A3F5F",
-        "check_in_time": "2025-11-15T09:54:00",
-        "check_out_time": "2025-11-15T10:43:00",
-        "duration_minutes": 49
+        "log_id": "A00068",
+        "member_id": "M020",
+        "check_in_time": "2025-12-09 12:18:54",
+        "check_out_time": "2025-12-09 13:02:54",
+        "duration_minutes": 44
     },
     {
-        "log_id": "A75F462",
-        "member_id": "M236045",
-        "check_in_time": "2025-11-11T10:33:00",
-        "check_out_time": "2025-11-11T11:42:00",
-        "duration_minutes": 69
+        "log_id": "A00069",
+        "member_id": "M020",
+        "check_in_time": "2025-11-24 16:54:54",
+        "check_out_time": "2025-11-24 17:37:54",
+        "duration_minutes": 43
     },
     {
-        "log_id": "A13FFA1",
-        "member_id": "MA445DC",
-        "check_in_time": "2025-10-25T14:31:00",
-        "check_out_time": "2025-10-25T15:25:00",
-        "duration_minutes": 54
+        "log_id": "A00070",
+        "member_id": "M020",
+        "check_in_time": "2025-12-03 07:09:54",
+        "check_out_time": "2025-12-03 08:05:54",
+        "duration_minutes": 56
     },
     {
-        "log_id": "A3C9F74",
-        "member_id": "MCEFEF3",
-        "check_in_time": "2025-11-04T14:43:00",
-        "check_out_time": "2025-11-04T15:59:00",
+        "log_id": "A00071",
+        "member_id": "M020",
+        "check_in_time": "2025-11-22 06:32:54",
+        "check_out_time": "2025-11-22 08:02:54",
+        "duration_minutes": 90
+    },
+    {
+        "log_id": "A00072",
+        "member_id": "M020",
+        "check_in_time": "2025-12-08 13:55:54",
+        "check_out_time": "2025-12-08 14:51:54",
+        "duration_minutes": 56
+    },
+    {
+        "log_id": "A00073",
+        "member_id": "M020",
+        "check_in_time": "2025-12-04 07:22:54",
+        "check_out_time": "2025-12-04 08:48:54",
+        "duration_minutes": 86
+    },
+    {
+        "log_id": "A00074",
+        "member_id": "M020",
+        "check_in_time": "2025-11-29 08:01:54",
+        "check_out_time": "2025-11-29 09:05:54",
+        "duration_minutes": 64
+    },
+    {
+        "log_id": "A00075",
+        "member_id": "M021",
+        "check_in_time": "2025-12-17 15:48:54",
+        "check_out_time": "2025-12-17 17:30:54",
+        "duration_minutes": 102
+    },
+    {
+        "log_id": "A00076",
+        "member_id": "M021",
+        "check_in_time": "2025-12-17 10:08:54",
+        "check_out_time": "2025-12-17 11:41:54",
+        "duration_minutes": 93
+    },
+    {
+        "log_id": "A00077",
+        "member_id": "M021",
+        "check_in_time": "2025-12-21 13:19:54",
+        "check_out_time": "2025-12-21 14:32:54",
+        "duration_minutes": 73
+    },
+    {
+        "log_id": "A00078",
+        "member_id": "M021",
+        "check_in_time": "2025-11-26 11:09:54",
+        "check_out_time": "2025-11-26 12:50:54",
+        "duration_minutes": 101
+    },
+    {
+        "log_id": "A00079",
+        "member_id": "M023",
+        "check_in_time": "2025-11-29 14:21:54",
+        "check_out_time": "2025-11-29 16:12:54",
+        "duration_minutes": 111
+    },
+    {
+        "log_id": "A00080",
+        "member_id": "M023",
+        "check_in_time": "2025-12-04 12:59:54",
+        "check_out_time": "2025-12-04 14:21:54",
+        "duration_minutes": 82
+    },
+    {
+        "log_id": "A00081",
+        "member_id": "M023",
+        "check_in_time": "2025-12-16 13:07:54",
+        "check_out_time": "2025-12-16 14:51:54",
+        "duration_minutes": 104
+    },
+    {
+        "log_id": "A00082",
+        "member_id": "M023",
+        "check_in_time": "2025-12-05 14:32:54",
+        "check_out_time": "2025-12-05 15:24:54",
+        "duration_minutes": 52
+    },
+    {
+        "log_id": "A00083",
+        "member_id": "M023",
+        "check_in_time": "2025-12-12 19:20:54",
+        "check_out_time": "2025-12-12 21:12:54",
+        "duration_minutes": 112
+    },
+    {
+        "log_id": "A00084",
+        "member_id": "M023",
+        "check_in_time": "2025-12-16 11:53:54",
+        "check_out_time": "2025-12-16 12:58:54",
+        "duration_minutes": 65
+    },
+    {
+        "log_id": "A00085",
+        "member_id": "M023",
+        "check_in_time": "2025-12-16 16:56:54",
+        "check_out_time": "2025-12-16 18:24:54",
+        "duration_minutes": 88
+    },
+    {
+        "log_id": "A00086",
+        "member_id": "M023",
+        "check_in_time": "2025-11-26 14:51:54",
+        "check_out_time": "2025-11-26 15:53:54",
+        "duration_minutes": 62
+    },
+    {
+        "log_id": "A00087",
+        "member_id": "M023",
+        "check_in_time": "2025-12-08 09:59:54",
+        "check_out_time": "2025-12-08 11:55:54",
+        "duration_minutes": 116
+    },
+    {
+        "log_id": "A00088",
+        "member_id": "M024",
+        "check_in_time": "2025-11-24 15:52:54",
+        "check_out_time": "2025-11-24 16:28:54",
+        "duration_minutes": 36
+    },
+    {
+        "log_id": "A00089",
+        "member_id": "M024",
+        "check_in_time": "2025-11-25 06:13:54",
+        "check_out_time": "2025-11-25 07:37:54",
+        "duration_minutes": 84
+    },
+    {
+        "log_id": "A00090",
+        "member_id": "M024",
+        "check_in_time": "2025-12-08 06:00:54",
+        "check_out_time": "2025-12-08 07:44:54",
+        "duration_minutes": 104
+    },
+    {
+        "log_id": "A00091",
+        "member_id": "M025",
+        "check_in_time": "2025-12-06 17:52:54",
+        "check_out_time": "2025-12-06 19:48:54",
+        "duration_minutes": 116
+    },
+    {
+        "log_id": "A00092",
+        "member_id": "M025",
+        "check_in_time": "2025-12-21 12:56:54",
+        "check_out_time": "2025-12-21 14:12:54",
         "duration_minutes": 76
     },
     {
-        "log_id": "A68A4A3",
-        "member_id": "M71E92F",
-        "check_in_time": "2025-11-02T12:45:00",
-        "check_out_time": "2025-11-02T14:05:00",
+        "log_id": "A00093",
+        "member_id": "M025",
+        "check_in_time": "2025-12-21 19:40:54",
+        "check_out_time": "2025-12-21 20:46:54",
+        "duration_minutes": 66
+    },
+    {
+        "log_id": "A00094",
+        "member_id": "M025",
+        "check_in_time": "2025-11-23 07:55:54",
+        "check_out_time": "2025-11-23 09:29:54",
+        "duration_minutes": 94
+    },
+    {
+        "log_id": "A00095",
+        "member_id": "M025",
+        "check_in_time": "2025-12-11 06:57:54",
+        "check_out_time": "2025-12-11 07:28:54",
+        "duration_minutes": 31
+    },
+    {
+        "log_id": "A00096",
+        "member_id": "M025",
+        "check_in_time": "2025-11-26 14:36:54",
+        "check_out_time": "2025-11-26 15:26:54",
+        "duration_minutes": 50
+    },
+    {
+        "log_id": "A00097",
+        "member_id": "M025",
+        "check_in_time": "2025-12-08 08:18:54",
+        "check_out_time": "2025-12-08 09:48:54",
+        "duration_minutes": 90
+    },
+    {
+        "log_id": "A00098",
+        "member_id": "M025",
+        "check_in_time": "2025-12-09 18:29:54",
+        "check_out_time": "2025-12-09 19:27:54",
+        "duration_minutes": 58
+    },
+    {
+        "log_id": "A00099",
+        "member_id": "M028",
+        "check_in_time": "2025-11-26 18:54:54",
+        "check_out_time": "2025-11-26 19:30:54",
+        "duration_minutes": 36
+    },
+    {
+        "log_id": "A00100",
+        "member_id": "M028",
+        "check_in_time": "2025-12-19 07:00:54",
+        "check_out_time": "2025-12-19 09:00:54",
+        "duration_minutes": 120
+    },
+    {
+        "log_id": "A00101",
+        "member_id": "M028",
+        "check_in_time": "2025-11-24 12:13:54",
+        "check_out_time": "2025-11-24 12:56:54",
+        "duration_minutes": 43
+    },
+    {
+        "log_id": "A00102",
+        "member_id": "M028",
+        "check_in_time": "2025-12-20 18:24:54",
+        "check_out_time": "2025-12-20 20:01:54",
+        "duration_minutes": 97
+    },
+    {
+        "log_id": "A00103",
+        "member_id": "M028",
+        "check_in_time": "2025-11-30 11:08:54",
+        "check_out_time": "2025-11-30 12:04:54",
+        "duration_minutes": 56
+    },
+    {
+        "log_id": "A00104",
+        "member_id": "M028",
+        "check_in_time": "2025-11-22 13:15:54",
+        "check_out_time": "2025-11-22 15:11:54",
+        "duration_minutes": 116
+    },
+    {
+        "log_id": "A00105",
+        "member_id": "M028",
+        "check_in_time": "2025-11-28 14:17:54",
+        "check_out_time": "2025-11-28 15:57:54",
+        "duration_minutes": 100
+    },
+    {
+        "log_id": "A00106",
+        "member_id": "M028",
+        "check_in_time": "2025-11-27 06:13:54",
+        "check_out_time": "2025-11-27 07:55:54",
+        "duration_minutes": 102
+    },
+    {
+        "log_id": "A00107",
+        "member_id": "M030",
+        "check_in_time": "2025-11-23 06:12:54",
+        "check_out_time": "2025-11-23 07:43:54",
+        "duration_minutes": 91
+    },
+    {
+        "log_id": "A00108",
+        "member_id": "M030",
+        "check_in_time": "2025-12-19 14:57:54",
+        "check_out_time": "2025-12-19 15:32:54",
+        "duration_minutes": 35
+    },
+    {
+        "log_id": "A00109",
+        "member_id": "M030",
+        "check_in_time": "2025-12-21 15:36:54",
+        "check_out_time": "2025-12-21 16:12:54",
+        "duration_minutes": 36
+    },
+    {
+        "log_id": "A00110",
+        "member_id": "M030",
+        "check_in_time": "2025-11-27 08:15:54",
+        "check_out_time": "2025-11-27 09:38:54",
+        "duration_minutes": 83
+    },
+    {
+        "log_id": "A00111",
+        "member_id": "M030",
+        "check_in_time": "2025-12-19 08:27:54",
+        "check_out_time": "2025-12-19 09:03:54",
+        "duration_minutes": 36
+    },
+    {
+        "log_id": "A00112",
+        "member_id": "M030",
+        "check_in_time": "2025-11-29 09:12:54",
+        "check_out_time": "2025-11-29 10:04:54",
+        "duration_minutes": 52
+    },
+    {
+        "log_id": "A00113",
+        "member_id": "M031",
+        "check_in_time": "2025-12-18 13:56:54",
+        "check_out_time": "2025-12-18 15:13:54",
+        "duration_minutes": 77
+    },
+    {
+        "log_id": "A00114",
+        "member_id": "M031",
+        "check_in_time": "2025-12-16 14:15:54",
+        "check_out_time": "2025-12-16 15:58:54",
+        "duration_minutes": 103
+    },
+    {
+        "log_id": "A00115",
+        "member_id": "M031",
+        "check_in_time": "2025-12-13 20:43:54",
+        "check_out_time": "2025-12-13 21:46:54",
+        "duration_minutes": 63
+    },
+    {
+        "log_id": "A00116",
+        "member_id": "M031",
+        "check_in_time": "2025-12-13 07:23:54",
+        "check_out_time": "2025-12-13 08:32:54",
+        "duration_minutes": 69
+    },
+    {
+        "log_id": "A00117",
+        "member_id": "M031",
+        "check_in_time": "2025-12-20 12:45:54",
+        "check_out_time": "2025-12-20 13:55:54",
+        "duration_minutes": 70
+    },
+    {
+        "log_id": "A00118",
+        "member_id": "M032",
+        "check_in_time": "2025-11-28 10:53:54",
+        "check_out_time": "2025-11-28 11:51:54",
+        "duration_minutes": 58
+    },
+    {
+        "log_id": "A00119",
+        "member_id": "M032",
+        "check_in_time": "2025-11-21 07:39:54",
+        "check_out_time": "2025-11-21 08:09:54",
+        "duration_minutes": 30
+    },
+    {
+        "log_id": "A00120",
+        "member_id": "M032",
+        "check_in_time": "2025-11-24 17:11:54",
+        "check_out_time": "2025-11-24 19:08:54",
+        "duration_minutes": 117
+    },
+    {
+        "log_id": "A00121",
+        "member_id": "M032",
+        "check_in_time": "2025-12-02 09:49:54",
+        "check_out_time": "2025-12-02 11:00:54",
+        "duration_minutes": 71
+    },
+    {
+        "log_id": "A00122",
+        "member_id": "M032",
+        "check_in_time": "2025-12-09 07:41:54",
+        "check_out_time": "2025-12-09 09:23:54",
+        "duration_minutes": 102
+    },
+    {
+        "log_id": "A00123",
+        "member_id": "M032",
+        "check_in_time": "2025-11-29 08:29:54",
+        "check_out_time": "2025-11-29 09:53:54",
+        "duration_minutes": 84
+    },
+    {
+        "log_id": "A00124",
+        "member_id": "M032",
+        "check_in_time": "2025-11-23 09:04:54",
+        "check_out_time": "2025-11-23 10:58:54",
+        "duration_minutes": 114
+    },
+    {
+        "log_id": "A00125",
+        "member_id": "M032",
+        "check_in_time": "2025-12-07 19:05:54",
+        "check_out_time": "2025-12-07 20:56:54",
+        "duration_minutes": 111
+    },
+    {
+        "log_id": "A00126",
+        "member_id": "M033",
+        "check_in_time": "2025-11-21 19:56:54",
+        "check_out_time": "2025-11-21 21:16:54",
         "duration_minutes": 80
+    },
+    {
+        "log_id": "A00127",
+        "member_id": "M033",
+        "check_in_time": "2025-12-10 20:19:54",
+        "check_out_time": "2025-12-10 21:56:54",
+        "duration_minutes": 97
+    },
+    {
+        "log_id": "A00128",
+        "member_id": "M033",
+        "check_in_time": "2025-12-21 15:38:54",
+        "check_out_time": "2025-12-21 17:37:54",
+        "duration_minutes": 119
+    },
+    {
+        "log_id": "A00129",
+        "member_id": "M033",
+        "check_in_time": "2025-12-08 13:58:54",
+        "check_out_time": "2025-12-08 15:41:54",
+        "duration_minutes": 103
+    },
+    {
+        "log_id": "A00130",
+        "member_id": "M033",
+        "check_in_time": "2025-12-21 06:02:54",
+        "check_out_time": "2025-12-21 07:40:54",
+        "duration_minutes": 98
+    },
+    {
+        "log_id": "A00131",
+        "member_id": "M033",
+        "check_in_time": "2025-12-20 16:06:54",
+        "check_out_time": "2025-12-20 16:42:54",
+        "duration_minutes": 36
+    },
+    {
+        "log_id": "A00132",
+        "member_id": "M033",
+        "check_in_time": "2025-12-14 11:45:54",
+        "check_out_time": "2025-12-14 12:54:54",
+        "duration_minutes": 69
+    },
+    {
+        "log_id": "A00133",
+        "member_id": "M034",
+        "check_in_time": "2025-12-21 17:11:54",
+        "check_out_time": "2025-12-21 17:42:54",
+        "duration_minutes": 31
+    },
+    {
+        "log_id": "A00134",
+        "member_id": "M034",
+        "check_in_time": "2025-12-21 20:07:54",
+        "check_out_time": "2025-12-21 20:56:54",
+        "duration_minutes": 49
+    },
+    {
+        "log_id": "A00135",
+        "member_id": "M034",
+        "check_in_time": "2025-12-19 11:43:54",
+        "check_out_time": "2025-12-19 13:32:54",
+        "duration_minutes": 109
+    },
+    {
+        "log_id": "A00136",
+        "member_id": "M034",
+        "check_in_time": "2025-11-21 15:13:54",
+        "check_out_time": "2025-11-21 17:10:54",
+        "duration_minutes": 117
+    },
+    {
+        "log_id": "A00137",
+        "member_id": "M034",
+        "check_in_time": "2025-12-15 17:23:54",
+        "check_out_time": "2025-12-15 18:12:54",
+        "duration_minutes": 49
+    },
+    {
+        "log_id": "A00138",
+        "member_id": "M034",
+        "check_in_time": "2025-12-10 11:31:54",
+        "check_out_time": "2025-12-10 13:05:54",
+        "duration_minutes": 94
+    },
+    {
+        "log_id": "A00139",
+        "member_id": "M034",
+        "check_in_time": "2025-12-21 14:50:54",
+        "check_out_time": "2025-12-21 16:08:54",
+        "duration_minutes": 78
+    },
+    {
+        "log_id": "A00140",
+        "member_id": "M034",
+        "check_in_time": "2025-12-04 20:05:54",
+        "check_out_time": "2025-12-04 21:40:54",
+        "duration_minutes": 95
+    },
+    {
+        "log_id": "A00141",
+        "member_id": "M034",
+        "check_in_time": "2025-12-20 20:18:54",
+        "check_out_time": "2025-12-20 21:03:54",
+        "duration_minutes": 45
+    },
+    {
+        "log_id": "A00142",
+        "member_id": "M035",
+        "check_in_time": "2025-12-18 13:06:54",
+        "check_out_time": "2025-12-18 14:05:54",
+        "duration_minutes": 59
+    },
+    {
+        "log_id": "A00143",
+        "member_id": "M035",
+        "check_in_time": "2025-12-13 11:57:54",
+        "check_out_time": "2025-12-13 13:53:54",
+        "duration_minutes": 116
+    },
+    {
+        "log_id": "A00144",
+        "member_id": "M035",
+        "check_in_time": "2025-11-25 10:27:54",
+        "check_out_time": "2025-11-25 11:05:54",
+        "duration_minutes": 38
+    },
+    {
+        "log_id": "A00145",
+        "member_id": "M035",
+        "check_in_time": "2025-12-09 18:50:54",
+        "check_out_time": "2025-12-09 20:08:54",
+        "duration_minutes": 78
+    },
+    {
+        "log_id": "A00146",
+        "member_id": "M035",
+        "check_in_time": "2025-12-03 15:47:54",
+        "check_out_time": "2025-12-03 16:59:54",
+        "duration_minutes": 72
+    },
+    {
+        "log_id": "A00147",
+        "member_id": "M037",
+        "check_in_time": "2025-12-16 13:32:54",
+        "check_out_time": "2025-12-16 14:04:54",
+        "duration_minutes": 32
+    },
+    {
+        "log_id": "A00148",
+        "member_id": "M037",
+        "check_in_time": "2025-11-25 18:51:54",
+        "check_out_time": "2025-11-25 20:30:54",
+        "duration_minutes": 99
+    },
+    {
+        "log_id": "A00149",
+        "member_id": "M037",
+        "check_in_time": "2025-12-18 13:09:54",
+        "check_out_time": "2025-12-18 14:07:54",
+        "duration_minutes": 58
+    },
+    {
+        "log_id": "A00150",
+        "member_id": "M037",
+        "check_in_time": "2025-12-04 11:34:54",
+        "check_out_time": "2025-12-04 12:19:54",
+        "duration_minutes": 45
+    },
+    {
+        "log_id": "A00151",
+        "member_id": "M037",
+        "check_in_time": "2025-12-18 18:20:54",
+        "check_out_time": "2025-12-18 20:13:54",
+        "duration_minutes": 113
+    },
+    {
+        "log_id": "A00152",
+        "member_id": "M037",
+        "check_in_time": "2025-12-14 06:05:54",
+        "check_out_time": "2025-12-14 08:02:54",
+        "duration_minutes": 117
+    },
+    {
+        "log_id": "A00153",
+        "member_id": "M037",
+        "check_in_time": "2025-12-10 07:32:54",
+        "check_out_time": "2025-12-10 08:21:54",
+        "duration_minutes": 49
+    },
+    {
+        "log_id": "A00154",
+        "member_id": "M037",
+        "check_in_time": "2025-12-06 10:57:54",
+        "check_out_time": "2025-12-06 12:54:54",
+        "duration_minutes": 117
+    },
+    {
+        "log_id": "A00155",
+        "member_id": "M038",
+        "check_in_time": "2025-11-26 06:14:54",
+        "check_out_time": "2025-11-26 08:08:54",
+        "duration_minutes": 114
+    },
+    {
+        "log_id": "A00156",
+        "member_id": "M038",
+        "check_in_time": "2025-11-24 11:53:54",
+        "check_out_time": "2025-11-24 12:49:54",
+        "duration_minutes": 56
+    },
+    {
+        "log_id": "A00157",
+        "member_id": "M038",
+        "check_in_time": "2025-12-07 18:53:54",
+        "check_out_time": "2025-12-07 20:00:54",
+        "duration_minutes": 67
+    },
+    {
+        "log_id": "A00158",
+        "member_id": "M038",
+        "check_in_time": "2025-11-26 07:17:54",
+        "check_out_time": "2025-11-26 08:31:54",
+        "duration_minutes": 74
+    },
+    {
+        "log_id": "A00159",
+        "member_id": "M038",
+        "check_in_time": "2025-11-23 19:08:54",
+        "check_out_time": "2025-11-23 21:01:54",
+        "duration_minutes": 113
+    },
+    {
+        "log_id": "A00160",
+        "member_id": "M038",
+        "check_in_time": "2025-11-24 20:47:54",
+        "check_out_time": "2025-11-24 21:35:54",
+        "duration_minutes": 48
+    },
+    {
+        "log_id": "A00161",
+        "member_id": "M038",
+        "check_in_time": "2025-11-26 07:27:54",
+        "check_out_time": "2025-11-26 09:19:54",
+        "duration_minutes": 112
+    },
+    {
+        "log_id": "A00162",
+        "member_id": "M038",
+        "check_in_time": "2025-12-21 08:32:54",
+        "check_out_time": "2025-12-21 10:06:54",
+        "duration_minutes": 94
+    },
+    {
+        "log_id": "A00163",
+        "member_id": "M038",
+        "check_in_time": "2025-11-23 08:00:54",
+        "check_out_time": "2025-11-23 09:57:54",
+        "duration_minutes": 117
+    },
+    {
+        "log_id": "A00164",
+        "member_id": "M039",
+        "check_in_time": "2025-11-24 10:37:54",
+        "check_out_time": "2025-11-24 11:15:54",
+        "duration_minutes": 38
+    },
+    {
+        "log_id": "A00165",
+        "member_id": "M039",
+        "check_in_time": "2025-11-26 07:02:54",
+        "check_out_time": "2025-11-26 07:37:54",
+        "duration_minutes": 35
+    },
+    {
+        "log_id": "A00166",
+        "member_id": "M039",
+        "check_in_time": "2025-12-10 17:33:54",
+        "check_out_time": "2025-12-10 18:51:54",
+        "duration_minutes": 78
+    },
+    {
+        "log_id": "A00167",
+        "member_id": "M039",
+        "check_in_time": "2025-11-24 20:53:54",
+        "check_out_time": "2025-11-24 22:44:54",
+        "duration_minutes": 111
+    },
+    {
+        "log_id": "A00168",
+        "member_id": "M039",
+        "check_in_time": "2025-11-29 13:14:54",
+        "check_out_time": "2025-11-29 13:56:54",
+        "duration_minutes": 42
+    },
+    {
+        "log_id": "A00169",
+        "member_id": "M040",
+        "check_in_time": "2025-12-11 12:57:54",
+        "check_out_time": "2025-12-11 14:19:54",
+        "duration_minutes": 82
+    },
+    {
+        "log_id": "A00170",
+        "member_id": "M040",
+        "check_in_time": "2025-11-28 08:53:54",
+        "check_out_time": "2025-11-28 10:46:54",
+        "duration_minutes": 113
+    },
+    {
+        "log_id": "A00171",
+        "member_id": "M040",
+        "check_in_time": "2025-12-12 06:58:54",
+        "check_out_time": "2025-12-12 08:33:54",
+        "duration_minutes": 95
+    },
+    {
+        "log_id": "A00172",
+        "member_id": "M042",
+        "check_in_time": "2025-12-17 06:45:54",
+        "check_out_time": "2025-12-17 07:34:54",
+        "duration_minutes": 49
+    },
+    {
+        "log_id": "A00173",
+        "member_id": "M042",
+        "check_in_time": "2025-12-20 20:04:54",
+        "check_out_time": "2025-12-20 20:43:54",
+        "duration_minutes": 39
+    },
+    {
+        "log_id": "A00174",
+        "member_id": "M042",
+        "check_in_time": "2025-12-13 13:10:54",
+        "check_out_time": "2025-12-13 14:16:54",
+        "duration_minutes": 66
+    },
+    {
+        "log_id": "A00175",
+        "member_id": "M042",
+        "check_in_time": "2025-11-26 19:44:54",
+        "check_out_time": "2025-11-26 20:26:54",
+        "duration_minutes": 42
+    },
+    {
+        "log_id": "A00176",
+        "member_id": "M042",
+        "check_in_time": "2025-12-14 15:18:54",
+        "check_out_time": "2025-12-14 16:57:54",
+        "duration_minutes": 99
+    },
+    {
+        "log_id": "A00177",
+        "member_id": "M042",
+        "check_in_time": "2025-11-22 18:01:54",
+        "check_out_time": "2025-11-22 19:08:54",
+        "duration_minutes": 67
+    },
+    {
+        "log_id": "A00178",
+        "member_id": "M045",
+        "check_in_time": "2025-12-10 17:01:54",
+        "check_out_time": "2025-12-10 18:55:54",
+        "duration_minutes": 114
+    },
+    {
+        "log_id": "A00179",
+        "member_id": "M045",
+        "check_in_time": "2025-11-23 07:00:54",
+        "check_out_time": "2025-11-23 07:41:54",
+        "duration_minutes": 41
+    },
+    {
+        "log_id": "A00180",
+        "member_id": "M045",
+        "check_in_time": "2025-11-24 07:01:54",
+        "check_out_time": "2025-11-24 08:19:54",
+        "duration_minutes": 78
+    },
+    {
+        "log_id": "A00181",
+        "member_id": "M045",
+        "check_in_time": "2025-11-27 14:29:54",
+        "check_out_time": "2025-11-27 15:56:54",
+        "duration_minutes": 87
+    },
+    {
+        "log_id": "A00182",
+        "member_id": "M045",
+        "check_in_time": "2025-12-16 07:28:54",
+        "check_out_time": "2025-12-16 08:56:54",
+        "duration_minutes": 88
+    },
+    {
+        "log_id": "A00183",
+        "member_id": "M045",
+        "check_in_time": "2025-12-18 20:44:54",
+        "check_out_time": "2025-12-18 21:25:54",
+        "duration_minutes": 41
+    },
+    {
+        "log_id": "A00184",
+        "member_id": "M047",
+        "check_in_time": "2025-12-11 10:53:54",
+        "check_out_time": "2025-12-11 11:56:54",
+        "duration_minutes": 63
+    },
+    {
+        "log_id": "A00185",
+        "member_id": "M048",
+        "check_in_time": "2025-12-05 09:22:54",
+        "check_out_time": "2025-12-05 10:00:54",
+        "duration_minutes": 38
+    },
+    {
+        "log_id": "A00186",
+        "member_id": "M048",
+        "check_in_time": "2025-11-22 16:40:54",
+        "check_out_time": "2025-11-22 18:26:54",
+        "duration_minutes": 106
+    },
+    {
+        "log_id": "A00187",
+        "member_id": "M048",
+        "check_in_time": "2025-11-22 18:06:54",
+        "check_out_time": "2025-11-22 19:09:54",
+        "duration_minutes": 63
+    },
+    {
+        "log_id": "A00188",
+        "member_id": "M048",
+        "check_in_time": "2025-11-29 11:07:54",
+        "check_out_time": "2025-11-29 12:46:54",
+        "duration_minutes": 99
+    },
+    {
+        "log_id": "A00189",
+        "member_id": "M048",
+        "check_in_time": "2025-12-10 16:33:54",
+        "check_out_time": "2025-12-10 18:11:54",
+        "duration_minutes": 98
+    },
+    {
+        "log_id": "A00190",
+        "member_id": "M049",
+        "check_in_time": "2025-11-22 13:28:54",
+        "check_out_time": "2025-11-22 14:52:54",
+        "duration_minutes": 84
+    },
+    {
+        "log_id": "A00191",
+        "member_id": "M050",
+        "check_in_time": "2025-12-06 09:18:54",
+        "check_out_time": "2025-12-06 10:31:54",
+        "duration_minutes": 73
+    },
+    {
+        "log_id": "A00192",
+        "member_id": "M051",
+        "check_in_time": "2025-12-11 12:18:54",
+        "check_out_time": "2025-12-11 14:12:54",
+        "duration_minutes": 114
+    },
+    {
+        "log_id": "A00193",
+        "member_id": "M052",
+        "check_in_time": "2025-11-22 19:30:54",
+        "check_out_time": "2025-11-22 20:15:54",
+        "duration_minutes": 45
+    },
+    {
+        "log_id": "A00194",
+        "member_id": "M052",
+        "check_in_time": "2025-12-14 17:23:54",
+        "check_out_time": "2025-12-14 18:59:54",
+        "duration_minutes": 96
+    },
+    {
+        "log_id": "A00195",
+        "member_id": "M052",
+        "check_in_time": "2025-11-26 07:20:54",
+        "check_out_time": "2025-11-26 09:14:54",
+        "duration_minutes": 114
+    },
+    {
+        "log_id": "A00196",
+        "member_id": "M053",
+        "check_in_time": "2025-11-28 09:35:54",
+        "check_out_time": "2025-11-28 11:09:54",
+        "duration_minutes": 94
+    },
+    {
+        "log_id": "A00197",
+        "member_id": "M053",
+        "check_in_time": "2025-12-04 20:04:54",
+        "check_out_time": "2025-12-04 20:43:54",
+        "duration_minutes": 39
+    },
+    {
+        "log_id": "A00198",
+        "member_id": "M053",
+        "check_in_time": "2025-12-07 18:04:54",
+        "check_out_time": "2025-12-07 19:55:54",
+        "duration_minutes": 111
+    },
+    {
+        "log_id": "A00199",
+        "member_id": "M053",
+        "check_in_time": "2025-12-05 20:16:54",
+        "check_out_time": "2025-12-05 21:31:54",
+        "duration_minutes": 75
+    },
+    {
+        "log_id": "A00200",
+        "member_id": "M053",
+        "check_in_time": "2025-11-30 16:32:54",
+        "check_out_time": "2025-11-30 18:21:54",
+        "duration_minutes": 109
+    },
+    {
+        "log_id": "A00201",
+        "member_id": "M053",
+        "check_in_time": "2025-12-11 11:54:54",
+        "check_out_time": "2025-12-11 13:27:54",
+        "duration_minutes": 93
+    },
+    {
+        "log_id": "A00202",
+        "member_id": "M053",
+        "check_in_time": "2025-11-28 09:53:54",
+        "check_out_time": "2025-11-28 11:11:54",
+        "duration_minutes": 78
+    },
+    {
+        "log_id": "A00203",
+        "member_id": "M053",
+        "check_in_time": "2025-12-11 06:49:54",
+        "check_out_time": "2025-12-11 07:28:54",
+        "duration_minutes": 39
+    },
+    {
+        "log_id": "A00204",
+        "member_id": "M054",
+        "check_in_time": "2025-11-26 15:49:54",
+        "check_out_time": "2025-11-26 16:40:54",
+        "duration_minutes": 51
+    },
+    {
+        "log_id": "A00205",
+        "member_id": "M054",
+        "check_in_time": "2025-12-11 10:28:54",
+        "check_out_time": "2025-12-11 12:13:54",
+        "duration_minutes": 105
+    },
+    {
+        "log_id": "A00206",
+        "member_id": "M054",
+        "check_in_time": "2025-11-23 17:16:54",
+        "check_out_time": "2025-11-23 18:26:54",
+        "duration_minutes": 70
+    },
+    {
+        "log_id": "A00207",
+        "member_id": "M054",
+        "check_in_time": "2025-11-22 20:59:54",
+        "check_out_time": "2025-11-22 22:27:54",
+        "duration_minutes": 88
+    },
+    {
+        "log_id": "A00208",
+        "member_id": "M054",
+        "check_in_time": "2025-11-25 12:17:54",
+        "check_out_time": "2025-11-25 12:55:54",
+        "duration_minutes": 38
+    },
+    {
+        "log_id": "A00209",
+        "member_id": "M054",
+        "check_in_time": "2025-12-07 13:45:54",
+        "check_out_time": "2025-12-07 14:35:54",
+        "duration_minutes": 50
+    },
+    {
+        "log_id": "A00210",
+        "member_id": "M054",
+        "check_in_time": "2025-12-19 09:08:54",
+        "check_out_time": "2025-12-19 11:08:54",
+        "duration_minutes": 120
+    },
+    {
+        "log_id": "A00211",
+        "member_id": "M054",
+        "check_in_time": "2025-12-19 06:07:54",
+        "check_out_time": "2025-12-19 06:58:54",
+        "duration_minutes": 51
+    },
+    {
+        "log_id": "A00212",
+        "member_id": "M055",
+        "check_in_time": "2025-11-28 10:13:54",
+        "check_out_time": "2025-11-28 11:00:54",
+        "duration_minutes": 47
+    },
+    {
+        "log_id": "A00213",
+        "member_id": "M055",
+        "check_in_time": "2025-12-21 20:16:54",
+        "check_out_time": "2025-12-21 21:20:54",
+        "duration_minutes": 64
+    },
+    {
+        "log_id": "A00214",
+        "member_id": "M055",
+        "check_in_time": "2025-12-11 16:34:54",
+        "check_out_time": "2025-12-11 17:37:54",
+        "duration_minutes": 63
+    },
+    {
+        "log_id": "A00215",
+        "member_id": "M055",
+        "check_in_time": "2025-12-03 20:17:54",
+        "check_out_time": "2025-12-03 21:02:54",
+        "duration_minutes": 45
+    },
+    {
+        "log_id": "A00216",
+        "member_id": "M055",
+        "check_in_time": "2025-12-12 08:08:54",
+        "check_out_time": "2025-12-12 08:42:54",
+        "duration_minutes": 34
+    },
+    {
+        "log_id": "A00217",
+        "member_id": "M055",
+        "check_in_time": "2025-12-13 13:42:54",
+        "check_out_time": "2025-12-13 15:07:54",
+        "duration_minutes": 85
+    },
+    {
+        "log_id": "A00218",
+        "member_id": "M056",
+        "check_in_time": "2025-12-09 18:56:54",
+        "check_out_time": "2025-12-09 19:58:54",
+        "duration_minutes": 62
+    },
+    {
+        "log_id": "A00219",
+        "member_id": "M056",
+        "check_in_time": "2025-11-30 09:51:54",
+        "check_out_time": "2025-11-30 11:27:54",
+        "duration_minutes": 96
+    },
+    {
+        "log_id": "A00220",
+        "member_id": "M056",
+        "check_in_time": "2025-11-30 12:34:54",
+        "check_out_time": "2025-11-30 13:32:54",
+        "duration_minutes": 58
+    },
+    {
+        "log_id": "A00221",
+        "member_id": "M057",
+        "check_in_time": "2025-11-30 20:35:54",
+        "check_out_time": "2025-11-30 22:25:54",
+        "duration_minutes": 110
+    },
+    {
+        "log_id": "A00222",
+        "member_id": "M057",
+        "check_in_time": "2025-11-30 18:20:54",
+        "check_out_time": "2025-11-30 19:44:54",
+        "duration_minutes": 84
+    },
+    {
+        "log_id": "A00223",
+        "member_id": "M057",
+        "check_in_time": "2025-12-05 11:52:54",
+        "check_out_time": "2025-12-05 12:23:54",
+        "duration_minutes": 31
+    },
+    {
+        "log_id": "A00224",
+        "member_id": "M057",
+        "check_in_time": "2025-12-12 08:05:54",
+        "check_out_time": "2025-12-12 09:19:54",
+        "duration_minutes": 74
+    },
+    {
+        "log_id": "A00225",
+        "member_id": "M057",
+        "check_in_time": "2025-11-29 08:52:54",
+        "check_out_time": "2025-11-29 10:15:54",
+        "duration_minutes": 83
+    },
+    {
+        "log_id": "A00226",
+        "member_id": "M057",
+        "check_in_time": "2025-12-21 17:07:54",
+        "check_out_time": "2025-12-21 18:22:54",
+        "duration_minutes": 75
+    },
+    {
+        "log_id": "A00227",
+        "member_id": "M057",
+        "check_in_time": "2025-12-13 15:33:54",
+        "check_out_time": "2025-12-13 17:12:54",
+        "duration_minutes": 99
+    },
+    {
+        "log_id": "A00228",
+        "member_id": "M062",
+        "check_in_time": "2025-12-02 10:38:54",
+        "check_out_time": "2025-12-02 11:20:54",
+        "duration_minutes": 42
+    },
+    {
+        "log_id": "A00229",
+        "member_id": "M062",
+        "check_in_time": "2025-12-11 11:53:54",
+        "check_out_time": "2025-12-11 13:10:54",
+        "duration_minutes": 77
+    },
+    {
+        "log_id": "A00230",
+        "member_id": "M062",
+        "check_in_time": "2025-12-21 10:23:54",
+        "check_out_time": "2025-12-21 11:06:54",
+        "duration_minutes": 43
+    },
+    {
+        "log_id": "A00231",
+        "member_id": "M063",
+        "check_in_time": "2025-12-10 17:07:54",
+        "check_out_time": "2025-12-10 18:50:54",
+        "duration_minutes": 103
+    },
+    {
+        "log_id": "A00232",
+        "member_id": "M064",
+        "check_in_time": "2025-12-06 08:05:54",
+        "check_out_time": "2025-12-06 08:43:54",
+        "duration_minutes": 38
+    },
+    {
+        "log_id": "A00233",
+        "member_id": "M064",
+        "check_in_time": "2025-12-03 07:23:54",
+        "check_out_time": "2025-12-03 08:43:54",
+        "duration_minutes": 80
+    },
+    {
+        "log_id": "A00234",
+        "member_id": "M064",
+        "check_in_time": "2025-12-11 06:24:54",
+        "check_out_time": "2025-12-11 07:28:54",
+        "duration_minutes": 64
+    },
+    {
+        "log_id": "A00235",
+        "member_id": "M064",
+        "check_in_time": "2025-11-30 12:43:54",
+        "check_out_time": "2025-11-30 14:39:54",
+        "duration_minutes": 116
+    },
+    {
+        "log_id": "A00236",
+        "member_id": "M064",
+        "check_in_time": "2025-12-21 19:04:54",
+        "check_out_time": "2025-12-21 19:57:54",
+        "duration_minutes": 53
+    },
+    {
+        "log_id": "A00237",
+        "member_id": "M064",
+        "check_in_time": "2025-12-08 09:00:54",
+        "check_out_time": "2025-12-08 10:08:54",
+        "duration_minutes": 68
+    },
+    {
+        "log_id": "A00238",
+        "member_id": "M064",
+        "check_in_time": "2025-12-07 10:23:54",
+        "check_out_time": "2025-12-07 12:21:54",
+        "duration_minutes": 118
+    },
+    {
+        "log_id": "A00239",
+        "member_id": "M066",
+        "check_in_time": "2025-12-07 15:07:54",
+        "check_out_time": "2025-12-07 16:10:54",
+        "duration_minutes": 63
+    },
+    {
+        "log_id": "A00240",
+        "member_id": "M067",
+        "check_in_time": "2025-11-25 20:49:54",
+        "check_out_time": "2025-11-25 21:39:54",
+        "duration_minutes": 50
+    },
+    {
+        "log_id": "A00241",
+        "member_id": "M067",
+        "check_in_time": "2025-12-17 20:11:54",
+        "check_out_time": "2025-12-17 21:41:54",
+        "duration_minutes": 90
+    },
+    {
+        "log_id": "A00242",
+        "member_id": "M067",
+        "check_in_time": "2025-12-16 15:02:54",
+        "check_out_time": "2025-12-16 16:15:54",
+        "duration_minutes": 73
+    },
+    {
+        "log_id": "A00243",
+        "member_id": "M067",
+        "check_in_time": "2025-12-18 19:12:54",
+        "check_out_time": "2025-12-18 20:32:54",
+        "duration_minutes": 80
+    },
+    {
+        "log_id": "A00244",
+        "member_id": "M067",
+        "check_in_time": "2025-11-22 07:49:54",
+        "check_out_time": "2025-11-22 08:19:54",
+        "duration_minutes": 30
+    },
+    {
+        "log_id": "A00245",
+        "member_id": "M067",
+        "check_in_time": "2025-11-25 12:34:54",
+        "check_out_time": "2025-11-25 14:05:54",
+        "duration_minutes": 91
+    },
+    {
+        "log_id": "A00246",
+        "member_id": "M069",
+        "check_in_time": "2025-12-07 08:04:54",
+        "check_out_time": "2025-12-07 09:19:54",
+        "duration_minutes": 75
+    },
+    {
+        "log_id": "A00247",
+        "member_id": "M069",
+        "check_in_time": "2025-12-02 15:27:54",
+        "check_out_time": "2025-12-02 16:03:54",
+        "duration_minutes": 36
+    },
+    {
+        "log_id": "A00248",
+        "member_id": "M069",
+        "check_in_time": "2025-12-15 18:43:54",
+        "check_out_time": "2025-12-15 19:48:54",
+        "duration_minutes": 65
+    },
+    {
+        "log_id": "A00249",
+        "member_id": "M069",
+        "check_in_time": "2025-12-15 20:42:54",
+        "check_out_time": "2025-12-15 21:34:54",
+        "duration_minutes": 52
+    },
+    {
+        "log_id": "A00250",
+        "member_id": "M069",
+        "check_in_time": "2025-11-21 10:56:54",
+        "check_out_time": "2025-11-21 11:50:54",
+        "duration_minutes": 54
+    },
+    {
+        "log_id": "A00251",
+        "member_id": "M069",
+        "check_in_time": "2025-12-18 09:36:54",
+        "check_out_time": "2025-12-18 10:13:54",
+        "duration_minutes": 37
+    },
+    {
+        "log_id": "A00252",
+        "member_id": "M069",
+        "check_in_time": "2025-11-27 15:08:54",
+        "check_out_time": "2025-11-27 15:49:54",
+        "duration_minutes": 41
+    },
+    {
+        "log_id": "A00253",
+        "member_id": "M069",
+        "check_in_time": "2025-12-06 20:53:54",
+        "check_out_time": "2025-12-06 21:57:54",
+        "duration_minutes": 64
+    },
+    {
+        "log_id": "A00254",
+        "member_id": "M073",
+        "check_in_time": "2025-11-25 09:46:54",
+        "check_out_time": "2025-11-25 10:20:54",
+        "duration_minutes": 34
+    },
+    {
+        "log_id": "A00255",
+        "member_id": "M073",
+        "check_in_time": "2025-12-02 13:11:54",
+        "check_out_time": "2025-12-02 14:00:54",
+        "duration_minutes": 49
+    },
+    {
+        "log_id": "A00256",
+        "member_id": "M073",
+        "check_in_time": "2025-12-08 11:14:54",
+        "check_out_time": "2025-12-08 13:10:54",
+        "duration_minutes": 116
+    },
+    {
+        "log_id": "A00257",
+        "member_id": "M073",
+        "check_in_time": "2025-12-06 18:42:54",
+        "check_out_time": "2025-12-06 19:47:54",
+        "duration_minutes": 65
+    },
+    {
+        "log_id": "A00258",
+        "member_id": "M073",
+        "check_in_time": "2025-12-03 20:44:54",
+        "check_out_time": "2025-12-03 22:44:54",
+        "duration_minutes": 120
+    },
+    {
+        "log_id": "A00259",
+        "member_id": "M073",
+        "check_in_time": "2025-12-15 09:43:54",
+        "check_out_time": "2025-12-15 11:15:54",
+        "duration_minutes": 92
+    },
+    {
+        "log_id": "A00260",
+        "member_id": "M073",
+        "check_in_time": "2025-12-21 15:03:54",
+        "check_out_time": "2025-12-21 15:48:54",
+        "duration_minutes": 45
+    },
+    {
+        "log_id": "A00261",
+        "member_id": "M073",
+        "check_in_time": "2025-12-21 20:41:54",
+        "check_out_time": "2025-12-21 22:18:54",
+        "duration_minutes": 97
+    },
+    {
+        "log_id": "A00262",
+        "member_id": "M074",
+        "check_in_time": "2025-12-10 14:53:54",
+        "check_out_time": "2025-12-10 16:43:54",
+        "duration_minutes": 110
+    },
+    {
+        "log_id": "A00263",
+        "member_id": "M076",
+        "check_in_time": "2025-12-02 17:11:54",
+        "check_out_time": "2025-12-02 18:24:54",
+        "duration_minutes": 73
+    },
+    {
+        "log_id": "A00264",
+        "member_id": "M076",
+        "check_in_time": "2025-12-11 13:31:54",
+        "check_out_time": "2025-12-11 14:45:54",
+        "duration_minutes": 74
+    },
+    {
+        "log_id": "A00265",
+        "member_id": "M076",
+        "check_in_time": "2025-12-04 06:12:54",
+        "check_out_time": "2025-12-04 07:45:54",
+        "duration_minutes": 93
+    },
+    {
+        "log_id": "A00266",
+        "member_id": "M076",
+        "check_in_time": "2025-12-21 20:36:54",
+        "check_out_time": "2025-12-21 22:33:54",
+        "duration_minutes": 117
+    },
+    {
+        "log_id": "A00267",
+        "member_id": "M076",
+        "check_in_time": "2025-12-13 07:02:54",
+        "check_out_time": "2025-12-13 08:24:54",
+        "duration_minutes": 82
+    },
+    {
+        "log_id": "A00268",
+        "member_id": "M076",
+        "check_in_time": "2025-11-25 20:29:54",
+        "check_out_time": "2025-11-25 21:04:54",
+        "duration_minutes": 35
+    },
+    {
+        "log_id": "A00269",
+        "member_id": "M076",
+        "check_in_time": "2025-11-26 16:50:54",
+        "check_out_time": "2025-11-26 18:16:54",
+        "duration_minutes": 86
+    },
+    {
+        "log_id": "A00270",
+        "member_id": "M076",
+        "check_in_time": "2025-11-22 16:00:54",
+        "check_out_time": "2025-11-22 17:36:54",
+        "duration_minutes": 96
+    },
+    {
+        "log_id": "A00271",
+        "member_id": "M076",
+        "check_in_time": "2025-12-14 07:15:54",
+        "check_out_time": "2025-12-14 08:13:54",
+        "duration_minutes": 58
+    },
+    {
+        "log_id": "A00272",
+        "member_id": "M076",
+        "check_in_time": "2025-12-05 19:00:54",
+        "check_out_time": "2025-12-05 20:41:54",
+        "duration_minutes": 101
+    },
+    {
+        "log_id": "A00273",
+        "member_id": "M077",
+        "check_in_time": "2025-12-02 13:58:54",
+        "check_out_time": "2025-12-02 15:13:54",
+        "duration_minutes": 75
+    },
+    {
+        "log_id": "A00274",
+        "member_id": "M077",
+        "check_in_time": "2025-12-09 16:03:54",
+        "check_out_time": "2025-12-09 17:55:54",
+        "duration_minutes": 112
+    },
+    {
+        "log_id": "A00275",
+        "member_id": "M077",
+        "check_in_time": "2025-12-07 09:57:54",
+        "check_out_time": "2025-12-07 10:50:54",
+        "duration_minutes": 53
+    },
+    {
+        "log_id": "A00276",
+        "member_id": "M077",
+        "check_in_time": "2025-12-10 18:17:54",
+        "check_out_time": "2025-12-10 20:10:54",
+        "duration_minutes": 113
+    },
+    {
+        "log_id": "A00277",
+        "member_id": "M077",
+        "check_in_time": "2025-11-27 08:52:54",
+        "check_out_time": "2025-11-27 09:59:54",
+        "duration_minutes": 67
+    },
+    {
+        "log_id": "A00278",
+        "member_id": "M077",
+        "check_in_time": "2025-11-29 18:50:54",
+        "check_out_time": "2025-11-29 20:27:54",
+        "duration_minutes": 97
+    },
+    {
+        "log_id": "A00279",
+        "member_id": "M077",
+        "check_in_time": "2025-12-08 18:02:54",
+        "check_out_time": "2025-12-08 19:14:54",
+        "duration_minutes": 72
+    },
+    {
+        "log_id": "A00280",
+        "member_id": "M077",
+        "check_in_time": "2025-12-13 16:47:54",
+        "check_out_time": "2025-12-13 18:44:54",
+        "duration_minutes": 117
+    },
+    {
+        "log_id": "A00281",
+        "member_id": "M077",
+        "check_in_time": "2025-11-29 17:39:54",
+        "check_out_time": "2025-11-29 19:36:54",
+        "duration_minutes": 117
+    },
+    {
+        "log_id": "A00282",
+        "member_id": "M077",
+        "check_in_time": "2025-12-21 09:36:54",
+        "check_out_time": "2025-12-21 10:15:54",
+        "duration_minutes": 39
+    },
+    {
+        "log_id": "A00283",
+        "member_id": "M079",
+        "check_in_time": "2025-12-21 19:02:54",
+        "check_out_time": "2025-12-21 19:52:54",
+        "duration_minutes": 50
+    },
+    {
+        "log_id": "A00284",
+        "member_id": "M079",
+        "check_in_time": "2025-11-24 13:30:54",
+        "check_out_time": "2025-11-24 14:29:54",
+        "duration_minutes": 59
+    },
+    {
+        "log_id": "A00285",
+        "member_id": "M079",
+        "check_in_time": "2025-12-01 20:46:54",
+        "check_out_time": "2025-12-01 21:53:54",
+        "duration_minutes": 67
+    },
+    {
+        "log_id": "A00286",
+        "member_id": "M079",
+        "check_in_time": "2025-11-28 06:22:54",
+        "check_out_time": "2025-11-28 06:59:54",
+        "duration_minutes": 37
+    },
+    {
+        "log_id": "A00287",
+        "member_id": "M081",
+        "check_in_time": "2025-12-17 06:37:54",
+        "check_out_time": "2025-12-17 07:46:54",
+        "duration_minutes": 69
+    },
+    {
+        "log_id": "A00288",
+        "member_id": "M081",
+        "check_in_time": "2025-11-23 09:26:54",
+        "check_out_time": "2025-11-23 11:15:54",
+        "duration_minutes": 109
+    },
+    {
+        "log_id": "A00289",
+        "member_id": "M081",
+        "check_in_time": "2025-11-21 08:08:54",
+        "check_out_time": "2025-11-21 08:41:54",
+        "duration_minutes": 33
+    },
+    {
+        "log_id": "A00290",
+        "member_id": "M081",
+        "check_in_time": "2025-11-23 16:12:54",
+        "check_out_time": "2025-11-23 16:45:54",
+        "duration_minutes": 33
+    },
+    {
+        "log_id": "A00291",
+        "member_id": "M082",
+        "check_in_time": "2025-12-12 09:44:54",
+        "check_out_time": "2025-12-12 10:14:54",
+        "duration_minutes": 30
+    },
+    {
+        "log_id": "A00292",
+        "member_id": "M082",
+        "check_in_time": "2025-12-02 16:40:54",
+        "check_out_time": "2025-12-02 17:12:54",
+        "duration_minutes": 32
+    },
+    {
+        "log_id": "A00293",
+        "member_id": "M083",
+        "check_in_time": "2025-12-15 07:36:54",
+        "check_out_time": "2025-12-15 08:56:54",
+        "duration_minutes": 80
+    },
+    {
+        "log_id": "A00294",
+        "member_id": "M083",
+        "check_in_time": "2025-12-06 18:50:54",
+        "check_out_time": "2025-12-06 20:36:54",
+        "duration_minutes": 106
+    },
+    {
+        "log_id": "A00295",
+        "member_id": "M083",
+        "check_in_time": "2025-12-01 19:39:54",
+        "check_out_time": "2025-12-01 20:38:54",
+        "duration_minutes": 59
+    },
+    {
+        "log_id": "A00296",
+        "member_id": "M083",
+        "check_in_time": "2025-12-06 15:11:54",
+        "check_out_time": "2025-12-06 16:08:54",
+        "duration_minutes": 57
+    },
+    {
+        "log_id": "A00297",
+        "member_id": "M083",
+        "check_in_time": "2025-11-25 11:52:54",
+        "check_out_time": "2025-11-25 13:17:54",
+        "duration_minutes": 85
+    },
+    {
+        "log_id": "A00298",
+        "member_id": "M083",
+        "check_in_time": "2025-12-16 14:27:54",
+        "check_out_time": "2025-12-16 15:05:54",
+        "duration_minutes": 38
+    },
+    {
+        "log_id": "A00299",
+        "member_id": "M083",
+        "check_in_time": "2025-12-09 09:41:54",
+        "check_out_time": "2025-12-09 11:02:54",
+        "duration_minutes": 81
+    },
+    {
+        "log_id": "A00300",
+        "member_id": "M083",
+        "check_in_time": "2025-12-16 10:47:54",
+        "check_out_time": "2025-12-16 12:32:54",
+        "duration_minutes": 105
+    },
+    {
+        "log_id": "A00301",
+        "member_id": "M083",
+        "check_in_time": "2025-12-19 10:27:54",
+        "check_out_time": "2025-12-19 11:40:54",
+        "duration_minutes": 73
+    },
+    {
+        "log_id": "A00302",
+        "member_id": "M084",
+        "check_in_time": "2025-12-02 12:27:54",
+        "check_out_time": "2025-12-02 14:11:54",
+        "duration_minutes": 104
+    },
+    {
+        "log_id": "A00303",
+        "member_id": "M084",
+        "check_in_time": "2025-12-17 11:26:54",
+        "check_out_time": "2025-12-17 12:30:54",
+        "duration_minutes": 64
+    },
+    {
+        "log_id": "A00304",
+        "member_id": "M084",
+        "check_in_time": "2025-11-29 08:32:54",
+        "check_out_time": "2025-11-29 09:48:54",
+        "duration_minutes": 76
+    },
+    {
+        "log_id": "A00305",
+        "member_id": "M084",
+        "check_in_time": "2025-12-18 10:54:54",
+        "check_out_time": "2025-12-18 11:39:54",
+        "duration_minutes": 45
+    },
+    {
+        "log_id": "A00306",
+        "member_id": "M084",
+        "check_in_time": "2025-12-20 10:01:54",
+        "check_out_time": "2025-12-20 12:01:54",
+        "duration_minutes": 120
+    },
+    {
+        "log_id": "A00307",
+        "member_id": "M084",
+        "check_in_time": "2025-12-06 14:43:54",
+        "check_out_time": "2025-12-06 15:48:54",
+        "duration_minutes": 65
+    },
+    {
+        "log_id": "A00308",
+        "member_id": "M084",
+        "check_in_time": "2025-11-24 18:59:54",
+        "check_out_time": "2025-11-24 20:04:54",
+        "duration_minutes": 65
+    },
+    {
+        "log_id": "A00309",
+        "member_id": "M084",
+        "check_in_time": "2025-11-21 18:16:54",
+        "check_out_time": "2025-11-21 20:11:54",
+        "duration_minutes": 115
+    },
+    {
+        "log_id": "A00310",
+        "member_id": "M085",
+        "check_in_time": "2025-12-12 18:01:54",
+        "check_out_time": "2025-12-12 19:56:54",
+        "duration_minutes": 115
+    },
+    {
+        "log_id": "A00311",
+        "member_id": "M085",
+        "check_in_time": "2025-12-05 17:59:54",
+        "check_out_time": "2025-12-05 19:14:54",
+        "duration_minutes": 75
+    },
+    {
+        "log_id": "A00312",
+        "member_id": "M085",
+        "check_in_time": "2025-12-04 13:39:54",
+        "check_out_time": "2025-12-04 14:43:54",
+        "duration_minutes": 64
+    },
+    {
+        "log_id": "A00313",
+        "member_id": "M085",
+        "check_in_time": "2025-12-12 09:15:54",
+        "check_out_time": "2025-12-12 10:48:54",
+        "duration_minutes": 93
+    },
+    {
+        "log_id": "A00314",
+        "member_id": "M085",
+        "check_in_time": "2025-12-01 19:22:54",
+        "check_out_time": "2025-12-01 20:30:54",
+        "duration_minutes": 68
+    },
+    {
+        "log_id": "A00315",
+        "member_id": "M085",
+        "check_in_time": "2025-11-22 10:44:54",
+        "check_out_time": "2025-11-22 11:25:54",
+        "duration_minutes": 41
+    },
+    {
+        "log_id": "A00316",
+        "member_id": "M085",
+        "check_in_time": "2025-12-11 17:17:54",
+        "check_out_time": "2025-12-11 19:15:54",
+        "duration_minutes": 118
+    },
+    {
+        "log_id": "A00317",
+        "member_id": "M086",
+        "check_in_time": "2025-11-29 07:14:54",
+        "check_out_time": "2025-11-29 08:54:54",
+        "duration_minutes": 100
+    },
+    {
+        "log_id": "A00318",
+        "member_id": "M086",
+        "check_in_time": "2025-12-08 14:33:54",
+        "check_out_time": "2025-12-08 15:56:54",
+        "duration_minutes": 83
+    },
+    {
+        "log_id": "A00319",
+        "member_id": "M087",
+        "check_in_time": "2025-12-02 16:03:54",
+        "check_out_time": "2025-12-02 17:36:54",
+        "duration_minutes": 93
+    },
+    {
+        "log_id": "A00320",
+        "member_id": "M087",
+        "check_in_time": "2025-12-04 11:58:54",
+        "check_out_time": "2025-12-04 12:41:54",
+        "duration_minutes": 43
+    },
+    {
+        "log_id": "A00321",
+        "member_id": "M087",
+        "check_in_time": "2025-12-03 09:31:54",
+        "check_out_time": "2025-12-03 10:46:54",
+        "duration_minutes": 75
+    },
+    {
+        "log_id": "A00322",
+        "member_id": "M087",
+        "check_in_time": "2025-12-02 14:07:54",
+        "check_out_time": "2025-12-02 14:52:54",
+        "duration_minutes": 45
+    },
+    {
+        "log_id": "A00323",
+        "member_id": "M087",
+        "check_in_time": "2025-12-12 10:58:54",
+        "check_out_time": "2025-12-12 12:05:54",
+        "duration_minutes": 67
+    },
+    {
+        "log_id": "A00324",
+        "member_id": "M087",
+        "check_in_time": "2025-11-26 20:22:54",
+        "check_out_time": "2025-11-26 21:04:54",
+        "duration_minutes": 42
+    },
+    {
+        "log_id": "A00325",
+        "member_id": "M087",
+        "check_in_time": "2025-12-04 10:29:54",
+        "check_out_time": "2025-12-04 11:50:54",
+        "duration_minutes": 81
+    },
+    {
+        "log_id": "A00326",
+        "member_id": "M087",
+        "check_in_time": "2025-11-29 10:06:54",
+        "check_out_time": "2025-11-29 11:00:54",
+        "duration_minutes": 54
+    },
+    {
+        "log_id": "A00327",
+        "member_id": "M087",
+        "check_in_time": "2025-12-06 20:06:54",
+        "check_out_time": "2025-12-06 21:38:54",
+        "duration_minutes": 92
+    },
+    {
+        "log_id": "A00328",
+        "member_id": "M087",
+        "check_in_time": "2025-12-05 14:29:54",
+        "check_out_time": "2025-12-05 16:16:54",
+        "duration_minutes": 107
+    },
+    {
+        "log_id": "A00329",
+        "member_id": "M088",
+        "check_in_time": "2025-12-10 14:56:54",
+        "check_out_time": "2025-12-10 15:39:54",
+        "duration_minutes": 43
+    },
+    {
+        "log_id": "A00330",
+        "member_id": "M088",
+        "check_in_time": "2025-12-19 18:02:54",
+        "check_out_time": "2025-12-19 18:36:54",
+        "duration_minutes": 34
+    },
+    {
+        "log_id": "A00331",
+        "member_id": "M088",
+        "check_in_time": "2025-12-15 19:43:54",
+        "check_out_time": "2025-12-15 20:20:54",
+        "duration_minutes": 37
+    },
+    {
+        "log_id": "A00332",
+        "member_id": "M088",
+        "check_in_time": "2025-12-02 12:25:54",
+        "check_out_time": "2025-12-02 12:56:54",
+        "duration_minutes": 31
+    },
+    {
+        "log_id": "A00333",
+        "member_id": "M089",
+        "check_in_time": "2025-12-01 20:11:54",
+        "check_out_time": "2025-12-01 21:34:54",
+        "duration_minutes": 83
+    },
+    {
+        "log_id": "A00334",
+        "member_id": "M089",
+        "check_in_time": "2025-12-16 11:16:54",
+        "check_out_time": "2025-12-16 12:13:54",
+        "duration_minutes": 57
+    },
+    {
+        "log_id": "A00335",
+        "member_id": "M089",
+        "check_in_time": "2025-12-15 06:07:54",
+        "check_out_time": "2025-12-15 07:22:54",
+        "duration_minutes": 75
+    },
+    {
+        "log_id": "A00336",
+        "member_id": "M089",
+        "check_in_time": "2025-11-25 06:39:54",
+        "check_out_time": "2025-11-25 08:11:54",
+        "duration_minutes": 92
+    },
+    {
+        "log_id": "A00337",
+        "member_id": "M089",
+        "check_in_time": "2025-11-30 16:53:54",
+        "check_out_time": "2025-11-30 18:19:54",
+        "duration_minutes": 86
+    },
+    {
+        "log_id": "A00338",
+        "member_id": "M089",
+        "check_in_time": "2025-11-24 10:52:54",
+        "check_out_time": "2025-11-24 12:23:54",
+        "duration_minutes": 91
+    },
+    {
+        "log_id": "A00339",
+        "member_id": "M089",
+        "check_in_time": "2025-12-06 12:52:54",
+        "check_out_time": "2025-12-06 14:33:54",
+        "duration_minutes": 101
+    },
+    {
+        "log_id": "A00340",
+        "member_id": "M089",
+        "check_in_time": "2025-12-11 10:45:54",
+        "check_out_time": "2025-12-11 12:01:54",
+        "duration_minutes": 76
+    },
+    {
+        "log_id": "A00341",
+        "member_id": "M090",
+        "check_in_time": "2025-11-23 19:49:54",
+        "check_out_time": "2025-11-23 21:00:54",
+        "duration_minutes": 71
+    },
+    {
+        "log_id": "A00342",
+        "member_id": "M090",
+        "check_in_time": "2025-12-10 09:43:54",
+        "check_out_time": "2025-12-10 10:40:54",
+        "duration_minutes": 57
+    },
+    {
+        "log_id": "A00343",
+        "member_id": "M090",
+        "check_in_time": "2025-11-28 09:37:54",
+        "check_out_time": "2025-11-28 10:44:54",
+        "duration_minutes": 67
+    },
+    {
+        "log_id": "A00344",
+        "member_id": "M090",
+        "check_in_time": "2025-11-22 09:09:54",
+        "check_out_time": "2025-11-22 10:25:54",
+        "duration_minutes": 76
+    },
+    {
+        "log_id": "A00345",
+        "member_id": "M090",
+        "check_in_time": "2025-12-20 10:44:54",
+        "check_out_time": "2025-12-20 12:12:54",
+        "duration_minutes": 88
+    },
+    {
+        "log_id": "A00346",
+        "member_id": "M090",
+        "check_in_time": "2025-12-18 16:59:54",
+        "check_out_time": "2025-12-18 18:53:54",
+        "duration_minutes": 114
+    },
+    {
+        "log_id": "A00347",
+        "member_id": "M090",
+        "check_in_time": "2025-12-09 17:31:54",
+        "check_out_time": "2025-12-09 18:27:54",
+        "duration_minutes": 56
+    },
+    {
+        "log_id": "A00348",
+        "member_id": "M092",
+        "check_in_time": "2025-12-07 11:16:54",
+        "check_out_time": "2025-12-07 12:22:54",
+        "duration_minutes": 66
+    },
+    {
+        "log_id": "A00349",
+        "member_id": "M092",
+        "check_in_time": "2025-11-25 14:26:54",
+        "check_out_time": "2025-11-25 15:00:54",
+        "duration_minutes": 34
+    },
+    {
+        "log_id": "A00350",
+        "member_id": "M092",
+        "check_in_time": "2025-12-10 18:48:54",
+        "check_out_time": "2025-12-10 19:20:54",
+        "duration_minutes": 32
+    },
+    {
+        "log_id": "A00351",
+        "member_id": "M092",
+        "check_in_time": "2025-11-26 15:14:54",
+        "check_out_time": "2025-11-26 17:00:54",
+        "duration_minutes": 106
+    },
+    {
+        "log_id": "A00352",
+        "member_id": "M092",
+        "check_in_time": "2025-11-23 16:48:54",
+        "check_out_time": "2025-11-23 17:40:54",
+        "duration_minutes": 52
+    },
+    {
+        "log_id": "A00353",
+        "member_id": "M092",
+        "check_in_time": "2025-12-21 16:30:54",
+        "check_out_time": "2025-12-21 17:56:54",
+        "duration_minutes": 86
+    },
+    {
+        "log_id": "A00354",
+        "member_id": "M092",
+        "check_in_time": "2025-12-07 11:36:54",
+        "check_out_time": "2025-12-07 12:59:54",
+        "duration_minutes": 83
+    },
+    {
+        "log_id": "A00355",
+        "member_id": "M092",
+        "check_in_time": "2025-12-06 10:27:54",
+        "check_out_time": "2025-12-06 11:48:54",
+        "duration_minutes": 81
+    },
+    {
+        "log_id": "A00356",
+        "member_id": "M092",
+        "check_in_time": "2025-12-03 13:12:54",
+        "check_out_time": "2025-12-03 13:50:54",
+        "duration_minutes": 38
+    },
+    {
+        "log_id": "A00357",
+        "member_id": "M093",
+        "check_in_time": "2025-12-08 18:56:54",
+        "check_out_time": "2025-12-08 20:25:54",
+        "duration_minutes": 89
+    },
+    {
+        "log_id": "A00358",
+        "member_id": "M093",
+        "check_in_time": "2025-11-25 07:57:54",
+        "check_out_time": "2025-11-25 08:33:54",
+        "duration_minutes": 36
+    },
+    {
+        "log_id": "A00359",
+        "member_id": "M095",
+        "check_in_time": "2025-12-10 15:41:54",
+        "check_out_time": "2025-12-10 16:36:54",
+        "duration_minutes": 55
+    },
+    {
+        "log_id": "A00360",
+        "member_id": "M095",
+        "check_in_time": "2025-11-24 18:29:54",
+        "check_out_time": "2025-11-24 20:25:54",
+        "duration_minutes": 116
+    },
+    {
+        "log_id": "A00361",
+        "member_id": "M095",
+        "check_in_time": "2025-11-21 07:43:54",
+        "check_out_time": "2025-11-21 09:06:54",
+        "duration_minutes": 83
+    },
+    {
+        "log_id": "A00362",
+        "member_id": "M096",
+        "check_in_time": "2025-12-03 16:14:54",
+        "check_out_time": "2025-12-03 18:04:54",
+        "duration_minutes": 110
+    },
+    {
+        "log_id": "A00363",
+        "member_id": "M096",
+        "check_in_time": "2025-12-07 13:53:54",
+        "check_out_time": "2025-12-07 14:36:54",
+        "duration_minutes": 43
+    },
+    {
+        "log_id": "A00364",
+        "member_id": "M096",
+        "check_in_time": "2025-11-23 14:06:54",
+        "check_out_time": "2025-11-23 15:30:54",
+        "duration_minutes": 84
+    },
+    {
+        "log_id": "A00365",
+        "member_id": "M096",
+        "check_in_time": "2025-12-11 11:25:54",
+        "check_out_time": "2025-12-11 12:40:54",
+        "duration_minutes": 75
+    },
+    {
+        "log_id": "A00366",
+        "member_id": "M096",
+        "check_in_time": "2025-12-09 19:24:54",
+        "check_out_time": "2025-12-09 20:16:54",
+        "duration_minutes": 52
+    },
+    {
+        "log_id": "A00367",
+        "member_id": "M096",
+        "check_in_time": "2025-12-09 16:22:54",
+        "check_out_time": "2025-12-09 17:01:54",
+        "duration_minutes": 39
+    },
+    {
+        "log_id": "A00368",
+        "member_id": "M097",
+        "check_in_time": "2025-11-27 12:11:54",
+        "check_out_time": "2025-11-27 14:00:54",
+        "duration_minutes": 109
+    },
+    {
+        "log_id": "A00369",
+        "member_id": "M097",
+        "check_in_time": "2025-12-09 15:44:54",
+        "check_out_time": "2025-12-09 17:22:54",
+        "duration_minutes": 98
+    },
+    {
+        "log_id": "A00370",
+        "member_id": "M099",
+        "check_in_time": "2025-12-11 17:24:54",
+        "check_out_time": "2025-12-11 18:23:54",
+        "duration_minutes": 59
+    },
+    {
+        "log_id": "A00371",
+        "member_id": "M099",
+        "check_in_time": "2025-12-04 07:58:54",
+        "check_out_time": "2025-12-04 09:52:54",
+        "duration_minutes": 114
+    },
+    {
+        "log_id": "A00372",
+        "member_id": "M099",
+        "check_in_time": "2025-11-23 08:13:54",
+        "check_out_time": "2025-11-23 10:03:54",
+        "duration_minutes": 110
+    },
+    {
+        "log_id": "A00373",
+        "member_id": "M064",
+        "check_in_time": "2025-12-21 19:57:54",
+        "check_out_time": null,
+        "duration_minutes": null
+    },
+    {
+        "log_id": "A00374",
+        "member_id": "M050",
+        "check_in_time": "2025-12-21 20:51:54",
+        "check_out_time": null,
+        "duration_minutes": null
+    },
+    {
+        "log_id": "A00375",
+        "member_id": "M081",
+        "check_in_time": "2025-12-21 19:26:54",
+        "check_out_time": null,
+        "duration_minutes": null
+    },
+    {
+        "log_id": "A00376",
+        "member_id": "M067",
+        "check_in_time": "2025-12-21 20:34:54",
+        "check_out_time": null,
+        "duration_minutes": null
+    },
+    {
+        "log_id": "A00377",
+        "member_id": "M010",
+        "check_in_time": "2025-12-21 20:27:54",
+        "check_out_time": null,
+        "duration_minutes": null
     }
 ]

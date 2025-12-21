@@ -1,5 +1,5 @@
 # Future Features & Implementation Roadmap
-## Gym Membership Management System
+## Gymiternity Membership Management System
 
 This document outlines potential features and enhancements to expand the functionality, user experience, and business value of the Gym Membership Management System.
 

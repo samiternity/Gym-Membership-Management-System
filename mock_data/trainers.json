@@ -1,0 +1,12 @@
+{
+    "T001": {
+        "trainer_id": "T001",
+        "name": "John Doe",
+        "specialty": "Cardio"
+    },
+    "T002": {
+        "trainer_id": "T002",
+        "name": "Jane Smith",
+        "specialty": "Strength"
+    }
+}

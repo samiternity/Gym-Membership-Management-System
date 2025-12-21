@@ -1,4 +1,4 @@
-# Gym Membership Management System
+# Gymiternity Membership Management System
 
 A GUI-based application for managing gym memberships, trainers, payments, and attendance.
 
