@@ -66,7 +66,7 @@ class AuthManager:
             tuple: (success: bool, user_id: str or None, message: str)
         """
         for user_id, user_data in self.users_db.items():
-            if user_data['username'] == username:
+            if user_data['username'].lower() == username.lower():
                 if user_data['password'] == password:
                     return True, user_id, "Login successful"
                 else:
@@ -118,7 +118,7 @@ class AuthManager:
             tuple: (success: bool, message: str)
         """
         for user_id, user_data in self.users_db.items():
-            if user_data['username'] == username:
+            if user_data['username'].lower() == username.lower():
                 user_data['password'] = new_password
                 self.save_users()
                 return True, "Password changed successfully"
@@ -137,7 +137,7 @@ class AuthManager:
         """
         # Check if username already exists
         for user_data in self.users_db.values():
-            if user_data['username'] == username:
+            if user_data['username'].lower() == username.lower():
                 return False, "Username already exists"
         
         # Generate new user ID

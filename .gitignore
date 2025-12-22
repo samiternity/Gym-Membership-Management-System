@@ -141,4 +141,5 @@ cython_debug/
 # Project specific
 backups/
 data/backups/
-
+docs/
+mock_data/

@@ -286,7 +286,10 @@ class Settings:
         success, message = self.backup_manager.restore_backup(backup_name)
         
         if success:
-            messagebox.showinfo("Restore Successful", f"{message}\n\nPlease restart the application.")
+            # Reload all data from restored files
+            self.data_manager.load_all_data()
+            messagebox.showinfo("Restore Successful", 
+                f"{message}\n\nData has been reloaded. Please refresh your current view.")
         else:
             messagebox.showerror("Restore Failed", message)
     

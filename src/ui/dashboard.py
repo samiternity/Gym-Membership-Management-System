@@ -25,7 +25,20 @@ class Dashboard:
         # Load Basic Stats
         total_members = len(self.data_manager.members_db)
         pending_payments = len([p for p in self.data_manager.payments_log if p['status'] == 'Unpaid'])
-        active_check_ins = len([a for a in self.data_manager.attendance_log if a.get('check_out_time') is None])
+        # Filter check-ins to today only
+        today = datetime.date.today().isoformat()
+        active_check_ins = 0
+        for a in self.data_manager.attendance_log:
+            if a.get('check_out_time') is None:
+                check_in_time = a.get('check_in_time')
+                if check_in_time:
+                    try:
+                        # Parse the check-in date
+                        check_in_date = check_in_time.split('T')[0] if 'T' in check_in_time else check_in_time.split(' ')[0]
+                        if check_in_date == today:
+                            active_check_ins += 1
+                    except (ValueError, IndexError):
+                        pass
         frozen_memberships = len([m for m in self.data_manager.membership_history if m.get('status') == 'Frozen'])
 
         # Load Analytics Stats
@@ -83,7 +96,6 @@ class Dashboard:
         if predictions['months']:
             x = range(len(predictions['months']))
             ax.bar(x, predictions['predicted'], color=PRIMARY_COLOR, alpha=0.7, label='Predicted')
-            ax.bar(x, predictions['guaranteed'], color=SUCCESS_COLOR, alpha=0.7, label='Guaranteed')
             ax.set_xticks(x)
             ax.set_xticklabels(predictions['months'], rotation=45, ha='right')
             ax.legend(facecolor=SIDEBAR_COLOR, edgecolor=TEXT_SECONDARY_COLOR)
@@ -189,14 +201,19 @@ class Dashboard:
 
     def create_peak_hours_graph(self, row, col):
         """Creates peak hours graph."""
-        # Prepare Data (Peak Hours)
+        # Prepare Data (Peak Hours) - Last 7 Days Only
         hours = []
+        today = datetime.date.today()
+        seven_days_ago = today - datetime.timedelta(days=7)
+        
         for log in self.data_manager.attendance_log:
             check_in = log.get('check_in_time')
             if check_in:
                 try:
-                    dt = datetime.datetime.fromisoformat(check_in)
-                    hours.append(dt.hour)
+                    dt = datetime.datetime.fromisoformat(check_in.replace(' ', 'T') if ' ' in check_in else check_in)
+                    # Only include check-ins from last 7 days
+                    if dt.date() >= seven_days_ago:
+                        hours.append(dt.hour)
                 except ValueError:
                     pass
         
@@ -212,7 +229,7 @@ class Dashboard:
         ax.plot(x_hours, y_counts, color=ACCENT_COLOR, marker='o', linewidth=2)
         ax.fill_between(x_hours, y_counts, color=ACCENT_COLOR, alpha=0.3)
         
-        ax.set_title("Peak Hours (6AM - 10PM)", color=TEXT_COLOR, fontsize=12)
+        ax.set_title("Peak Hours - Last 7 Days (6AM - 10PM)", color=TEXT_COLOR, fontsize=12)
         ax.set_xlabel("Hour of Day", color=TEXT_COLOR)
         ax.set_ylabel("Number of Check-ins", color=TEXT_COLOR)
         ax.set_xticks(x_hours[::2])  # Show every other hour

@@ -13,8 +13,10 @@ def generate_unique_id(prefix):
     """Generates a unique ID with a given prefix."""
     return f"{prefix}{uuid.uuid4().hex[:6].upper()}"
 
-def calculate_end_date(start_date_iso, duration_days):
-    """Calculates the end date based on start date and duration."""
+def calculate_end_date(start_date_iso, duration_months):
+    """Calculates the end date based on start date and duration in months."""
     start_date = datetime.date.fromisoformat(start_date_iso)
+    duration_days = duration_months * 30  # Convert months to days
     end_date = start_date + datetime.timedelta(days=duration_days)
     return end_date.isoformat()
+

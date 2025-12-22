@@ -1964,14 +1964,40 @@
     {
         "membership_id": "MS0163",
         "member_id": "M056",
-        "plan_id": "P002",
-        "assigned_trainer_id": null,
+        "plan_id": "P001",
+        "assigned_trainer_id": "T002",
         "start_date": "2025-12-08",
         "end_date": "2026-03-08",
         "status": "Active",
         "amount": 135.0,
         "freeze_history": [],
-        "total_freeze_days": 0
+        "total_freeze_days": 0,
+        "status_history": [
+            {
+                "date": "2025-12-22",
+                "old_status": "Active",
+                "new_status": "Expired",
+                "note": ""
+            },
+            {
+                "date": "2025-12-22",
+                "old_status": "Expired",
+                "new_status": "Cancelled",
+                "note": ""
+            },
+            {
+                "date": "2025-12-22",
+                "old_status": "Cancelled",
+                "new_status": "Expired",
+                "note": ""
+            },
+            {
+                "date": "2025-12-22",
+                "old_status": "Expired",
+                "new_status": "Active",
+                "note": ""
+            }
+        ]
     },
     {
         "membership_id": "MS0164",
@@ -3361,5 +3387,84 @@
         "amount": 500.0,
         "freeze_history": [],
         "total_freeze_days": 0
+    },
+    {
+        "membership_id": "MS60420F",
+        "member_id": "MC2DB0C",
+        "plan_id": "P002",
+        "assigned_trainer_id": null,
+        "start_date": "2025-12-22",
+        "end_date": "2026-03-22",
+        "status": "Active",
+        "status_history": [
+            {
+                "date": "2025-12-22",
+                "old_status": "Active",
+                "new_status": "Expired",
+                "note": "didnt pay"
+            },
+            {
+                "date": "2025-12-22",
+                "old_status": "Expired",
+                "new_status": "Active",
+                "note": ""
+            },
+            {
+                "date": "2025-12-22",
+                "old_status": "Active",
+                "new_status": "Expired",
+                "note": ""
+            },
+            {
+                "date": "2025-12-22",
+                "old_status": "Expired",
+                "new_status": "Active",
+                "note": ""
+            }
+        ]
+    },
+    {
+        "membership_id": "MSEF94EA",
+        "member_id": "M11A507",
+        "plan_id": "P003",
+        "assigned_trainer_id": null,
+        "start_date": "2025-12-22",
+        "end_date": "2026-01-21",
+        "status": "Active",
+        "status_history": [
+            {
+                "date": "2025-12-22",
+                "old_status": "Active",
+                "new_status": "Expired",
+                "note": ""
+            },
+            {
+                "date": "2025-12-22",
+                "old_status": "Expired",
+                "new_status": "Active",
+                "note": ""
+            },
+            {
+                "date": "2025-12-22",
+                "old_status": "Active",
+                "new_status": "Expired",
+                "note": ""
+            },
+            {
+                "date": "2025-12-22",
+                "old_status": "Expired",
+                "new_status": "Active",
+                "note": ""
+            }
+        ]
+    },
+    {
+        "membership_id": "MS515D99",
+        "member_id": "MFBEE24",
+        "plan_id": "P001",
+        "assigned_trainer_id": "TB3891F",
+        "start_date": "2025-12-22",
+        "end_date": "2026-01-21",
+        "status": "Active"
     }
 ]

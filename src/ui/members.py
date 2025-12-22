@@ -251,7 +251,7 @@ class AddMemberPopup(ctk.CTkToplevel):
         
         # Calculate Dates
         start_date = get_current_date_iso()
-        end_date = calculate_end_date(start_date, plan['duration_days'])
+        end_date = calculate_end_date(start_date, plan['duration_months'])
         
         ms_id = generate_unique_id("MS")
         membership = {
@@ -708,17 +708,58 @@ class EditMemberPopup(ctk.CTkToplevel):
         
         # Update Membership Details
         if self.latest_membership:
+            # Track original plan and trainer for change detection
+            original_plan_id = self.latest_membership['plan_id']
+            original_trainer_id = self.latest_membership.get('assigned_trainer_id')
+            
             # Plan
             plan_str = self.plan_combo.get()
             if plan_str and plan_str != "No Membership Found":
-                self.latest_membership['plan_id'] = plan_str.split(":")[0]
+                new_plan_id = plan_str.split(":")[0]
+                self.latest_membership['plan_id'] = new_plan_id
+            else:
+                new_plan_id = original_plan_id
             
             # Trainer
             trainer_str = self.trainer_combo.get()
             if trainer_str == "None":
+                new_trainer_id = None
                 self.latest_membership['assigned_trainer_id'] = None
             elif trainer_str:
-                self.latest_membership['assigned_trainer_id'] = trainer_str.split(":")[0]
+                new_trainer_id = trainer_str.split(":")[0]
+                self.latest_membership['assigned_trainer_id'] = new_trainer_id
+            else:
+                new_trainer_id = original_trainer_id
+            
+            # Detect plan or trainer change and create new payment record
+            if (new_plan_id != original_plan_id or new_trainer_id != original_trainer_id):
+                # Get plan and trainer details
+                plan = self.data_manager.get_plan(new_plan_id)
+                trainer = self.data_manager.get_trainer(new_trainer_id) if new_trainer_id else None
+                
+                # Calculate new amount
+                amount = plan['base_price'] if plan else 0.0
+                if trainer:
+                    amount += trainer['fee']
+                
+                # Create new payment record
+                payment_id = generate_unique_id("PAY")
+                new_payment = {
+                    "payment_id": payment_id,
+                    "member_id": self.member_id,
+                    "membership_id": self.latest_membership['membership_id'],
+                    "amount_due": amount,
+                    "amount_paid": 0.0,
+                    "due_date": get_current_date_iso(),
+                    "payment_date": None,
+                    "status": "Unpaid"
+                }
+                
+                self.data_manager.payments_log.append(new_payment)
+                self.data_manager.save_data("payments_log.json")
+                
+                tk.messagebox.showinfo("Payment Created", 
+                    f"Created new unpaid payment record (${amount}) for plan/trainer change.")
                 
             # Status Change Logic
             new_status = self.status_combo.get()
@@ -749,7 +790,7 @@ class EditMemberPopup(ctk.CTkToplevel):
                     months = int(duration_str.split(" ")[0])
                     
                     freeze_start = get_current_date_iso()
-                    freeze_end = calculate_end_date(freeze_start, months * 30)
+                    freeze_end = calculate_end_date(freeze_start, months)
                     
                     if 'freeze_history' not in self.latest_membership:
                         self.latest_membership['freeze_history'] = []
@@ -769,8 +810,62 @@ class EditMemberPopup(ctk.CTkToplevel):
                     self.latest_membership['total_freeze_days'] += (months * 30)
                     
                     current_end = self.latest_membership['end_date']
-                    new_end = calculate_end_date(current_end, months * 30)
+                    new_end = calculate_end_date(current_end, months)
                     self.latest_membership['end_date'] = new_end
+                
+                # Handle Expired Logic - Delete unpaid payments
+                elif new_status == "Expired":
+                    # Find all unpaid payments for this membership
+                    membership_id = self.latest_membership['membership_id']
+                    payments_to_delete = []
+                    
+                    for payment in self.data_manager.payments_log:
+                        if payment.get('membership_id') == membership_id and payment['status'] == 'Unpaid':
+                            payments_to_delete.append(payment)
+                    
+                    # Delete the payments
+                    for payment in payments_to_delete:
+                        self.data_manager.payments_log.remove(payment)
+                    
+                    # Save the updated payments log
+                    if payments_to_delete:
+                        self.data_manager.save_data("payments_log.json")
+                        tk.messagebox.showinfo("Payments Deleted", 
+                            f"Deleted {len(payments_to_delete)} unpaid payment(s) for this expired membership.")
+                
+                # Handle Reactivation - Create new unpaid payment when expired member is reactivated
+                elif old_status == "Expired" and new_status == "Active":
+                    membership_id = self.latest_membership['membership_id']
+                    plan_id = self.latest_membership['plan_id']
+                    trainer_id = self.latest_membership.get('assigned_trainer_id')
+                    
+                    # Get plan and trainer details
+                    plan = self.data_manager.get_plan(plan_id)
+                    trainer = self.data_manager.get_trainer(trainer_id) if trainer_id else None
+                    
+                    # Calculate amount
+                    amount = plan['base_price'] if plan else 0.0
+                    if trainer:
+                        amount += trainer['fee']
+                    
+                    # Create new payment record
+                    payment_id = generate_unique_id("PAY")
+                    new_payment = {
+                        "payment_id": payment_id,
+                        "member_id": self.member_id,
+                        "membership_id": membership_id,
+                        "amount_due": amount,
+                        "amount_paid": 0.0,
+                        "due_date": get_current_date_iso(),
+                        "payment_date": None,
+                        "status": "Unpaid"
+                    }
+                    
+                    self.data_manager.payments_log.append(new_payment)
+                    self.data_manager.save_data("payments_log.json")
+                    
+                    tk.messagebox.showinfo("Payment Created", 
+                        f"Created new unpaid payment record (${amount}) for reactivated membership.")
             
             self.data_manager.save_data("membership_history.json")
 

@@ -170,27 +170,22 @@ class Analytics:
             dict: Predicted revenue by month
         """
         today = datetime.now()
-        predictions = {'months': [], 'predicted': [], 'guaranteed': []}
+        predictions = {'months': [], 'predicted': []}
         
         # Calculate average monthly revenue from history
         avg_monthly_revenue = self._calculate_average_monthly_revenue()
-        
-        # Get guaranteed revenue from active memberships
-        guaranteed_revenue = self._calculate_guaranteed_revenue()
         
         import random
         for i in range(1, months_ahead + 1):
             future_date = today + timedelta(days=i * 30)
             month_label = future_date.strftime("%b %Y")
             
-            # Predicted revenue = average historical + portion of guaranteed
-            # Add some random variation for realism in forecast
+            # Predicted revenue = average historical with some variation for realism
             variation = random.uniform(0.9, 1.1)
-            predicted = (avg_monthly_revenue * variation) + (guaranteed_revenue / months_ahead)
+            predicted = avg_monthly_revenue * variation
             
             predictions['months'].append(month_label)
             predictions['predicted'].append(round(predicted, 2))
-            predictions['guaranteed'].append(round(guaranteed_revenue / months_ahead, 2))
         
         return predictions
     

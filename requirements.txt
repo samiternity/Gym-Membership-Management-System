@@ -1,6 +1,2 @@
 customtkinter
 matplotlib
-tkcalendar
-pandas
-seaborn
-jupyter

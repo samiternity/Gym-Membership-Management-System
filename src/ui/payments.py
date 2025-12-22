@@ -84,10 +84,23 @@ class Payments:
             
         show_unpaid_only = self.unpaid_var.get()
         
+        # Sort payments: Unpaid first (by due_date asc), then Paid (by payment_date desc)
+        payments_to_display = []
         for payment in self.data_manager.payments_log:
             if show_unpaid_only and payment['status'] != 'Unpaid':
                 continue
-                
+            payments_to_display.append(payment)
+        
+        # Sort: Unpaid payments first (earliest due date first), then Paid payments (most recent payment first)
+        unpaid_payments = [p for p in payments_to_display if p['status'] == 'Unpaid']
+        paid_payments = [p for p in payments_to_display if p['status'] == 'Paid']
+        
+        unpaid_payments.sort(key=lambda x: x['due_date'])
+        paid_payments.sort(key=lambda x: x.get('payment_date') or '', reverse=True)
+        
+        sorted_payments = unpaid_payments + paid_payments
+        
+        for payment in sorted_payments:
             member = self.data_manager.get_member(payment['member_id'])
             member_name = f"{member['first_name']} {member['last_name']}" if member else "Unknown"
             

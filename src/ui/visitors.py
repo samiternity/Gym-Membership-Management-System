@@ -115,7 +115,7 @@ class AddEditVisitorPopup(ctk.CTkToplevel):
         
         title = "Edit Visitor" if visitor_id else "Add New Visitor"
         self.title(title)
-        self.geometry("400x450")
+        self.geometry("400x500")
         
         self.setup_ui()
         if visitor_id:
@@ -138,8 +138,14 @@ class AddEditVisitorPopup(ctk.CTkToplevel):
         self.status_combo = ctk.CTkComboBox(self, values=["Follow-up", "Joined", "Not Interested"])
         self.status_combo.grid(row=4, column=1, padx=20, pady=10, sticky="ew")
         
+        # Validation hints
+        hints_text = "• First Name and Last Name are required\n• Contact: optional, 11 digits if provided"
+        hints_label = ctk.CTkLabel(self, text=hints_text, font=ctk.CTkFont(size=11), 
+                                   text_color=TEXT_SECONDARY_COLOR, justify="left")
+        hints_label.grid(row=5, column=0, columnspan=2, padx=20, pady=(10, 5), sticky="w")
+        
         self.save_btn = ctk.CTkButton(self, text="Save Visitor", command=self.save_visitor)
-        self.save_btn.grid(row=5, column=0, columnspan=2, padx=20, pady=20)
+        self.save_btn.grid(row=6, column=0, columnspan=2, padx=20, pady=20)
 
     def load_data(self):
         visitor = next((v for v in self.data_manager.visitors_log if v['visitor_id'] == self.visitor_id), None)
@@ -150,14 +156,44 @@ class AddEditVisitorPopup(ctk.CTkToplevel):
             self.entries["Interested In"].insert(0, visitor['interested_in'])
             self.status_combo.set(visitor['status'])
 
+    def validate_input(self):
+        """Validates visitor input fields."""
+        import re
+        errors = []
+        
+        first_name = self.entries["First Name"].get().strip()
+        last_name = self.entries["Last Name"].get().strip()
+        contact = self.entries["Contact"].get().strip()
+        
+        # Required fields
+        if not first_name:
+            errors.append("First Name is required")
+        if not last_name:
+            errors.append("Last Name is required")
+        
+        # Contact: optional but must be valid if provided (11 digits)
+        if contact:
+            if not re.match(r'^\d{11}$', contact):
+                errors.append("Contact must be exactly 11 digits")
+        
+        return errors
+
     def save_visitor(self):
+        import tkinter as tk
+        
+        # Validate
+        errors = self.validate_input()
+        if errors:
+            tk.messagebox.showerror("Validation Error", "\n".join(errors))
+            return
+        
         data = {
-            "first_name": self.entries["First Name"].get(),
-            "last_name": self.entries["Last Name"].get(),
-            "contact": self.entries["Contact"].get(),
-            "interested_in": self.entries["Interested In"].get(),
+            "first_name": self.entries["First Name"].get().strip(),
+            "last_name": self.entries["Last Name"].get().strip(),
+            "contact": self.entries["Contact"].get().strip(),
+            "interested_in": self.entries["Interested In"].get().strip(),
             "status": self.status_combo.get(),
-            "visit_date": get_current_date_iso() # Update date on edit? Or keep original? Let's keep simple.
+            "visit_date": get_current_date_iso()
         }
         
         if self.visitor_id:

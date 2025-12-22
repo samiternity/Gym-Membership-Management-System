@@ -2637,5 +2637,33 @@
         "check_in_time": "2025-12-21 20:27:54",
         "check_out_time": null,
         "duration_minutes": null
+    },
+    {
+        "log_id": "A30A6A8",
+        "member_id": "M017",
+        "check_in_time": "2025-12-22T16:24:14",
+        "check_out_time": null,
+        "duration_minutes": null
+    },
+    {
+        "log_id": "A689C52",
+        "member_id": "M008",
+        "check_in_time": "2025-12-22T16:24:22",
+        "check_out_time": "2025-12-22T16:24:37",
+        "duration_minutes": 0
+    },
+    {
+        "log_id": "A855888",
+        "member_id": "M033",
+        "check_in_time": "2025-12-22T16:24:34",
+        "check_out_time": null,
+        "duration_minutes": null
+    },
+    {
+        "log_id": "A899ED9",
+        "member_id": "M11A507",
+        "check_in_time": "2025-12-22T17:36:12",
+        "check_out_time": null,
+        "duration_minutes": null
     }
 ]

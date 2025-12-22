@@ -455,11 +455,11 @@
         "member_id": "M015",
         "membership_id": "MS0042",
         "amount_due": 50.0,
-        "amount_paid": 25.0,
+        "amount_paid": 50.0,
         "due_date": "2025-10-15",
-        "payment_date": null,
+        "payment_date": "2025-12-22T17:00:24",
         "method": "Credit Card",
-        "status": "Unpaid"
+        "status": "Paid"
     },
     {
         "payment_id": "PAY00043",
@@ -1782,17 +1782,6 @@
         "status": "Paid"
     },
     {
-        "payment_id": "PAY00163",
-        "member_id": "M056",
-        "membership_id": "MS0163",
-        "amount_due": 135.0,
-        "amount_paid": 67.5,
-        "due_date": "2025-12-08",
-        "payment_date": null,
-        "method": "Credit Card",
-        "status": "Unpaid"
-    },
-    {
         "payment_id": "PAY00164",
         "member_id": "M057",
         "membership_id": "MS0164",
@@ -3056,5 +3045,45 @@
         "payment_date": "2025-10-02 21:13:54",
         "method": "Credit Card",
         "status": "Paid"
+    },
+    {
+        "payment_id": "PAYBA7CD3",
+        "member_id": "M11A507",
+        "membership_id": "MSEF94EA",
+        "amount_due": 50.0,
+        "amount_paid": 50.0,
+        "due_date": "2025-12-22",
+        "payment_date": "2025-12-22T17:04:20",
+        "status": "Paid"
+    },
+    {
+        "payment_id": "PAY1860E5",
+        "member_id": "M11A507",
+        "membership_id": "MSEF94EA",
+        "amount_due": 500.0,
+        "amount_paid": 500.0,
+        "due_date": "2025-12-22",
+        "payment_date": "2025-12-22T17:18:42",
+        "status": "Paid"
+    },
+    {
+        "payment_id": "PAY13BE50",
+        "member_id": "M11A507",
+        "membership_id": "MSEF94EA",
+        "amount_due": 0.0,
+        "amount_paid": 0.0,
+        "due_date": "2025-12-22",
+        "payment_date": "2025-12-22T17:18:22",
+        "status": "Paid"
+    },
+    {
+        "payment_id": "PAY2193D4",
+        "member_id": "MFBEE24",
+        "membership_id": "MS515D99",
+        "amount_due": 50.0,
+        "amount_paid": 0.0,
+        "due_date": "2025-12-22",
+        "payment_date": null,
+        "status": "Unpaid"
     }
 ]
