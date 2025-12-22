@@ -1,41 +1,75 @@
-# Gymiternity Membership Management System
+# Gymiternity - Gym Membership Management System
 
-A GUI-based application for managing gym memberships, trainers, payments, and attendance.
+A modern, feature-rich GUI application for managing gym memberships, trainers, payments, and attendance tracking.
 
 ## Features
--   **Dashboard**: Overview of key metrics and charts.
--   **Member Management**: Add/Edit members, view profiles, manage memberships.
--   **Trainer Management**: Manage trainers and their fees.
--   **Payment Management**: Track invoices and mark payments.
--   **Attendance Tracking**: Check-in/Check-out system.
--   **Visitors**: Track leads and convert them to members.
--   **Data Persistence**: All data is saved to JSON files in the `data/` directory.
+
+### Core Modules
+- **Dashboard**: Real-time metrics, revenue forecasts, peak hours analysis (last 7 days), and active check-ins tracking
+- **Member Management**: Add/Edit members, view profiles, manage memberships with freeze/unfreeze capabilities
+- **Trainer Management**: Manage trainers with input validation, view assigned members via trainer profiles
+- **Payment Management**: Track invoices with smart sorting (unpaid first by due date), mark payments as paid
+- **Attendance Tracking**: Check-in/Check-out system with daily activity monitoring
+- **Visitors**: Track leads, follow-ups, and convert visitors to members
+
+### Additional Features
+- **Authentication**: Secure login with case-insensitive usernames
+- **Backup & Restore**: Automatic backups with easy restoration
+- **Input Validation**: Form validation for members, trainers, and visitors
+- **WhatsApp Integration**: Send messages directly via WhatsApp
+- **Data Persistence**: All data saved to JSON files
 
 ## Installation
 
-1.  Install Python 3.x.
-2.  Install dependencies:
-    ```bash
-    pip install customtkinter matplotlib packaging
-    ```
+1. **Prerequisites**: Python 3.x
+
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
 Run the application:
 ```bash
-python src/main.py
+python -m src.main
 ```
 
+**Default Login**:
+- Username: `admin`
+- Password: `admin123`
+
 ## Project Structure
--   `src/`: Source code.
-    -   `ui/`: UI modules (Dashboard, Members, etc.).
-    -   `data_manager.py`: Handles data loading/saving.
-    -   `app.py`: Main application class.
--   `data/`: JSON data files (created automatically).
+
+```
+├── src/
+│   ├── ui/                 # UI modules
+│   │   ├── dashboard.py    # Dashboard with charts
+│   │   ├── members.py      # Member management
+│   │   ├── trainers.py     # Trainer management
+│   │   ├── payments.py     # Payment tracking
+│   │   ├── attendance.py   # Check-in/out system
+│   │   ├── visitors.py     # Lead tracking
+│   │   ├── settings.py     # Backup & account settings
+│   │   └── login.py        # Authentication UI
+│   ├── data_manager.py     # Data persistence
+│   ├── auth_manager.py     # User authentication
+│   ├── backup_manager.py   # Backup handling
+│   ├── analytics.py        # Revenue & retention analytics
+│   ├── app.py              # Main application
+│   └── main.py             # Entry point
+├── data/                   # JSON data files (auto-created)
+└── requirements.txt        # Dependencies
+```
+
+## Technologies
+
+- **Python 3.x**
+- **CustomTkinter** - Modern UI framework
+- **Matplotlib** - Dashboard charts and visualizations
+- **Tkinter** - Native widgets (Treeview tables)
 
 ## Screenshots
-
-Here are some glimpses of the application:
 
 | Dashboard | Member Management |
 |:---:|:---:|
@@ -53,6 +87,10 @@ Here are some glimpses of the application:
 |:---:|:---:|
 | ![Profile](Pics/Screenshot%202025-11-22%20173008.png) | ![Settings](Pics/Screenshot%202025-11-22%20173038.png) |
 
-## Contact
-For any inquiries, please contact the repository owner.
+## License
 
+This project is for educational purposes.
+
+## Contact
+
+For any inquiries, please contact the repository owner.
