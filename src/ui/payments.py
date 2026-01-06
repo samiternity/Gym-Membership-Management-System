@@ -40,7 +40,7 @@ class Payments:
         # WhatsApp reminder button
         self.whatsapp_btn = ctk.CTkButton(
             self.controls_frame, 
-            text="💬 Send WhatsApp Reminder", 
+            text="Send WhatsApp Reminder", 
             command=self.send_whatsapp_reminder,
             fg_color="#25D366",
             hover_color="#128C7E"

@@ -1,96 +1,172 @@
-# Gymiternity - Gym Membership Management System
+<p align="center">
+  <img src="pics/transparent_icon.png" alt="Gymiternity Logo" width="150">
+</p>
 
-A modern, feature-rich GUI application for managing gym memberships, trainers, payments, and attendance tracking.
+<h1 align="center">Gymiternity</h1>
 
-## Features
+<p align="center">
+  <strong>Gym Membership Management System</strong>
+</p>
 
-### Core Modules
-- **Dashboard**: Real-time metrics, revenue forecasts, peak hours analysis (last 7 days), and active check-ins tracking
-- **Member Management**: Add/Edit members, view profiles, manage memberships with freeze/unfreeze capabilities
-- **Trainer Management**: Manage trainers with input validation, view assigned members via trainer profiles
-- **Payment Management**: Track invoices with smart sorting (unpaid first by due date), mark payments as paid
-- **Attendance Tracking**: Check-in/Check-out system with daily activity monitoring
-- **Visitors**: Track leads, follow-ups, and convert visitors to members
+<p align="center">
+  A sleek, feature-rich desktop application for managing gym operations — members, trainers, payments, attendance, and more.
+</p>
 
-### Additional Features
-- **Authentication**: Secure login with case-insensitive usernames
-- **Backup & Restore**: Automatic backups with easy restoration
-- **Input Validation**: Form validation for members, trainers, and visitors
-- **WhatsApp Integration**: Send messages directly via WhatsApp
-- **Data Persistence**: All data saved to JSON files
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/CustomTkinter-Modern%20UI-green" alt="CustomTkinter">
+  <img src="https://img.shields.io/badge/License-Educational-yellow" alt="License">
+</p>
 
-## Installation
+---
 
-1. **Prerequisites**: Python 3.x
+## ✨ Features
 
-2. **Install dependencies**:
+### 📊 Dashboard
+Real-time analytics with revenue forecasts, retention trends, peak hours visualization, and active check-ins monitoring.
+
+### 👥 Member Management
+Complete member lifecycle management — add, edit, view profiles, manage memberships with freeze/unfreeze capabilities.
+
+### 🏋️ Trainer Management
+Manage trainers with input validation and view their assigned members via dedicated trainer profiles.
+
+### 💳 Payment Tracking
+Smart invoice management with automatic sorting (unpaid first), payment status tracking, and WhatsApp reminders.
+
+### 📅 Attendance System
+Efficient check-in/check-out system with daily activity monitoring and duration tracking.
+
+### 👀 Visitor Management
+Track leads and follow-ups, convert prospects to members seamlessly.
+
+### 🔐 Security & Backup
+- Secure login with case-insensitive usernames
+- Automatic backups with one-click restoration
+- Data persistence via JSON files
+
+---
+
+## 📸 Screenshots
+
+### Login
+<p align="center">
+  <img src="pics/login.png" alt="Login" width="400">
+</p>
+
+### Dashboard
+<p align="center">
+  <img src="pics/dashboard.png" alt="Dashboard" width="900">
+</p>
+
+### Members
+<p align="center">
+  <img src="pics/members.png" alt="Members" width="900">
+</p>
+
+### Trainers
+<p align="center">
+  <img src="pics/trainers.png" alt="Trainers" width="900">
+</p>
+
+### Visitors
+<p align="center">
+  <img src="pics/visitors.png" alt="Visitors" width="900">
+</p>
+
+### Settings
+<p align="center">
+  <img src="pics/settings.png" alt="Settings" width="900">
+</p>
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- pip (Python package manager)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/samiternity/Gym-Membership-Management-System.git
+   cd Gym-Membership-Management-System
+   ```
+
+2. **Create a virtual environment** (recommended)
+   ```bash
+   python -m venv .venv
+   
+   # Windows
+   .venv\Scripts\activate
+   
+   # macOS/Linux
+   source .venv/bin/activate
+   ```
+
+3. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-## Usage
+### Running the Application
 
-Run the application:
 ```bash
 python -m src.main
 ```
 
-**Default Login**:
-- Username: `admin`
-- Password: `admin123`
+### Default Credentials
 
-## Project Structure
+| Username | Password |
+|----------|----------|
+| `admin`  | `admin123` |
+
+---
+
+## 📁 Project Structure
 
 ```
+Gymiternity/
 ├── src/
-│   ├── ui/                 # UI modules
-│   │   ├── dashboard.py    # Dashboard with charts
-│   │   ├── members.py      # Member management
-│   │   ├── trainers.py     # Trainer management
-│   │   ├── payments.py     # Payment tracking
-│   │   ├── attendance.py   # Check-in/out system
-│   │   ├── visitors.py     # Lead tracking
-│   │   ├── settings.py     # Backup & account settings
-│   │   └── login.py        # Authentication UI
-│   ├── data_manager.py     # Data persistence
-│   ├── auth_manager.py     # User authentication
-│   ├── backup_manager.py   # Backup handling
-│   ├── analytics.py        # Revenue & retention analytics
-│   ├── app.py              # Main application
-│   └── main.py             # Entry point
-├── data/                   # JSON data files (auto-created)
-└── requirements.txt        # Dependencies
+│   ├── ui/                    # UI Modules
+│   │   ├── dashboard.py       # Analytics dashboard
+│   │   ├── members.py         # Member management
+│   │   ├── trainers.py        # Trainer management
+│   │   ├── payments.py        # Payment tracking
+│   │   ├── attendance.py      # Check-in/out system
+│   │   ├── visitors.py        # Lead management
+│   │   ├── settings.py        # Backup & account settings
+│   │   └── login.py           # Authentication UI
+│   ├── analytics.py           # Revenue & retention analytics
+│   ├── data_manager.py        # Data persistence layer
+│   ├── auth_manager.py        # User authentication
+│   ├── backup_manager.py      # Backup handling
+│   ├── whatsapp_helper.py     # WhatsApp integration
+│   ├── app.py                 # Main application window
+│   └── main.py                # Entry point
+├── data/                      # JSON data files (auto-created)
+├── pics/                      # Screenshots and logos
+└── requirements.txt           # Python dependencies
 ```
 
-## Technologies
+---
 
-- **Python 3.x**
-- **CustomTkinter** - Modern UI framework
-- **Matplotlib** - Dashboard charts and visualizations
-- **Tkinter** - Native widgets (Treeview tables)
+## 🛠️ Tech Stack
 
-## Screenshots
+| Technology | Purpose |
+|------------|---------|
+| **Python 3.x** | Core programming language |
+| **CustomTkinter** | Modern dark-themed UI framework |
+| **Matplotlib** | Charts and data visualization |
+| **Tkinter** | Native widgets (Treeview tables) |
+| **Pillow** | Image processing |
 
-| Dashboard | Member Management |
-|:---:|:---:|
-| ![Dashboard](Pics/Screenshot%202025-11-22%20172728.png) | ![Member Management](Pics/Screenshot%202025-11-22%20172804.png) |
+---
 
-| Trainer Management | Payment Management |
-|:---:|:---:|
-| ![Trainer Management](Pics/Screenshot%202025-11-22%20172855.png) | ![Payment Management](Pics/Screenshot%202025-11-22%20172920.png) |
+## 📄 License
 
-| Attendance Tracking | Analytics |
-|:---:|:---:|
-| ![Attendance](Pics/Screenshot%202025-11-22%20172938.png) | ![Analytics](Pics/Screenshot%202025-11-22%20172954.png) |
+This project is for **educational purposes**.
 
-| User Profile | Settings |
-|:---:|:---:|
-| ![Profile](Pics/Screenshot%202025-11-22%20173008.png) | ![Settings](Pics/Screenshot%202025-11-22%20173038.png) |
-
-## License
-
-This project is for educational purposes.
-
-## Contact
-
-For any inquiries, please contact the repository owner.

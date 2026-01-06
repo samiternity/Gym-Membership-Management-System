@@ -136,28 +136,6 @@ class Analytics:
         
         return trends
     
-    def calculate_member_lifetime_value(self):
-        """Calculates average revenue per member.
-        
-        Returns:
-            float: Average lifetime value
-        """
-        if not self.data_manager.members_db:
-            return 0.0
-        
-        total_revenue = sum(
-            p['amount_paid'] for p in self.data_manager.payments_log 
-            if p['status'] == 'Paid'
-        )
-        
-        total_members = len(self.data_manager.members_db)
-        
-        if total_members == 0:
-            return 0.0
-        
-        avg_ltv = total_revenue / total_members
-        return round(avg_ltv, 2)
-    
     # ==================== Revenue Prediction ====================
     
     def predict_revenue(self, months_ahead=6):
@@ -218,64 +196,6 @@ class Analytics:
         
         avg_revenue = sum(monthly_revenue.values()) / len(monthly_revenue)
         return round(avg_revenue, 2)
-    
-    def _calculate_guaranteed_revenue(self):
-        """Calculates guaranteed revenue from active memberships.
-        
-        Returns:
-            float: Total guaranteed revenue
-        """
-        guaranteed = 0.0
-        
-        for membership in self.data_manager.membership_history:
-            if membership['status'] != 'Active':
-                continue
-            
-            # Find unpaid invoices for this membership
-            for payment in self.data_manager.payments_log:
-                if (payment['membership_id'] == membership['membership_id'] and
-                    payment['status'] == 'Unpaid'):
-                    guaranteed += payment['amount_due']
-        
-        return round(guaranteed, 2)
-    
-    def get_expected_renewals(self, days_ahead=30):
-        """Estimates number of memberships likely to renew.
-        
-        Args:
-            days_ahead: Number of days to look ahead
-            
-        Returns:
-            dict: Expected renewals and revenue
-        """
-        at_risk = self.get_at_risk_members(days_ahead)
-        retention_rate = self.calculate_retention_rate() / 100
-        
-        expected_renewals = int(len(at_risk) * retention_rate)
-        
-        # Estimate revenue from renewals (use average plan price)
-        avg_plan_price = self._calculate_average_plan_price()
-        expected_revenue = expected_renewals * avg_plan_price
-        
-        return {
-            'total_expiring': len(at_risk),
-            'expected_renewals': expected_renewals,
-            'expected_revenue': round(expected_revenue, 2),
-            'retention_rate': retention_rate * 100
-        }
-    
-    def _calculate_average_plan_price(self):
-        """Calculates average plan price.
-        
-        Returns:
-            float: Average plan price
-        """
-        if not self.data_manager.plans_db:
-            return 0.0
-        
-        total_price = sum(plan['base_price'] for plan in self.data_manager.plans_db.values())
-        avg_price = total_price / len(self.data_manager.plans_db)
-        return round(avg_price, 2)
     
     def get_historical_revenue_trend(self, months=12):
         """Gets historical revenue trend.

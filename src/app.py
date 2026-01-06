@@ -1,14 +1,10 @@
 import customtkinter as ctk
 from .data_manager import DataManager
-from .auth_manager import AuthManager
 from .backup_manager import BackupManager
 from .styles import *
+from PIL import Image
 import os
-
-# Placeholder for modules - we will import them as we create them
-# from .ui.dashboard import Dashboard
-# from .ui.members import Members
-# ...
+import sys
 
 class App(ctk.CTk):
     def __init__(self, auth_manager):
@@ -36,11 +32,25 @@ class App(ctk.CTk):
         self.sidebar_frame.grid(row=0, column=0, sticky="nsew")
         self.sidebar_frame.grid_rowconfigure(8, weight=1) # Push logout/exit to bottom (spacer row)
 
-        self.logo_label = ctk.CTkLabel(self.sidebar_frame, text="Gymiternity", font=ctk.CTkFont(size=20, weight="bold"))
-        self.logo_label.grid(row=0, column=0, padx=20, pady=(20, 10))
+        # Logo header frame
+        logo_header_frame = ctk.CTkFrame(self.sidebar_frame, fg_color="transparent")
+        logo_header_frame.grid(row=0, column=0, padx=10, pady=(15, 5), sticky="ew")
+        
+        # Logo image
+        try:
+            logo_path = self.get_resource_path("pics/transparent_icon.png")
+            logo_image = Image.open(logo_path)
+            logo_ctk = ctk.CTkImage(light_image=logo_image, dark_image=logo_image, size=(40, 40))
+            logo_img_label = ctk.CTkLabel(logo_header_frame, image=logo_ctk, text="")
+            logo_img_label.pack(side="left", padx=(5, 10))
+        except Exception as e:
+            print(f"Could not load sidebar logo: {e}")
+        
+        self.logo_label = ctk.CTkLabel(logo_header_frame, text="Gymiternity", font=ctk.CTkFont(size=18, weight="bold"))
+        self.logo_label.pack(side="left")
         
         # User info label
-        user_text = f"👤 {self.current_user['username']}" if self.current_user else "User"
+        user_text = f"{self.current_user['username']}" if self.current_user else "User"
         self.user_label = ctk.CTkLabel(
             self.sidebar_frame, 
             text=user_text, 
@@ -79,6 +89,33 @@ class App(ctk.CTk):
         self.configure_styles()
         
         self.protocol("WM_DELETE_WINDOW", self.on_close)
+        
+        # Set window icons after window is fully created
+        self.after(100, self._set_window_icons)
+
+    def get_resource_path(self, relative_path):
+        """Get absolute path to resource, works for dev and PyInstaller."""
+        if hasattr(sys, '_MEIPASS'):
+            return os.path.join(sys._MEIPASS, relative_path)
+        return os.path.join(os.path.dirname(os.path.dirname(__file__)), relative_path)
+
+    def _set_window_icons(self):
+        """Sets the window icons for title bar and taskbar."""
+        try:
+            # Use ICO file for Windows compatibility
+            icon_path = self.get_resource_path("pics/transparent_icon.ico")
+            if os.path.exists(icon_path):
+                self.iconbitmap(icon_path)
+            else:
+                # Fallback to PNG with iconphoto
+                title_icon_path = self.get_resource_path("pics/transparent_icon.png")
+                title_icon = Image.open(title_icon_path)
+                title_icon = title_icon.resize((32, 32), Image.LANCZOS)
+                from PIL import ImageTk
+                self._title_icon = ImageTk.PhotoImage(title_icon)
+                self.wm_iconphoto(True, self._title_icon)
+        except Exception as e:
+            print(f"Could not set window icons: {e}")
 
     def configure_styles(self):
         """Configures global styles for widgets like Treeview."""

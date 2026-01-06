@@ -27,7 +27,7 @@ class Settings:
         
         title_label = ctk.CTkLabel(
             header_frame,
-            text="⚙️ Settings",
+            text="Settings",
             font=ctk.CTkFont(size=24, weight="bold")
         )
         title_label.pack(side="left")
@@ -58,7 +58,7 @@ class Settings:
         # Create backup button
         create_backup_btn = ctk.CTkButton(
             controls_frame,
-            text="📦 Create Backup",
+            text="Create Backup",
             command=self.create_backup,
             fg_color=PRIMARY_COLOR,
             hover_color=ACCENT_COLOR,
@@ -70,7 +70,7 @@ class Settings:
         # Refresh button
         refresh_btn = ctk.CTkButton(
             controls_frame,
-            text="🔄 Refresh",
+            text="Refresh",
             command=self.load_backups,
             fg_color="transparent",
             border_width=2,
@@ -82,7 +82,7 @@ class Settings:
         # Info label
         info_label = ctk.CTkLabel(
             controls_frame,
-            text="💡 Backups are automatically created when you close the app. Last 7 backups are kept.",
+            text="Backups are automatically created when you close the app. Last 7 backups are kept.",
             font=ctk.CTkFont(size=11),
             text_color=TEXT_SECONDARY_COLOR
         )
@@ -123,7 +123,7 @@ class Settings:
         
         restore_btn = ctk.CTkButton(
             action_frame,
-            text="♻️ Restore Selected",
+            text="Restore Selected",
             command=self.restore_backup,
             fg_color=SUCCESS_COLOR,
             hover_color="#27ae60",
@@ -134,7 +134,7 @@ class Settings:
         
         validate_btn = ctk.CTkButton(
             action_frame,
-            text="✓ Validate Selected",
+            text="Validate Selected",
             command=self.validate_backup,
             fg_color="transparent",
             border_width=2,
@@ -145,7 +145,7 @@ class Settings:
         
         delete_btn = ctk.CTkButton(
             action_frame,
-            text="🗑️ Delete Selected",
+            text="Delete Selected",
             command=self.delete_backup,
             fg_color=DANGER_COLOR,
             hover_color="#c0392b",
@@ -167,7 +167,7 @@ class Settings:
         # User info
         user_label = ctk.CTkLabel(
             info_frame,
-            text=f"👤 Logged in as: {current_user['username']}",
+            text=f"Logged in as: {current_user['username']}",
             font=ctk.CTkFont(size=16, weight="bold")
         )
         user_label.pack(pady=(20, 10), padx=20, anchor="w")

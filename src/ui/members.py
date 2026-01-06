@@ -324,7 +324,7 @@ class MemberProfilePopup(ctk.CTkToplevel):
         if self.member.get('contact'):
             whatsapp_btn = ctk.CTkButton(
                 contact_frame,
-                text="💬 WhatsApp",
+                text="WhatsApp",
                 command=self.open_whatsapp,
                 fg_color="#25D366",
                 hover_color="#128C7E",

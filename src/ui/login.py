@@ -2,6 +2,9 @@ import customtkinter as ctk
 from tkinter import messagebox
 from ..auth_manager import AuthManager
 from ..styles import *
+from PIL import Image
+import os
+import sys
 
 class LoginWindow(ctk.CTkToplevel):
     """Login window displayed before main application."""
@@ -14,13 +17,13 @@ class LoginWindow(ctk.CTkToplevel):
         self.login_successful = False
         
         self.title("Gymiternity - Login")
-        self.geometry("400x600")
+        self.geometry("400x650")
         self.resizable(False, False)
         
         # Center the window
         self.update_idletasks()
         x = (self.winfo_screenwidth() // 2) - (400 // 2)
-        y = (self.winfo_screenheight() // 2) - (600 // 2)
+        y = (self.winfo_screenheight() // 2) - (650 // 2)
         self.geometry(f"+{x}+{y}")
         
         self.setup_ui()
@@ -34,12 +37,49 @@ class LoginWindow(ctk.CTkToplevel):
         
         # Bind Enter key to login
         self.bind('<Return>', lambda e: self.attempt_login())
+        
+        # Set window icons after window is fully created
+        self.after(100, self._set_window_icons)
+    
+    def get_resource_path(self, relative_path):
+        """Get absolute path to resource, works for dev and PyInstaller."""
+        if hasattr(sys, '_MEIPASS'):
+            return os.path.join(sys._MEIPASS, relative_path)
+        return os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), relative_path)
+    
+    def _set_window_icons(self):
+        """Sets the window icons for title bar and taskbar."""
+        try:
+            # Use ICO file for Windows compatibility
+            icon_path = self.get_resource_path("pics/transparent_icon.ico")
+            if os.path.exists(icon_path):
+                self.iconbitmap(icon_path)
+            else:
+                # Fallback to PNG with iconphoto
+                title_icon_path = self.get_resource_path("pics/transparent_icon.png")
+                title_icon = Image.open(title_icon_path)
+                title_icon = title_icon.resize((32, 32), Image.LANCZOS)
+                from PIL import ImageTk
+                self._title_icon = ImageTk.PhotoImage(title_icon)
+                self.wm_iconphoto(True, self._title_icon)
+        except Exception as e:
+            print(f"Could not set window icons: {e}")
     
     def setup_ui(self):
         """Sets up the login UI."""
         # Main container
         main_frame = ctk.CTkFrame(self, fg_color=CONTENT_COLOR)
         main_frame.pack(fill="both", expand=True, padx=20, pady=20)
+        
+        # Logo Image
+        try:
+            logo_path = self.get_resource_path("pics/transparent_icon.png")
+            logo_image = Image.open(logo_path)
+            logo_ctk = ctk.CTkImage(light_image=logo_image, dark_image=logo_image, size=(100, 100))
+            logo_label = ctk.CTkLabel(main_frame, image=logo_ctk, text="")
+            logo_label.pack(pady=(20, 10))
+        except Exception as e:
+            print(f"Could not load logo: {e}")
         
         # Logo/Title
         title_label = ctk.CTkLabel(
@@ -48,7 +88,7 @@ class LoginWindow(ctk.CTkToplevel):
             font=ctk.CTkFont(size=32, weight="bold"),
             text_color=PRIMARY_COLOR
         )
-        title_label.pack(pady=(40, 10))
+        title_label.pack(pady=(10, 10))
         
         subtitle_label = ctk.CTkLabel(
             main_frame,
